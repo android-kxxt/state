@@ -1,0 +1,1682 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2025-09-19T02:51:33Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of lmi-2025-09-19-02-47-34-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I37ae3e0a33a1207fde1550ac37fe16342ac7a9ef",
+      "commit": "34f7031026533db214419bb010ff8b8d6528e6a2",
+      "commit_url": "https://github.com/android-kxxt/state/commit/34f703102653",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-09-19T04:20:37Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ic5ed21b6474443d0eb7c07022029838628342763",
+      "commit": "68a1732a4eaf1539af90650f0e5aaef7ff6c6e1f",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/68a1732a4eaf",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-09-19T04:53:23Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-09-19-04-22-46-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ib1788da3a6071ffd1ee0549742606a1fd33f3e90",
+      "commit": "4358577d9d6c35ce50b413577737a0169843f9d6",
+      "commit_url": "https://github.com/android-kxxt/state/commit/4358577d9d6c",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-09-19T05:15:08Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I0c86ea774c68e501d1399649d84602b47ae1d6de",
+      "commit": "fabd105bedf5f5b63fc7092b9fd6509134e9f1a5",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/fabd105bedf5",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-09-19T14:09:48Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Update blobs from diting OS2.0.203.0.VLFMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Id669af4bbe067596e320e979de9a9df4cf81af83",
+      "commit": "39d943e208204e183d4f920a2621d7137e457ba6",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/39d943e20820",
+      "review_url": "https://review.lineageos.org/q/Id669af4bbe067596e320e979de9a9df4cf81af83"
+    },
+    {
+      "datetime": "2025-09-19T14:10:33Z",
+      "kind": "Normal",
+      "repo": "vendor/xiaomi/sm8450-common",
+      "title": "sm8450-common: Update blobs from diting OS2.0.203.0.VLFMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Id669af4bbe067596e320e979de9a9df4cf81af83",
+      "commit": "ee0f9573e622661f49666ed18711fd1098e314f6",
+      "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_sm8450-common/commit/ee0f9573e622",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-09-19T16:31:01Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: devices: Set device type Phone (slider) for F(x)tec devices",
+      "description": "",
+      "author_name": "Andrey Sprynga",
+      "author_email": "rtx4d@aospa.co",
+      "change_id": "Ia61251e3ca2d2b2616a29b4a3b7ec84e1be374ce",
+      "commit": "6ba6835ca48d60320bf84d8fef9a4b90b6dff238",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/6ba6835ca48d",
+      "review_url": "https://review.lineageos.org/q/Ia61251e3ca2d2b2616a29b4a3b7ec84e1be374ce"
+    },
+    {
+      "datetime": "2025-09-20T14:23:01Z",
+      "kind": "Merge",
+      "repo": "device/qcom/sepolicy_vndr/sm8750",
+      "title": "Merge tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
+      "description": "LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0\n\n* tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr:\n  Add selinux labels for emmc partitions\n  Add selinux labels for primary storage devices\n  Add sepolicy rule to communicate between cneapp and cnd\n  sepolicy_vndr: SELinux rules for StrongBox-SecureElement HAL direct communication",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "If43f676a6e03692aa6b07dbb213f89f5a47871cb",
+      "commit": "22134fa0a212fafbc2c8efaab5cab5638bc810b0",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/22134fa0a212",
+      "review_url": "https://review.lineageos.org/q/If43f676a6e03692aa6b07dbb213f89f5a47871cb"
+    },
+    {
+      "datetime": "2025-09-20T14:26:27Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "vars: Update sun tags",
+      "description": "",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "Ia8eb240335e615420a6a1b468a4a07a2bb4ec8b5",
+      "commit": "d89d58b617ed8f7bf328b5f3065e5897d856a77f",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b617ed",
+      "review_url": "https://review.lineageos.org/q/Ia8eb240335e615420a6a1b468a4a07a2bb4ec8b5"
+    },
+    {
+      "datetime": "2025-09-20T14:28:38Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/dataipa",
+      "title": "Merge tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into HEAD",
+      "description": "LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0\n\n* tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa:\n  msm: ipa: Avoid use-after-free scenario",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "Ib3f2e8970784644ae08af28295a17015c3e949ed",
+      "commit": "9924e25f888de220fb266995382d7f4bd42111c4",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/9924e25f888d",
+      "review_url": "https://review.lineageos.org/q/Ib3f2e8970784644ae08af28295a17015c3e949ed"
+    },
+    {
+      "datetime": "2025-09-20T14:31:29Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/audio/pal",
+      "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD",
+      "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx:\n  pal: configs: sun: add handset as ec rx device\n  pal: skip stop buffering if VA is already stopped\n  pal : resourcemanager : correct log tag\n  pal: reset UpdatedSndName for VA device after version query\n  pal: Fix delay in BT disconnect cases\n  pal: Add support for sco mmap usecases\n  pal: correct include path for adsp_sleepmon.h\n  pal: add HFP RX/TX type for LOOPBACK stream on SCO device.\n  ar-pal: avoid duplicated mutex unlock when connecting streams\n  pal: close previous device temporarily before switching device for HFP call.\n  pal : add pointer check for mixer and interface name\n  pal: Fix error callback handling during StreamCompress open\n  ar-pal: handle start of deferred NLPI ST streams",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I8110f431318e851e28e5fb448fbec3f551dd99d3",
+      "commit": "6ead194264d830c6e3c7cd7e961a3bd73bbeb25e",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194264d8",
+      "review_url": "https://review.lineageos.org/q/I8110f431318e851e28e5fb448fbec3f551dd99d3"
+    },
+    {
+      "datetime": "2025-09-20T14:32:36Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/audio/primary-hal",
+      "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD",
+      "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar:\n  hal: Fix av sync issue for BT usecases\n  core: update device if TX device patch set\n  Revert \"hal: Fix ringtone routing to a2dp during voice call\"\n  HFP: copy entire pal_device attr to hfp device.\n  configs: sun: remove QNN backend libs in AUDIO_MODULES\n  HFP: use hfp_dev_in/hfp_dev_out instead of SCO device in stop hfp\n  effects: ensure proper thread cleanup during context destruction\n  hal: core: update channel layout for hotword input properly\n  config changes to support dummy device based a2dpSuspend/resume\n  core: cache plugin device for CRS call",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I03255ad4ec20e98dad26b0f62e573f9fa3b34946",
+      "commit": "c5ae69fdf5e7f2c0a0b454dcb41f3a2a2bf32bc9",
+      "commit_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69fdf5e7",
+      "review_url": "https://review.lineageos.org/q/I03255ad4ec20e98dad26b0f62e573f9fa3b34946"
+    },
+    {
+      "datetime": "2025-09-20T14:35:20Z",
+      "kind": "Merge",
+      "repo": "vendor/qcom/opensource/audio-hal/st-hal-ar",
+      "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar into HEAD",
+      "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar:\n  st-hal: refine state check for event notification",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I6d6950f218407347e1baee103cc63a5b45f8e7b6",
+      "commit": "368e7bdbc0c527646d5dcf54418dbea5d03bc37f",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/368e7bdbc0c5",
+      "review_url": "https://review.lineageos.org/q/I6d6950f218407347e1baee103cc63a5b45f8e7b6"
+    },
+    {
+      "datetime": "2025-09-20T14:42:23Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8750",
+      "title": "qva: Allow weaver HAL to request wakelock",
+      "description": "",
+      "author_name": "dianlujitao",
+      "author_email": "dianlujitao@lineageos.org",
+      "change_id": "I80359c5686cedb0c71a946d27e7d816fb0e27b5d",
+      "commit": "3347e79f00604dac71e5e09d5dd38eb525952a37",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3347e79f0060",
+      "review_url": "https://review.lineageos.org/q/I80359c5686cedb0c71a946d27e7d816fb0e27b5d"
+    },
+    {
+      "datetime": "2025-09-20T14:42:28Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8750",
+      "title": "sun: Match all read_ahead_kb nodes",
+      "description": "The paths seem to change on boot, so it's intractable to hardcode all.",
+      "author_name": "dianlujitao",
+      "author_email": "dianlujitao@lineageos.org",
+      "change_id": "I292416087ecdc7bcbe92c9fc86ec0419b081a281",
+      "commit": "29adc09bb0c089d0441a24e07aa4e3a97a0ad2e0",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29adc09bb0c0",
+      "review_url": "https://review.lineageos.org/q/I292416087ecdc7bcbe92c9fc86ec0419b081a281"
+    },
+    {
+      "datetime": "2025-09-20T17:56:00Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Fix FAB text/icon tints",
+      "description": "",
+      "author_name": "Luca Stefani",
+      "author_email": "luca.stefani.ge1@gmail.com",
+      "change_id": "Icfda31069f70eae6adddd4fbefd086841872a282",
+      "commit": "14c855ff41506cb0f812a9db8892eeb9a4bc30cb",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855ff4150",
+      "review_url": "https://review.lineageos.org/q/Icfda31069f70eae6adddd4fbefd086841872a282"
+    },
+    {
+      "datetime": "2025-09-20T17:56:00Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Resize the window when using IME",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I7e9f50e908e07951a6759582402837dea5c7d02f",
+      "commit": "aca4e687afb54f3f3ca6f2093dda8307dfdb773d",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e687afb5",
+      "review_url": "https://review.lineageos.org/q/I7e9f50e908e07951a6759582402837dea5c7d02f"
+    },
+    {
+      "datetime": "2025-09-20T17:56:00Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Specify KAPT version and add all plugins to classpath",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I53420a0ea30d7e5beaa14fdb517f261c48bfa679",
+      "commit": "bb6d4253d8f4a380ca415b8ba99d960b048c9b71",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d4253d8f4",
+      "review_url": "https://review.lineageos.org/q/I53420a0ea30d7e5beaa14fdb517f261c48bfa679"
+    },
+    {
+      "datetime": "2025-09-20T17:56:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Fix spacing around play buttons",
+      "description": "",
+      "author_name": "Inhishonor",
+      "author_email": "inhishonor@protonmail.com",
+      "change_id": "I2007dc81a5199beb3a085992ae7bc1e2e959e8cb",
+      "commit": "7d3ecde80537ed3f944112f641238eae58a24a3c",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde80537",
+      "review_url": "https://review.lineageos.org/q/I2007dc81a5199beb3a085992ae7bc1e2e959e8cb"
+    },
+    {
+      "datetime": "2025-09-20T17:56:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: ListItem: Declare a new corner radius attribute",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ia85146e8d444ae22bd409befdaa565b11797731d",
+      "commit": "3f0ff3d48a06a1092f9eda9477987d71f4e2d290",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d48a06",
+      "review_url": "https://review.lineageos.org/q/Ia85146e8d444ae22bd409befdaa565b11797731d"
+    },
+    {
+      "datetime": "2025-09-20T17:56:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: ListItem: Fix an API issue on older SDK versions",
+      "description": "TL;DR TypedArray didn't implement AutoCloseable until an SDK version\nhigher than the minimum one",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ib68ef0b02cbfc94a34175513d9049fdb4424c7c2",
+      "commit": "08bb7f084349d1f22ae902f1cbe759edfd4b9822",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f084349",
+      "review_url": "https://review.lineageos.org/q/Ib68ef0b02cbfc94a34175513d9049fdb4424c7c2"
+    },
+    {
+      "datetime": "2025-09-20T17:56:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I38b6d7aa7c7c5a58ed392d4f275c7bc54ee235c1",
+      "commit": "77af37e1d9bf789587885562ec09c88e8349435e",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e1d9bf",
+      "review_url": "https://review.lineageos.org/q/I38b6d7aa7c7c5a58ed392d4f275c7bc54ee235c1"
+    },
+    {
+      "datetime": "2025-09-20T23:30:24Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 20-Sep-2025 22:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "I52e411c7d1da1cbed3a16dc38bcdd9dabf893b15",
+      "commit": "e8d5c3e7792f7888196e4af24e73f7e41f3ee55f",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/e8d5c3e7792f",
+      "review_url": "https://review.lineageos.org/q/I52e411c7d1da1cbed3a16dc38bcdd9dabf893b15"
+    },
+    {
+      "datetime": "2025-09-21T08:45:15Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Catapult",
+      "title": "Catapult: Update card move overlay drawable dimens",
+      "description": "",
+      "author_name": "Timi",
+      "author_email": "timi.rautamaki@gmail.com",
+      "change_id": "I64bba1ec19418292be05e79e72e51832b8351059",
+      "commit": "1190f61ab52986111fb2b87be2d5f9b5526a756c",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/1190f61ab529",
+      "review_url": "https://review.lineageos.org/q/I64bba1ec19418292be05e79e72e51832b8351059"
+    },
+    {
+      "datetime": "2025-09-21T09:17:05Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Glimpse",
+      "title": "Glimpse: Update Gradle wrapper and AGP",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+      "commit": "a09a2234812b7ca4df2b4d64e03ef278d419488a",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a2234812b",
+      "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+    },
+    {
+      "datetime": "2025-09-21T16:17:02Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Catapult",
+      "title": "Catapult: Update Gradle wrapper and AGP",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I1d8a30dee65c53f3008e706440271a0b1a727a54",
+      "commit": "38dc5a47e474a3d952ffa26a403316c11de433c1",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/38dc5a47e474",
+      "review_url": "https://review.lineageos.org/q/I1d8a30dee65c53f3008e706440271a0b1a727a54"
+    },
+    {
+      "datetime": "2025-09-21T16:43:09Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Catapult",
+      "title": "Catapult: Sync up Gradle setup with Twelve & co.",
+      "description": "- Move to version catalog\n- Update JVM target to 17",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I11f278a1178e8ebe8fe09d4e771d391d196041d8",
+      "commit": "1986457ea5a739629c4d73897155ebe9d7764de3",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/1986457ea5a7",
+      "review_url": "https://review.lineageos.org/q/I11f278a1178e8ebe8fe09d4e771d391d196041d8"
+    },
+    {
+      "datetime": "2025-09-21T19:00:30Z",
+      "kind": "Normal",
+      "repo": "bootable/recovery",
+      "title": "recovery: Extend A/B downgrades for older SPL",
+      "description": "Some OEM devices lack the ability to sideload updates through stock\nrecovery, which can prevent users from reverting to older builds.\nThis change adds support for downgrading the security patch level\n(SPL) on A/B devices, gated by a property and user confirmation.\n\nSince SPL downgrades may trigger anti-rollback protections on certain\ndevices, recovery now warns the user before proceeding.",
+      "author_name": "pjgowtham",
+      "author_email": "pjgowtham@gmail.com",
+      "change_id": "If8a3ab7347e51c90337c4044826226ea11d6a327",
+      "commit": "16fcc1ff6cdd4734ee713d9034c7ef3674c5f8a5",
+      "commit_url": "https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1ff6cdd",
+      "review_url": "https://review.lineageos.org/q/If8a3ab7347e51c90337c4044826226ea11d6a327"
+    },
+    {
+      "datetime": "2025-09-21T23:31:02Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I8d69fb1ceef977e9a682358db28089a6ee99123c",
+      "commit": "018ba04aeceae4143aad74ffb58dc92941ff0cca",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/018ba04aecea",
+      "review_url": "https://review.lineageos.org/q/I8d69fb1ceef977e9a682358db28089a6ee99123c"
+    },
+    {
+      "datetime": "2025-09-22T09:16:06Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Sort waffle's peripherals",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I22087273805ddef0b48f9d2aa0319f4a367a0b4b",
+      "commit": "71946437b1283cf235ba5b3290e3be30f3a397fa",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/71946437b128",
+      "review_url": "https://review.lineageos.org/q/I22087273805ddef0b48f9d2aa0319f4a367a0b4b"
+    },
+    {
+      "datetime": "2025-09-22T15:13:18Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Specify KAPT version and add all plugins to classpath",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ib6256ca17de9a54985a2ffada41a005a7cd1280c",
+      "commit": "0a8e529426d5afdd3720ee101e56936376932610",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/0a8e529426d5",
+      "review_url": "https://review.lineageos.org/q/Ib6256ca17de9a54985a2ffada41a005a7cd1280c"
+    },
+    {
+      "datetime": "2025-09-22T15:19:05Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Move KAPT block to the right place",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Icbac1d9974d36cdd3663b4c2fd36f2660546efc2",
+      "commit": "d7059db3776e1a1727cb40875a7094f4179f52cc",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/d7059db3776e",
+      "review_url": "https://review.lineageos.org/q/Icbac1d9974d36cdd3663b4c2fd36f2660546efc2"
+    },
+    {
+      "datetime": "2025-09-22T15:19:05Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Sync up Gradle setup with Twelve & co.",
+      "description": "- Move to version catalog\n- Update JVM target to 17",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I11f278a1178e8ebe8fe09d4e771d391d196041d8",
+      "commit": "3bb9fdb840ee08523882cadb6b1062ecd68c70b2",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/3bb9fdb840ee",
+      "review_url": "https://review.lineageos.org/q/I11f278a1178e8ebe8fe09d4e771d391d196041d8"
+    },
+    {
+      "datetime": "2025-09-22T15:30:07Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Update Gradle wrapper and AGP",
+      "description": "Avoid Gradle 9 for now",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I0b123ddc98dd5ad1325c253085af3111b3b9d379",
+      "commit": "1f01f6123b8872c4e1aaa0d18a51acab8b9a972b",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/1f01f6123b88",
+      "review_url": "https://review.lineageos.org/q/I0b123ddc98dd5ad1325c253085af3111b3b9d379"
+    },
+    {
+      "datetime": "2025-09-22T15:33:02Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Update gradle-generatebp to 1.26",
+      "description": "",
+      "author_name": "Luca Stefani",
+      "author_email": "luca.stefani.ge1@gmail.com",
+      "change_id": "I7dcf774793531cb1712f3cb047db7181748f93b2",
+      "commit": "eca8410b29de01d15765f5470a2c9c77cb67f528",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/eca8410b29de",
+      "review_url": "https://review.lineageos.org/q/I7dcf774793531cb1712f3cb047db7181748f93b2"
+    },
+    {
+      "datetime": "2025-09-22T15:35:46Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Bump Kotlin to 1.9.23",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ib26ec304b7522d4c15d46eb49f8f1ec85d16f864",
+      "commit": "504ab40bec5c251a38256aeddf2873e8fbc0611e",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/504ab40bec5c",
+      "review_url": "https://review.lineageos.org/q/Ib26ec304b7522d4c15d46eb49f8f1ec85d16f864"
+    },
+    {
+      "datetime": "2025-09-23T14:16:06Z",
+      "kind": "Normal",
+      "repo": "lineage/website",
+      "title": "www: Add discord logo to footer",
+      "description": "",
+      "author_name": "Inhishonor",
+      "author_email": "inhishonor@protonmail.com",
+      "change_id": "I1eaea96bc5e4b423e49341d7749927c5ef05e010",
+      "commit": "24be82e3dab3dc2658e31cca41c24d339f9dc6f8",
+      "commit_url": "https://github.com/LineageOS/www/commit/24be82e3dab3",
+      "review_url": "https://review.lineageos.org/q/I1eaea96bc5e4b423e49341d7749927c5ef05e010"
+    },
+    {
+      "datetime": "2025-09-23T16:17:16Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I90890dc197091d28ad04b74819d0fbbf755ace12",
+      "commit": "4e4ffbf790eb63d480127504bc0ab89eddc55238",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/4e4ffbf790eb",
+      "review_url": "https://review.lineageos.org/q/I90890dc197091d28ad04b74819d0fbbf755ace12"
+    },
+    {
+      "datetime": "2025-09-23T19:13:50Z",
+      "kind": "Normal",
+      "repo": "lineage/crowdin",
+      "title": "config: Initial lineage-23.0 changes",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "Idef7130323cc4f069754d07b4f16eef240cc05b7",
+      "commit": "1ab912af1e9d4c3dbd23506b63893f42a8da1c73",
+      "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/1ab912af1e9d",
+      "review_url": "https://review.lineageos.org/q/Idef7130323cc4f069754d07b4f16eef240cc05b7"
+    },
+    {
+      "datetime": "2025-09-23T19:13:50Z",
+      "kind": "Normal",
+      "repo": "lineage/crowdin",
+      "title": "config: lineage-23.0: Move Etar translations to vendor/crowdin",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "I10cec18e1c3256de61e52252d4553a3377a3b42c",
+      "commit": "a1a8b6842a65957a0bdf743684d144172000ea58",
+      "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/a1a8b6842a65",
+      "review_url": "https://review.lineageos.org/q/I10cec18e1c3256de61e52252d4553a3377a3b42c"
+    },
+    {
+      "datetime": "2025-09-23T20:28:35Z",
+      "kind": "Normal",
+      "repo": "lineage/crowdin",
+      "title": "config: lineage-23.0: Add Etar lineage strings",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "I775815fc450499c26f1247ce8569ec3524eb0978",
+      "commit": "3fd82ce1362dddeff6740671c3a96bdfb0a4aeb8",
+      "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/3fd82ce1362d",
+      "review_url": "https://review.lineageos.org/q/I775815fc450499c26f1247ce8569ec3524eb0978"
+    },
+    {
+      "datetime": "2025-09-24T14:44:48Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Update Gradle wrapper and AGP",
+      "description": "Avoid Gradle 9 for now",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+      "commit": "2829464c68d9ebdf751ad2cfba6c5f28f2ad512c",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464c68d9",
+      "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+    },
+    {
+      "datetime": "2025-09-24T16:40:48Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Glimpse",
+      "title": "Glimpse: Update generatebp to v1.28",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ia6979354d4f35e2108cb383984cdc6908c7d35cd",
+      "commit": "b810f35f17ff531f283f98c47599593e36aa91c5",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35f17ff",
+      "review_url": "https://review.lineageos.org/q/Ia6979354d4f35e2108cb383984cdc6908c7d35cd"
+    },
+    {
+      "datetime": "2025-09-24T16:55:46Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: Update generatebp to v1.28",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "If3ff8ecc7e1f938e5d80886f36f29fbdc69ac2b8",
+      "commit": "adc7d1b9872a48ec9b587fb798b9427b3a65ebb9",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b9872a",
+      "review_url": "https://review.lineageos.org/q/If3ff8ecc7e1f938e5d80886f36f29fbdc69ac2b8"
+    },
+    {
+      "datetime": "2025-09-24T16:55:46Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Twelve: `kapt` -> `kotlin-kapt`",
+      "description": "And sort plugins alphabetically",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ibcf986c890ed48a32b0f26c0b25d69a28bc10c47",
+      "commit": "48e5a66fb9e8395416a7f93ec8143eb77c3463d9",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66fb9e8",
+      "review_url": "https://review.lineageos.org/q/Ibcf986c890ed48a32b0f26c0b25d69a28bc10c47"
+    },
+    {
+      "datetime": "2025-09-24T17:33:55Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Camelot",
+      "title": "Camelot: Update Gradle wrapper and AGP",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+      "commit": "bcfa1a79158883ecc17f87506994bd3840574598",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a791588",
+      "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+    },
+    {
+      "datetime": "2025-09-24T17:36:25Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Camelot",
+      "title": "Camelot: Update generatebp to v1.28",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I3d4b94a82ee9ee3772b7d3f1f439323219a9dfb5",
+      "commit": "b6cff9a183fa9738295e6240c1b9d7339c23d059",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a183fa",
+      "review_url": "https://review.lineageos.org/q/I3d4b94a82ee9ee3772b7d3f1f439323219a9dfb5"
+    },
+    {
+      "datetime": "2025-09-24T17:44:54Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Catapult",
+      "title": "Catapult: Update AGP",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I98fc0fb8ee4418d208b9fa1a14dfc131bb8ad31b",
+      "commit": "ca5d356d7e1d04c4669c7d0bf7d49a0dd4948d80",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/ca5d356d7e1d",
+      "review_url": "https://review.lineageos.org/q/I98fc0fb8ee4418d208b9fa1a14dfc131bb8ad31b"
+    },
+    {
+      "datetime": "2025-09-24T17:46:06Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Catapult",
+      "title": "Catapult: Update generatebp to v1.28",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Iceddf9de7f934e163ab41646842731219472f848",
+      "commit": "cde6f68446cc962cf959c408b5144efb178c8b29",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/cde6f68446cc",
+      "review_url": "https://review.lineageos.org/q/Iceddf9de7f934e163ab41646842731219472f848"
+    },
+    {
+      "datetime": "2025-09-24T17:51:55Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Add instructions to install/upgrade from a non A/B RDAP to A/B RDAP build",
+      "description": "",
+      "author_name": "Tuan Anh",
+      "author_email": "tuan73176@gmail.com",
+      "change_id": "I2cfbf7af48aa7eed1584ab1feee4e13241e3311e",
+      "commit": "df7977dcd0fc827f6fa6e121e504fb3ba3e3ed35",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/df7977dcd0fc",
+      "review_url": "https://review.lineageos.org/q/I2cfbf7af48aa7eed1584ab1feee4e13241e3311e"
+    },
+    {
+      "datetime": "2025-09-24T17:51:56Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Promote NB1 to 22.2",
+      "description": "Set is_ab_rdap since the device we're using requires Retrofitting in order to install 22.2.",
+      "author_name": "Tuan Anh",
+      "author_email": "tuan73176@gmail.com",
+      "change_id": "I82c7fca6591800c37c00d6275e5f2d4b0c05410e",
+      "commit": "92b8aaab472f12e1260750539fdfc7782e06fc72",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/92b8aaab472f",
+      "review_url": "https://review.lineageos.org/q/I82c7fca6591800c37c00d6275e5f2d4b0c05410e"
+    },
+    {
+      "datetime": "2025-09-24T20:06:43Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Glimpse",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I2a7fb113f5d804583bb0f053de5b49474bf19831",
+      "commit": "fa8b084fb68392ed595c67fb0f27fa85da00c91a",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084fb683",
+      "review_url": "https://review.lineageos.org/q/I2a7fb113f5d804583bb0f053de5b49474bf19831"
+    },
+    {
+      "datetime": "2025-09-24T20:06:44Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ia1468785c5e833afd3e937cd8a3fc8e0f3878a1a",
+      "commit": "2a0c520e20d118872ef8f9d1f933e1dc40736cde",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2a0c520e20d1",
+      "review_url": "https://review.lineageos.org/q/Ia1468785c5e833afd3e937cd8a3fc8e0f3878a1a"
+    },
+    {
+      "datetime": "2025-09-24T20:06:50Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I2bab25c626f05422ad73abb6608b6a7777358c9d",
+      "commit": "17169d4a9bd63f264bf612df4bbd239f7ae81a25",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4a9bd6",
+      "review_url": "https://review.lineageos.org/q/I2bab25c626f05422ad73abb6608b6a7777358c9d"
+    },
+    {
+      "datetime": "2025-09-24T20:26:24Z",
+      "kind": "Normal",
+      "repo": "packages/apps/FMRadio",
+      "title": "FMRadio: Start ForegroundService with a type",
+      "description": "- As per [1], this is needed to be done to fix this crash:\n\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: Process: com.android.fmradio, PID: 8030\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: java.lang.RuntimeException: Unable to stop activity {com.android.fmradio/com.android.fmradio.FmMainActivity}: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{250dd38 8030:com.android.fmradio/1000} targetSDK=30\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: Caused by: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{250dd38 8030:com.android.fmradio/1000} targetSDK=30\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmService.showPlayingNotification(FmService.java:2006)\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmService.updatePlayingNotification(FmService.java:2028)\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmMainActivity.onStop(FmMainActivity.java:713)\n07-22 10:36:50.061  1781  3763 W ActivityTaskManager:   Force finishing activity com.android.fmradio/.FmMainActivity\n\n[1]: https://developer.android.com/develop/background-work/services/fgs/service-types#media",
+      "author_name": "Cyber Knight",
+      "author_email": "cyberknight755@gmail.com",
+      "change_id": "I7e318fb63dcff9c8b8cd9e75df269ae50265c26d",
+      "commit": "4372899b098f98f3f74c31f8d6685788fa62fd7d",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899b098f",
+      "review_url": "https://review.lineageos.org/q/I7e318fb63dcff9c8b8cd9e75df269ae50265c26d"
+    },
+    {
+      "datetime": "2025-09-24T22:14:59Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "NB1 = NoBody wAnts",
+      "description": "",
+      "author_name": "Tuan Anh",
+      "author_email": "tuan73176@gmail.com",
+      "change_id": "Ifd3adaf38fa393b3ce8718fbf256a39bb52da903",
+      "commit": "70fa364477aad7b92ecf4e6f14e425d9b244841a",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/70fa364477aa",
+      "review_url": "https://review.lineageos.org/q/Ifd3adaf38fa393b3ce8718fbf256a39bb52da903"
+    },
+    {
+      "datetime": "2025-09-24T23:45:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Update AGP",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Idc2822321abace794fed08a3b0a5e221013aee98",
+      "commit": "16c21538ce41dd26027d461cc9f645d827beae30",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/16c21538ce41",
+      "review_url": "https://review.lineageos.org/q/Idc2822321abace794fed08a3b0a5e221013aee98"
+    },
+    {
+      "datetime": "2025-09-24T23:45:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Jelly: Update generatebp to v1.28",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Ib2cc98a287ecf5404e4a23dfba265add1123aa12",
+      "commit": "fe57ec158ca30b58e859ffcef99f4f5a3f7093e4",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec158ca3",
+      "review_url": "https://review.lineageos.org/q/Ib2cc98a287ecf5404e4a23dfba265add1123aa12"
+    },
+    {
+      "datetime": "2025-09-25T11:55:04Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "aston joins the race",
+      "description": "",
+      "author_name": "inferno0230",
+      "author_email": "mail@inferno0230.in",
+      "change_id": "I43e53bfb24a65948a7fc790eec696361b4193178",
+      "commit": "7455f3c6261463bafa8c4dd053ebecdd6f6778ea",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/7455f3c62614",
+      "review_url": "https://review.lineageos.org/q/I43e53bfb24a65948a7fc790eec696361b4193178"
+    },
+    {
+      "datetime": "2025-09-25T11:55:04Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "benz joins the race",
+      "description": "",
+      "author_name": "inferno0230",
+      "author_email": "mail@inferno0230.in",
+      "change_id": "I968dcb0d0a585e25486b7b01ce7db8e6130c0f2a",
+      "commit": "8fe97e9750bb7e0593798daa0bdb518cb10cbd51",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/8fe97e9750bb",
+      "review_url": "https://review.lineageos.org/q/I968dcb0d0a585e25486b7b01ce7db8e6130c0f2a"
+    },
+    {
+      "datetime": "2025-09-26T02:47:16Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-09-26-02-26-15-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I45ccb1a0fc3afac5d5fa29a660f93ef10697c20c",
+      "commit": "23edab3ea76cd861a44ff9ccb3c2f55171b8c44d",
+      "commit_url": "https://github.com/android-kxxt/state/commit/23edab3ea76c",
+      "review_url": null
+    }
+  ],
+  "changes": {
+    "bootable/recovery": {
+      "logs": [
+        {
+          "datetime": "2025-09-21T19:00:30Z",
+          "kind": "Normal",
+          "repo": "bootable/recovery",
+          "title": "recovery: Extend A/B downgrades for older SPL",
+          "description": "Some OEM devices lack the ability to sideload updates through stock\nrecovery, which can prevent users from reverting to older builds.\nThis change adds support for downgrading the security patch level\n(SPL) on A/B devices, gated by a property and user confirmation.\n\nSince SPL downgrades may trigger anti-rollback protections on certain\ndevices, recovery now warns the user before proceeding.",
+          "author_name": "pjgowtham",
+          "author_email": "pjgowtham@gmail.com",
+          "change_id": "If8a3ab7347e51c90337c4044826226ea11d6a327",
+          "commit": "16fcc1ff6cdd4734ee713d9034c7ef3674c5f8a5",
+          "commit_url": "https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1ff6cdd",
+          "review_url": "https://review.lineageos.org/q/If8a3ab7347e51c90337c4044826226ea11d6a327"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8750": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:42:28Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8750",
+          "title": "sun: Match all read_ahead_kb nodes",
+          "description": "The paths seem to change on boot, so it's intractable to hardcode all.",
+          "author_name": "dianlujitao",
+          "author_email": "dianlujitao@lineageos.org",
+          "change_id": "I292416087ecdc7bcbe92c9fc86ec0419b081a281",
+          "commit": "29adc09bb0c089d0441a24e07aa4e3a97a0ad2e0",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29adc09bb0c0",
+          "review_url": "https://review.lineageos.org/q/I292416087ecdc7bcbe92c9fc86ec0419b081a281"
+        },
+        {
+          "datetime": "2025-09-20T14:42:23Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8750",
+          "title": "qva: Allow weaver HAL to request wakelock",
+          "description": "",
+          "author_name": "dianlujitao",
+          "author_email": "dianlujitao@lineageos.org",
+          "change_id": "I80359c5686cedb0c71a946d27e7d816fb0e27b5d",
+          "commit": "3347e79f00604dac71e5e09d5dd38eb525952a37",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3347e79f0060",
+          "review_url": "https://review.lineageos.org/q/I80359c5686cedb0c71a946d27e7d816fb0e27b5d"
+        },
+        {
+          "datetime": "2025-09-20T14:23:01Z",
+          "kind": "Merge",
+          "repo": "device/qcom/sepolicy_vndr/sm8750",
+          "title": "Merge tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD",
+          "description": "LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0\n\n* tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr:\n  Add selinux labels for emmc partitions\n  Add selinux labels for primary storage devices\n  Add sepolicy rule to communicate between cneapp and cnd\n  sepolicy_vndr: SELinux rules for StrongBox-SecureElement HAL direct communication",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "If43f676a6e03692aa6b07dbb213f89f5a47871cb",
+          "commit": "22134fa0a212fafbc2c8efaab5cab5638bc810b0",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/22134fa0a212",
+          "review_url": "https://review.lineageos.org/q/If43f676a6e03692aa6b07dbb213f89f5a47871cb"
+        }
+      ]
+    },
+    "device/xiaomi/sm8450-common": {
+      "logs": [
+        {
+          "datetime": "2025-09-19T14:09:48Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Update blobs from diting OS2.0.203.0.VLFMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Id669af4bbe067596e320e979de9a9df4cf81af83",
+          "commit": "39d943e208204e183d4f920a2621d7137e457ba6",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/39d943e20820",
+          "review_url": "https://review.lineageos.org/q/Id669af4bbe067596e320e979de9a9df4cf81af83"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/audio/pal": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:31:29Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/audio/pal",
+          "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD",
+          "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx:\n  pal: configs: sun: add handset as ec rx device\n  pal: skip stop buffering if VA is already stopped\n  pal : resourcemanager : correct log tag\n  pal: reset UpdatedSndName for VA device after version query\n  pal: Fix delay in BT disconnect cases\n  pal: Add support for sco mmap usecases\n  pal: correct include path for adsp_sleepmon.h\n  pal: add HFP RX/TX type for LOOPBACK stream on SCO device.\n  ar-pal: avoid duplicated mutex unlock when connecting streams\n  pal: close previous device temporarily before switching device for HFP call.\n  pal : add pointer check for mixer and interface name\n  pal: Fix error callback handling during StreamCompress open\n  ar-pal: handle start of deferred NLPI ST streams",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I8110f431318e851e28e5fb448fbec3f551dd99d3",
+          "commit": "6ead194264d830c6e3c7cd7e961a3bd73bbeb25e",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194264d8",
+          "review_url": "https://review.lineageos.org/q/I8110f431318e851e28e5fb448fbec3f551dd99d3"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/audio/primary-hal": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:32:36Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/audio/primary-hal",
+          "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD",
+          "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar:\n  hal: Fix av sync issue for BT usecases\n  core: update device if TX device patch set\n  Revert \"hal: Fix ringtone routing to a2dp during voice call\"\n  HFP: copy entire pal_device attr to hfp device.\n  configs: sun: remove QNN backend libs in AUDIO_MODULES\n  HFP: use hfp_dev_in/hfp_dev_out instead of SCO device in stop hfp\n  effects: ensure proper thread cleanup during context destruction\n  hal: core: update channel layout for hotword input properly\n  config changes to support dummy device based a2dpSuspend/resume\n  core: cache plugin device for CRS call",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I03255ad4ec20e98dad26b0f62e573f9fa3b34946",
+          "commit": "c5ae69fdf5e7f2c0a0b454dcb41f3a2a2bf32bc9",
+          "commit_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69fdf5e7",
+          "review_url": "https://review.lineageos.org/q/I03255ad4ec20e98dad26b0f62e573f9fa3b34946"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/dataipa": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:28:38Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/dataipa",
+          "title": "Merge tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into HEAD",
+          "description": "LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0\n\n* tag 'LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa:\n  msm: ipa: Avoid use-after-free scenario",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "Ib3f2e8970784644ae08af28295a17015c3e949ed",
+          "commit": "9924e25f888de220fb266995382d7f4bd42111c4",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/9924e25f888d",
+          "review_url": "https://review.lineageos.org/q/Ib3f2e8970784644ae08af28295a17015c3e949ed"
+        }
+      ]
+    },
+    "lineage/crowdin": {
+      "logs": [
+        {
+          "datetime": "2025-09-23T20:28:35Z",
+          "kind": "Normal",
+          "repo": "lineage/crowdin",
+          "title": "config: lineage-23.0: Add Etar lineage strings",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "I775815fc450499c26f1247ce8569ec3524eb0978",
+          "commit": "3fd82ce1362dddeff6740671c3a96bdfb0a4aeb8",
+          "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/3fd82ce1362d",
+          "review_url": "https://review.lineageos.org/q/I775815fc450499c26f1247ce8569ec3524eb0978"
+        },
+        {
+          "datetime": "2025-09-23T19:13:50Z",
+          "kind": "Normal",
+          "repo": "lineage/crowdin",
+          "title": "config: lineage-23.0: Move Etar translations to vendor/crowdin",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "I10cec18e1c3256de61e52252d4553a3377a3b42c",
+          "commit": "a1a8b6842a65957a0bdf743684d144172000ea58",
+          "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/a1a8b6842a65",
+          "review_url": "https://review.lineageos.org/q/I10cec18e1c3256de61e52252d4553a3377a3b42c"
+        },
+        {
+          "datetime": "2025-09-23T19:13:50Z",
+          "kind": "Normal",
+          "repo": "lineage/crowdin",
+          "title": "config: Initial lineage-23.0 changes",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "Idef7130323cc4f069754d07b4f16eef240cc05b7",
+          "commit": "1ab912af1e9d4c3dbd23506b63893f42a8da1c73",
+          "commit_url": "https://github.com/LineageOS/cm_crowdin/commit/1ab912af1e9d",
+          "review_url": "https://review.lineageos.org/q/Idef7130323cc4f069754d07b4f16eef240cc05b7"
+        }
+      ]
+    },
+    "lineage/hudson": {
+      "logs": [
+        {
+          "datetime": "2025-09-25T11:55:04Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "aston joins the race",
+          "description": "",
+          "author_name": "inferno0230",
+          "author_email": "mail@inferno0230.in",
+          "change_id": "I43e53bfb24a65948a7fc790eec696361b4193178",
+          "commit": "7455f3c6261463bafa8c4dd053ebecdd6f6778ea",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/7455f3c62614",
+          "review_url": "https://review.lineageos.org/q/I43e53bfb24a65948a7fc790eec696361b4193178"
+        },
+        {
+          "datetime": "2025-09-25T11:55:04Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "benz joins the race",
+          "description": "",
+          "author_name": "inferno0230",
+          "author_email": "mail@inferno0230.in",
+          "change_id": "I968dcb0d0a585e25486b7b01ce7db8e6130c0f2a",
+          "commit": "8fe97e9750bb7e0593798daa0bdb518cb10cbd51",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/8fe97e9750bb",
+          "review_url": "https://review.lineageos.org/q/I968dcb0d0a585e25486b7b01ce7db8e6130c0f2a"
+        },
+        {
+          "datetime": "2025-09-24T22:14:59Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "NB1 = NoBody wAnts",
+          "description": "",
+          "author_name": "Tuan Anh",
+          "author_email": "tuan73176@gmail.com",
+          "change_id": "Ifd3adaf38fa393b3ce8718fbf256a39bb52da903",
+          "commit": "70fa364477aad7b92ecf4e6f14e425d9b244841a",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/70fa364477aa",
+          "review_url": "https://review.lineageos.org/q/Ifd3adaf38fa393b3ce8718fbf256a39bb52da903"
+        },
+        {
+          "datetime": "2025-09-23T16:17:16Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I90890dc197091d28ad04b74819d0fbbf755ace12",
+          "commit": "4e4ffbf790eb63d480127504bc0ab89eddc55238",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/4e4ffbf790eb",
+          "review_url": "https://review.lineageos.org/q/I90890dc197091d28ad04b74819d0fbbf755ace12"
+        },
+        {
+          "datetime": "2025-09-21T23:31:02Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I8d69fb1ceef977e9a682358db28089a6ee99123c",
+          "commit": "018ba04aeceae4143aad74ffb58dc92941ff0cca",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/018ba04aecea",
+          "review_url": "https://review.lineageos.org/q/I8d69fb1ceef977e9a682358db28089a6ee99123c"
+        }
+      ]
+    },
+    "lineage/mirror": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T23:30:24Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 20-Sep-2025 22:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "I52e411c7d1da1cbed3a16dc38bcdd9dabf893b15",
+          "commit": "e8d5c3e7792f7888196e4af24e73f7e41f3ee55f",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/e8d5c3e7792f",
+          "review_url": "https://review.lineageos.org/q/I52e411c7d1da1cbed3a16dc38bcdd9dabf893b15"
+        }
+      ]
+    },
+    "lineage/website": {
+      "logs": [
+        {
+          "datetime": "2025-09-23T14:16:06Z",
+          "kind": "Normal",
+          "repo": "lineage/website",
+          "title": "www: Add discord logo to footer",
+          "description": "",
+          "author_name": "Inhishonor",
+          "author_email": "inhishonor@protonmail.com",
+          "change_id": "I1eaea96bc5e4b423e49341d7749927c5ef05e010",
+          "commit": "24be82e3dab3dc2658e31cca41c24d339f9dc6f8",
+          "commit_url": "https://github.com/LineageOS/www/commit/24be82e3dab3",
+          "review_url": "https://review.lineageos.org/q/I1eaea96bc5e4b423e49341d7749927c5ef05e010"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T17:51:56Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Promote NB1 to 22.2",
+          "description": "Set is_ab_rdap since the device we're using requires Retrofitting in order to install 22.2.",
+          "author_name": "Tuan Anh",
+          "author_email": "tuan73176@gmail.com",
+          "change_id": "I82c7fca6591800c37c00d6275e5f2d4b0c05410e",
+          "commit": "92b8aaab472f12e1260750539fdfc7782e06fc72",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/92b8aaab472f",
+          "review_url": "https://review.lineageos.org/q/I82c7fca6591800c37c00d6275e5f2d4b0c05410e"
+        },
+        {
+          "datetime": "2025-09-24T17:51:55Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Add instructions to install/upgrade from a non A/B RDAP to A/B RDAP build",
+          "description": "",
+          "author_name": "Tuan Anh",
+          "author_email": "tuan73176@gmail.com",
+          "change_id": "I2cfbf7af48aa7eed1584ab1feee4e13241e3311e",
+          "commit": "df7977dcd0fc827f6fa6e121e504fb3ba3e3ed35",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/df7977dcd0fc",
+          "review_url": "https://review.lineageos.org/q/I2cfbf7af48aa7eed1584ab1feee4e13241e3311e"
+        },
+        {
+          "datetime": "2025-09-22T09:16:06Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Sort waffle's peripherals",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I22087273805ddef0b48f9d2aa0319f4a367a0b4b",
+          "commit": "71946437b1283cf235ba5b3290e3be30f3a397fa",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/71946437b128",
+          "review_url": "https://review.lineageos.org/q/I22087273805ddef0b48f9d2aa0319f4a367a0b4b"
+        },
+        {
+          "datetime": "2025-09-19T16:31:01Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: devices: Set device type Phone (slider) for F(x)tec devices",
+          "description": "",
+          "author_name": "Andrey Sprynga",
+          "author_email": "rtx4d@aospa.co",
+          "change_id": "Ia61251e3ca2d2b2616a29b4a3b7ec84e1be374ce",
+          "commit": "6ba6835ca48d60320bf84d8fef9a4b90b6dff238",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/6ba6835ca48d",
+          "review_url": "https://review.lineageos.org/q/Ia61251e3ca2d2b2616a29b4a3b7ec84e1be374ce"
+        }
+      ]
+    },
+    "ota": {
+      "logs": [
+        {
+          "datetime": "2025-09-19T05:15:08Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I0c86ea774c68e501d1399649d84602b47ae1d6de",
+          "commit": "fabd105bedf5f5b63fc7092b9fd6509134e9f1a5",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/fabd105bedf5",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-09-19T04:20:37Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ic5ed21b6474443d0eb7c07022029838628342763",
+          "commit": "68a1732a4eaf1539af90650f0e5aaef7ff6c6e1f",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/68a1732a4eaf",
+          "review_url": null
+        }
+      ]
+    },
+    "packages/apps/Camelot": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T17:36:25Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Camelot",
+          "title": "Camelot: Update generatebp to v1.28",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I3d4b94a82ee9ee3772b7d3f1f439323219a9dfb5",
+          "commit": "b6cff9a183fa9738295e6240c1b9d7339c23d059",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a183fa",
+          "review_url": "https://review.lineageos.org/q/I3d4b94a82ee9ee3772b7d3f1f439323219a9dfb5"
+        },
+        {
+          "datetime": "2025-09-24T17:33:55Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Camelot",
+          "title": "Camelot: Update Gradle wrapper and AGP",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+          "commit": "bcfa1a79158883ecc17f87506994bd3840574598",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a791588",
+          "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+        }
+      ]
+    },
+    "packages/apps/Catapult": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T17:46:06Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Catapult",
+          "title": "Catapult: Update generatebp to v1.28",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Iceddf9de7f934e163ab41646842731219472f848",
+          "commit": "cde6f68446cc962cf959c408b5144efb178c8b29",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/cde6f68446cc",
+          "review_url": "https://review.lineageos.org/q/Iceddf9de7f934e163ab41646842731219472f848"
+        },
+        {
+          "datetime": "2025-09-24T17:44:54Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Catapult",
+          "title": "Catapult: Update AGP",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I98fc0fb8ee4418d208b9fa1a14dfc131bb8ad31b",
+          "commit": "ca5d356d7e1d04c4669c7d0bf7d49a0dd4948d80",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/ca5d356d7e1d",
+          "review_url": "https://review.lineageos.org/q/I98fc0fb8ee4418d208b9fa1a14dfc131bb8ad31b"
+        },
+        {
+          "datetime": "2025-09-21T16:43:09Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Catapult",
+          "title": "Catapult: Sync up Gradle setup with Twelve & co.",
+          "description": "- Move to version catalog\n- Update JVM target to 17",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I11f278a1178e8ebe8fe09d4e771d391d196041d8",
+          "commit": "1986457ea5a739629c4d73897155ebe9d7764de3",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/1986457ea5a7",
+          "review_url": "https://review.lineageos.org/q/I11f278a1178e8ebe8fe09d4e771d391d196041d8"
+        },
+        {
+          "datetime": "2025-09-21T16:17:02Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Catapult",
+          "title": "Catapult: Update Gradle wrapper and AGP",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I1d8a30dee65c53f3008e706440271a0b1a727a54",
+          "commit": "38dc5a47e474a3d952ffa26a403316c11de433c1",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/38dc5a47e474",
+          "review_url": "https://review.lineageos.org/q/I1d8a30dee65c53f3008e706440271a0b1a727a54"
+        },
+        {
+          "datetime": "2025-09-21T08:45:15Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Catapult",
+          "title": "Catapult: Update card move overlay drawable dimens",
+          "description": "",
+          "author_name": "Timi",
+          "author_email": "timi.rautamaki@gmail.com",
+          "change_id": "I64bba1ec19418292be05e79e72e51832b8351059",
+          "commit": "1190f61ab52986111fb2b87be2d5f9b5526a756c",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Catapult/commit/1190f61ab529",
+          "review_url": "https://review.lineageos.org/q/I64bba1ec19418292be05e79e72e51832b8351059"
+        }
+      ]
+    },
+    "packages/apps/FMRadio": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T20:26:24Z",
+          "kind": "Normal",
+          "repo": "packages/apps/FMRadio",
+          "title": "FMRadio: Start ForegroundService with a type",
+          "description": "- As per [1], this is needed to be done to fix this crash:\n\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: Process: com.android.fmradio, PID: 8030\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: java.lang.RuntimeException: Unable to stop activity {com.android.fmradio/com.android.fmradio.FmMainActivity}: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{250dd38 8030:com.android.fmradio/1000} targetSDK=30\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: Caused by: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{250dd38 8030:com.android.fmradio/1000} targetSDK=30\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmService.showPlayingNotification(FmService.java:2006)\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmService.updatePlayingNotification(FmService.java:2028)\n07-22 10:36:50.055  8030  8030 E AndroidRuntime: at com.android.fmradio.FmMainActivity.onStop(FmMainActivity.java:713)\n07-22 10:36:50.061  1781  3763 W ActivityTaskManager:   Force finishing activity com.android.fmradio/.FmMainActivity\n\n[1]: https://developer.android.com/develop/background-work/services/fgs/service-types#media",
+          "author_name": "Cyber Knight",
+          "author_email": "cyberknight755@gmail.com",
+          "change_id": "I7e318fb63dcff9c8b8cd9e75df269ae50265c26d",
+          "commit": "4372899b098f98f3f74c31f8d6685788fa62fd7d",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899b098f",
+          "review_url": "https://review.lineageos.org/q/I7e318fb63dcff9c8b8cd9e75df269ae50265c26d"
+        }
+      ]
+    },
+    "packages/apps/Glimpse": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T20:06:43Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Glimpse",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I2a7fb113f5d804583bb0f053de5b49474bf19831",
+          "commit": "fa8b084fb68392ed595c67fb0f27fa85da00c91a",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084fb683",
+          "review_url": "https://review.lineageos.org/q/I2a7fb113f5d804583bb0f053de5b49474bf19831"
+        },
+        {
+          "datetime": "2025-09-24T16:40:48Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Glimpse",
+          "title": "Glimpse: Update generatebp to v1.28",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ia6979354d4f35e2108cb383984cdc6908c7d35cd",
+          "commit": "b810f35f17ff531f283f98c47599593e36aa91c5",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35f17ff",
+          "review_url": "https://review.lineageos.org/q/Ia6979354d4f35e2108cb383984cdc6908c7d35cd"
+        },
+        {
+          "datetime": "2025-09-21T09:17:05Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Glimpse",
+          "title": "Glimpse: Update Gradle wrapper and AGP",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+          "commit": "a09a2234812b7ca4df2b4d64e03ef278d419488a",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a2234812b",
+          "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+        }
+      ]
+    },
+    "packages/apps/Jelly": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T23:45:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Update generatebp to v1.28",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ib2cc98a287ecf5404e4a23dfba265add1123aa12",
+          "commit": "fe57ec158ca30b58e859ffcef99f4f5a3f7093e4",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec158ca3",
+          "review_url": "https://review.lineageos.org/q/Ib2cc98a287ecf5404e4a23dfba265add1123aa12"
+        },
+        {
+          "datetime": "2025-09-24T23:45:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Update AGP",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Idc2822321abace794fed08a3b0a5e221013aee98",
+          "commit": "16c21538ce41dd26027d461cc9f645d827beae30",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/16c21538ce41",
+          "review_url": "https://review.lineageos.org/q/Idc2822321abace794fed08a3b0a5e221013aee98"
+        },
+        {
+          "datetime": "2025-09-24T20:06:44Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ia1468785c5e833afd3e937cd8a3fc8e0f3878a1a",
+          "commit": "2a0c520e20d118872ef8f9d1f933e1dc40736cde",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2a0c520e20d1",
+          "review_url": "https://review.lineageos.org/q/Ia1468785c5e833afd3e937cd8a3fc8e0f3878a1a"
+        },
+        {
+          "datetime": "2025-09-22T15:35:46Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Bump Kotlin to 1.9.23",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ib26ec304b7522d4c15d46eb49f8f1ec85d16f864",
+          "commit": "504ab40bec5c251a38256aeddf2873e8fbc0611e",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/504ab40bec5c",
+          "review_url": "https://review.lineageos.org/q/Ib26ec304b7522d4c15d46eb49f8f1ec85d16f864"
+        },
+        {
+          "datetime": "2025-09-22T15:33:02Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Update gradle-generatebp to 1.26",
+          "description": "",
+          "author_name": "Luca Stefani",
+          "author_email": "luca.stefani.ge1@gmail.com",
+          "change_id": "I7dcf774793531cb1712f3cb047db7181748f93b2",
+          "commit": "eca8410b29de01d15765f5470a2c9c77cb67f528",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/eca8410b29de",
+          "review_url": "https://review.lineageos.org/q/I7dcf774793531cb1712f3cb047db7181748f93b2"
+        },
+        {
+          "datetime": "2025-09-22T15:30:07Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Update Gradle wrapper and AGP",
+          "description": "Avoid Gradle 9 for now",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I0b123ddc98dd5ad1325c253085af3111b3b9d379",
+          "commit": "1f01f6123b8872c4e1aaa0d18a51acab8b9a972b",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/1f01f6123b88",
+          "review_url": "https://review.lineageos.org/q/I0b123ddc98dd5ad1325c253085af3111b3b9d379"
+        },
+        {
+          "datetime": "2025-09-22T15:19:05Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Sync up Gradle setup with Twelve & co.",
+          "description": "- Move to version catalog\n- Update JVM target to 17",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I11f278a1178e8ebe8fe09d4e771d391d196041d8",
+          "commit": "3bb9fdb840ee08523882cadb6b1062ecd68c70b2",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/3bb9fdb840ee",
+          "review_url": "https://review.lineageos.org/q/I11f278a1178e8ebe8fe09d4e771d391d196041d8"
+        },
+        {
+          "datetime": "2025-09-22T15:19:05Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Move KAPT block to the right place",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Icbac1d9974d36cdd3663b4c2fd36f2660546efc2",
+          "commit": "d7059db3776e1a1727cb40875a7094f4179f52cc",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/d7059db3776e",
+          "review_url": "https://review.lineageos.org/q/Icbac1d9974d36cdd3663b4c2fd36f2660546efc2"
+        },
+        {
+          "datetime": "2025-09-22T15:13:18Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Jelly: Specify KAPT version and add all plugins to classpath",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ib6256ca17de9a54985a2ffada41a005a7cd1280c",
+          "commit": "0a8e529426d5afdd3720ee101e56936376932610",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/0a8e529426d5",
+          "review_url": "https://review.lineageos.org/q/Ib6256ca17de9a54985a2ffada41a005a7cd1280c"
+        }
+      ]
+    },
+    "packages/apps/Twelve": {
+      "logs": [
+        {
+          "datetime": "2025-09-24T20:06:50Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I2bab25c626f05422ad73abb6608b6a7777358c9d",
+          "commit": "17169d4a9bd63f264bf612df4bbd239f7ae81a25",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4a9bd6",
+          "review_url": "https://review.lineageos.org/q/I2bab25c626f05422ad73abb6608b6a7777358c9d"
+        },
+        {
+          "datetime": "2025-09-24T16:55:46Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Update generatebp to v1.28",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "If3ff8ecc7e1f938e5d80886f36f29fbdc69ac2b8",
+          "commit": "adc7d1b9872a48ec9b587fb798b9427b3a65ebb9",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b9872a",
+          "review_url": "https://review.lineageos.org/q/If3ff8ecc7e1f938e5d80886f36f29fbdc69ac2b8"
+        },
+        {
+          "datetime": "2025-09-24T16:55:46Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: `kapt` -> `kotlin-kapt`",
+          "description": "And sort plugins alphabetically",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ibcf986c890ed48a32b0f26c0b25d69a28bc10c47",
+          "commit": "48e5a66fb9e8395416a7f93ec8143eb77c3463d9",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66fb9e8",
+          "review_url": "https://review.lineageos.org/q/Ibcf986c890ed48a32b0f26c0b25d69a28bc10c47"
+        },
+        {
+          "datetime": "2025-09-24T14:44:48Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Update Gradle wrapper and AGP",
+          "description": "Avoid Gradle 9 for now",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I6b1db213bddf2e67ec38c549d157b7fca6e68151",
+          "commit": "2829464c68d9ebdf751ad2cfba6c5f28f2ad512c",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464c68d9",
+          "review_url": "https://review.lineageos.org/q/I6b1db213bddf2e67ec38c549d157b7fca6e68151"
+        },
+        {
+          "datetime": "2025-09-20T17:56:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Fix spacing around play buttons",
+          "description": "",
+          "author_name": "Inhishonor",
+          "author_email": "inhishonor@protonmail.com",
+          "change_id": "I2007dc81a5199beb3a085992ae7bc1e2e959e8cb",
+          "commit": "7d3ecde80537ed3f944112f641238eae58a24a3c",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde80537",
+          "review_url": "https://review.lineageos.org/q/I2007dc81a5199beb3a085992ae7bc1e2e959e8cb"
+        },
+        {
+          "datetime": "2025-09-20T17:56:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: ListItem: Declare a new corner radius attribute",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ia85146e8d444ae22bd409befdaa565b11797731d",
+          "commit": "3f0ff3d48a06a1092f9eda9477987d71f4e2d290",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d48a06",
+          "review_url": "https://review.lineageos.org/q/Ia85146e8d444ae22bd409befdaa565b11797731d"
+        },
+        {
+          "datetime": "2025-09-20T17:56:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: ListItem: Fix an API issue on older SDK versions",
+          "description": "TL;DR TypedArray didn't implement AutoCloseable until an SDK version\nhigher than the minimum one",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Ib68ef0b02cbfc94a34175513d9049fdb4424c7c2",
+          "commit": "08bb7f084349d1f22ae902f1cbe759edfd4b9822",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f084349",
+          "review_url": "https://review.lineageos.org/q/Ib68ef0b02cbfc94a34175513d9049fdb4424c7c2"
+        },
+        {
+          "datetime": "2025-09-20T17:56:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I38b6d7aa7c7c5a58ed392d4f275c7bc54ee235c1",
+          "commit": "77af37e1d9bf789587885562ec09c88e8349435e",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e1d9bf",
+          "review_url": "https://review.lineageos.org/q/I38b6d7aa7c7c5a58ed392d4f275c7bc54ee235c1"
+        },
+        {
+          "datetime": "2025-09-20T17:56:00Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Resize the window when using IME",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I7e9f50e908e07951a6759582402837dea5c7d02f",
+          "commit": "aca4e687afb54f3f3ca6f2093dda8307dfdb773d",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e687afb5",
+          "review_url": "https://review.lineageos.org/q/I7e9f50e908e07951a6759582402837dea5c7d02f"
+        },
+        {
+          "datetime": "2025-09-20T17:56:00Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Fix FAB text/icon tints",
+          "description": "",
+          "author_name": "Luca Stefani",
+          "author_email": "luca.stefani.ge1@gmail.com",
+          "change_id": "Icfda31069f70eae6adddd4fbefd086841872a282",
+          "commit": "14c855ff41506cb0f812a9db8892eeb9a4bc30cb",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855ff4150",
+          "review_url": "https://review.lineageos.org/q/Icfda31069f70eae6adddd4fbefd086841872a282"
+        },
+        {
+          "datetime": "2025-09-20T17:56:00Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Twelve: Specify KAPT version and add all plugins to classpath",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I53420a0ea30d7e5beaa14fdb517f261c48bfa679",
+          "commit": "bb6d4253d8f4a380ca415b8ba99d960b048c9b71",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d4253d8f4",
+          "review_url": "https://review.lineageos.org/q/I53420a0ea30d7e5beaa14fdb517f261c48bfa679"
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-09-26T02:47:16Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-09-26-02-26-15-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I45ccb1a0fc3afac5d5fa29a660f93ef10697c20c",
+          "commit": "23edab3ea76cd861a44ff9ccb3c2f55171b8c44d",
+          "commit_url": "https://github.com/android-kxxt/state/commit/23edab3ea76c",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-09-19T04:53:23Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-09-19-04-22-46-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ib1788da3a6071ffd1ee0549742606a1fd33f3e90",
+          "commit": "4358577d9d6c35ce50b413577737a0169843f9d6",
+          "commit_url": "https://github.com/android-kxxt/state/commit/4358577d9d6c",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-09-19T02:51:33Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of lmi-2025-09-19-02-47-34-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I37ae3e0a33a1207fde1550ac37fe16342ac7a9ef",
+          "commit": "34f7031026533db214419bb010ff8b8d6528e6a2",
+          "commit_url": "https://github.com/android-kxxt/state/commit/34f703102653",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/lineage": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:26:27Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "vars: Update sun tags",
+          "description": "",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "Ia8eb240335e615420a6a1b468a4a07a2bb4ec8b5",
+          "commit": "d89d58b617ed8f7bf328b5f3065e5897d856a77f",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b617ed",
+          "review_url": "https://review.lineageos.org/q/Ia8eb240335e615420a6a1b468a4a07a2bb4ec8b5"
+        }
+      ]
+    },
+    "vendor/qcom/opensource/audio-hal/st-hal-ar": {
+      "logs": [
+        {
+          "datetime": "2025-09-20T14:35:20Z",
+          "kind": "Merge",
+          "repo": "vendor/qcom/opensource/audio-hal/st-hal-ar",
+          "title": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar into HEAD",
+          "description": "AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0\n\n* tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar:\n  st-hal: refine state check for event notification",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I6d6950f218407347e1baee103cc63a5b45f8e7b6",
+          "commit": "368e7bdbc0c527646d5dcf54418dbea5d03bc37f",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/368e7bdbc0c5",
+          "review_url": "https://review.lineageos.org/q/I6d6950f218407347e1baee103cc63a5b45f8e7b6"
+        }
+      ]
+    },
+    "vendor/xiaomi/sm8450-common": {
+      "logs": [
+        {
+          "datetime": "2025-09-19T14:10:33Z",
+          "kind": "Normal",
+          "repo": "vendor/xiaomi/sm8450-common",
+          "title": "sm8450-common: Update blobs from diting OS2.0.203.0.VLFMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Id669af4bbe067596e320e979de9a9df4cf81af83",
+          "commit": "ee0f9573e622661f49666ed18711fd1098e314f6",
+          "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_sm8450-common/commit/ee0f9573e622",
+          "review_url": null
+        }
+      ]
+    }
+  }
+}
