@@ -1,0 +1,426 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2025-09-27T19:56:11Z",
+      "kind": "Normal",
+      "repo": "packages/inputmethods/LatinIME",
+      "title": "Update Turkish Keyboard Layout XML Files",
+      "description": "    Added a new key specification for the Turkish keyboard layout in rowkeys_turkish_f3.xml.\n    Adjusted key widths in rows_turkish_f.xml for better layout consistency:\n        Changed key width from 8.333%p to 8.711%p in the second row.\n        Updated key width from 8.75%p to 8.711%p in the third row.\n        Modified the width of the shift key from 15%p to 10.8%p for improved usability.\n    Ensured proper positioning of included layouts and visual insets for a more refined keyboard design.\n\nBefore: https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/image.png\n\nAfter: https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/photo_2025-09-25_21-36-25.jpg\n\nReference (from gboard): https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/gboard.png",
+      "author_name": "sulincix",
+      "author_email": "parduscix@gmail.com",
+      "change_id": "I531adb6d4c1208b6dcac705315a236c06e2802b4",
+      "commit": "da5086c11933b5d90db83ec19d0c6fe51812d86c",
+      "commit_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c11933",
+      "review_url": "https://review.lineageos.org/q/I531adb6d4c1208b6dcac705315a236c06e2802b4"
+    },
+    {
+      "datetime": "2025-10-03T02:59:15Z",
+      "kind": "Normal",
+      "repo": "frameworks/base",
+      "title": "UdfpsHelper: Exclude dim layer from screenshots",
+      "description": "The UDFPS dim layer was being captured in screenshots, resulting\nin darkened or obscured screenshot content. This occurred because\nthe dim overlay window was included in the screenshot capture\nprocess.\n\nUse PRIVATE_FLAG_IS_ROUNDED_CORNERS_OVERLAY to exclude the dim\nlayer from screenshots, screen magnification, and mirroring. This\nflag is appropriate for system overlays that should not appear in\ncaptured content, similar to how display cutouts and rounded\ncorners are handled. It also makes the usage of\nPRIVATE_FLAG_EXCLUDE_FROM_SCREEN_MAGNIFICATION redundant.\n\nWith this change, screenshots will capture the underlying content\nwithout the UDFPS dimming overlay, providing users with clean\nscreenshots while maintaining proper UDFPS functionality.",
+      "author_name": "pjgowtham",
+      "author_email": "pjgowtham@gmail.com",
+      "change_id": "I76b1b98e645fffeee580a279a38a87b0c93dab9f",
+      "commit": "785756c99397b4903e9c355be12b036fa42bd767",
+      "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/785756c99397",
+      "review_url": "https://review.lineageos.org/q/I76b1b98e645fffeee580a279a38a87b0c93dab9f"
+    },
+    {
+      "datetime": "2025-10-03T06:53:38Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of lmi-2025-10-03-06-48-59-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I707315cc5c603c45cb00f3acf24efa33bd3cc9fc",
+      "commit": "97e6dd22e7e289608511b162a36cc9a406648ac1",
+      "commit_url": "https://github.com/android-kxxt/state/commit/97e6dd22e7e2",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-03T07:30:24Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-10-03-06-59-26-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I586bad30779b27dca76a162745a50bd94d4a8a25",
+      "commit": "f1a0d4c6bfb1dd4776fbdd26b8e8c88756530d7b",
+      "commit_url": "https://github.com/android-kxxt/state/commit/f1a0d4c6bfb1",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-03T07:30:52Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2025-10-03-06-59-26-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I1c595f234871a209b2a044f36240519c9655c13c",
+      "commit": "615e3ba0279a09bf52f8abd246a2145fe4a749a8",
+      "commit_url": "https://github.com/android-kxxt/state/commit/615e3ba0279a",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-03T07:33:19Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I893719b790c0cbf4ab2e45e60091c94fcaab1789",
+      "commit": "ff31558cadeb5d7e8205ded026d189d0d133d21f",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/ff31558cadeb",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-04T09:06:42Z",
+      "kind": "Normal",
+      "repo": "frameworks/base",
+      "title": "UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness",
+      "description": "Now the array's last key is treated as maximum panel brightness\nwhich should be the same as what's found in display devicetree\nas maximum brightness for the specific panel.\n\nAlso remove the first few entries that are unused especially the\nfirst erratic entry which sets the alpha to 255.",
+      "author_name": "pjgowtham",
+      "author_email": "pjgowtham@gmail.com",
+      "change_id": "I5674d563e733a7485f75d744b0c110d551d66c1a",
+      "commit": "0641b6bc21986094992c03b75d26388f5b28d6c1",
+      "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc2198",
+      "review_url": "https://review.lineageos.org/q/I5674d563e733a7485f75d744b0c110d551d66c1a"
+    },
+    {
+      "datetime": "2025-10-04T21:55:02Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Fix missing space before command in `pages/libvirt-qemu.md`",
+      "description": "",
+      "author_name": "Benjamin Loison",
+      "author_email": "benjaminthekoala@gmail.com",
+      "change_id": "I3551bef042884fffbc0762a17115e05750c92e21",
+      "commit": "f816a2289f0229a556cd5cb9fe1765fea0eaec85",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/f816a2289f02",
+      "review_url": "https://review.lineageos.org/q/I3551bef042884fffbc0762a17115e05750c92e21"
+    },
+    {
+      "datetime": "2025-10-05T22:19:07Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Add new martini maintainer",
+      "description": "",
+      "author_name": "basamaryan",
+      "author_email": "basam.aryan@gmail.com",
+      "change_id": "I6bbbbbac181e5ab055ffa18a396cd35a2409de64",
+      "commit": "49d55cbc72181f46af6f2145e0f937676a3d29c8",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/49d55cbc7218",
+      "review_url": "https://review.lineageos.org/q/I6bbbbbac181e5ab055ffa18a396cd35a2409de64"
+    },
+    {
+      "datetime": "2025-10-07T03:53:24Z",
+      "kind": "Normal",
+      "repo": "patches",
+      "title": "Initial patch rebase for LineageOS 23",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I2a94a22f324646b6d6d418398b847fb305e993b4",
+      "commit": "958d52e13eabb38ff8eeb18ff14969807ec183bb",
+      "commit_url": "https://github.com/android-kxxt/android_patches/commit/958d52e13eab",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-07T04:55:38Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "devices: deadpool: Don't rely on burn mode",
+      "description": "* Not needed on this device.",
+      "author_name": "Nolen Johnson",
+      "author_email": "johnsonnolen@gmail.com",
+      "change_id": "Ief181b41ac2f3e6cf2466540f494d6f26ccb8ca0",
+      "commit": "d02f323b6f6ebb4744090e4c2fdbf69b1d962f36",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/d02f323b6f6e",
+      "review_url": "https://review.lineageos.org/q/Ief181b41ac2f3e6cf2466540f494d6f26ccb8ca0"
+    },
+    {
+      "datetime": "2025-10-08T14:19:20Z",
+      "kind": "Normal",
+      "repo": "build/release",
+      "title": "Bump Security String to 2025-10-01",
+      "description": "Implemented:\n============\nNone\n\nPreviously Implemented:\n================\nNone\n\nNot Implemented:\n================\nNone\n\nNot Applicable (platform source):\n=================================\nNone",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "I3aa454d3fff7f5517a69e3c290e7460fbe0aa75e",
+      "commit": "5708b4ca1d2daa7005e0644de73ce1997291060d",
+      "commit_url": "https://github.com/LineageOS/android_build_release/commit/5708b4ca1d2d",
+      "review_url": "https://review.lineageos.org/q/I3aa454d3fff7f5517a69e3c290e7460fbe0aa75e"
+    },
+    {
+      "datetime": "2025-10-10T02:43:38Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of lmi-2025-10-10-02-39-43-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Id685b8b172281f60fc129ca7ce13a4fd7bb61a2c",
+      "commit": "ea2e3f027287338aa24fc0de0000afc32523379b",
+      "commit_url": "https://github.com/android-kxxt/state/commit/ea2e3f027287",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T02:44:07Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for lmi-2025-10-10-02-39-43-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I8ade0fc724b0091c4d7196d2466827b170d4ea80",
+      "commit": "106bac73c76ec6de1c8ee697e0f08da0eec210dd",
+      "commit_url": "https://github.com/android-kxxt/state/commit/106bac73c76e",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T02:51:24Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I97c78751263bb2b7b759c9a405a82763e0de9f6e",
+      "commit": "96fb1894aba36e38136c5f0f415fd6a587071a87",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/96fb1894aba3",
+      "review_url": null
+    }
+  ],
+  "changes": {
+    "build/release": {
+      "logs": [
+        {
+          "datetime": "2025-10-08T14:19:20Z",
+          "kind": "Normal",
+          "repo": "build/release",
+          "title": "Bump Security String to 2025-10-01",
+          "description": "Implemented:\n============\nNone\n\nPreviously Implemented:\n================\nNone\n\nNot Implemented:\n================\nNone\n\nNot Applicable (platform source):\n=================================\nNone",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "I3aa454d3fff7f5517a69e3c290e7460fbe0aa75e",
+          "commit": "5708b4ca1d2daa7005e0644de73ce1997291060d",
+          "commit_url": "https://github.com/LineageOS/android_build_release/commit/5708b4ca1d2d",
+          "review_url": "https://review.lineageos.org/q/I3aa454d3fff7f5517a69e3c290e7460fbe0aa75e"
+        }
+      ]
+    },
+    "frameworks/base": {
+      "logs": [
+        {
+          "datetime": "2025-10-04T09:06:42Z",
+          "kind": "Normal",
+          "repo": "frameworks/base",
+          "title": "UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness",
+          "description": "Now the array's last key is treated as maximum panel brightness\nwhich should be the same as what's found in display devicetree\nas maximum brightness for the specific panel.\n\nAlso remove the first few entries that are unused especially the\nfirst erratic entry which sets the alpha to 255.",
+          "author_name": "pjgowtham",
+          "author_email": "pjgowtham@gmail.com",
+          "change_id": "I5674d563e733a7485f75d744b0c110d551d66c1a",
+          "commit": "0641b6bc21986094992c03b75d26388f5b28d6c1",
+          "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc2198",
+          "review_url": "https://review.lineageos.org/q/I5674d563e733a7485f75d744b0c110d551d66c1a"
+        },
+        {
+          "datetime": "2025-10-03T02:59:15Z",
+          "kind": "Normal",
+          "repo": "frameworks/base",
+          "title": "UdfpsHelper: Exclude dim layer from screenshots",
+          "description": "The UDFPS dim layer was being captured in screenshots, resulting\nin darkened or obscured screenshot content. This occurred because\nthe dim overlay window was included in the screenshot capture\nprocess.\n\nUse PRIVATE_FLAG_IS_ROUNDED_CORNERS_OVERLAY to exclude the dim\nlayer from screenshots, screen magnification, and mirroring. This\nflag is appropriate for system overlays that should not appear in\ncaptured content, similar to how display cutouts and rounded\ncorners are handled. It also makes the usage of\nPRIVATE_FLAG_EXCLUDE_FROM_SCREEN_MAGNIFICATION redundant.\n\nWith this change, screenshots will capture the underlying content\nwithout the UDFPS dimming overlay, providing users with clean\nscreenshots while maintaining proper UDFPS functionality.",
+          "author_name": "pjgowtham",
+          "author_email": "pjgowtham@gmail.com",
+          "change_id": "I76b1b98e645fffeee580a279a38a87b0c93dab9f",
+          "commit": "785756c99397b4903e9c355be12b036fa42bd767",
+          "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/785756c99397",
+          "review_url": "https://review.lineageos.org/q/I76b1b98e645fffeee580a279a38a87b0c93dab9f"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-10-07T04:55:38Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "devices: deadpool: Don't rely on burn mode",
+          "description": "* Not needed on this device.",
+          "author_name": "Nolen Johnson",
+          "author_email": "johnsonnolen@gmail.com",
+          "change_id": "Ief181b41ac2f3e6cf2466540f494d6f26ccb8ca0",
+          "commit": "d02f323b6f6ebb4744090e4c2fdbf69b1d962f36",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/d02f323b6f6e",
+          "review_url": "https://review.lineageos.org/q/Ief181b41ac2f3e6cf2466540f494d6f26ccb8ca0"
+        },
+        {
+          "datetime": "2025-10-05T22:19:07Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Add new martini maintainer",
+          "description": "",
+          "author_name": "basamaryan",
+          "author_email": "basam.aryan@gmail.com",
+          "change_id": "I6bbbbbac181e5ab055ffa18a396cd35a2409de64",
+          "commit": "49d55cbc72181f46af6f2145e0f937676a3d29c8",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/49d55cbc7218",
+          "review_url": "https://review.lineageos.org/q/I6bbbbbac181e5ab055ffa18a396cd35a2409de64"
+        },
+        {
+          "datetime": "2025-10-04T21:55:02Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Fix missing space before command in `pages/libvirt-qemu.md`",
+          "description": "",
+          "author_name": "Benjamin Loison",
+          "author_email": "benjaminthekoala@gmail.com",
+          "change_id": "I3551bef042884fffbc0762a17115e05750c92e21",
+          "commit": "f816a2289f0229a556cd5cb9fe1765fea0eaec85",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/f816a2289f02",
+          "review_url": "https://review.lineageos.org/q/I3551bef042884fffbc0762a17115e05750c92e21"
+        }
+      ]
+    },
+    "ota": {
+      "logs": [
+        {
+          "datetime": "2025-10-10T02:51:24Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I97c78751263bb2b7b759c9a405a82763e0de9f6e",
+          "commit": "96fb1894aba36e38136c5f0f415fd6a587071a87",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/96fb1894aba3",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-03T07:33:19Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I893719b790c0cbf4ab2e45e60091c94fcaab1789",
+          "commit": "ff31558cadeb5d7e8205ded026d189d0d133d21f",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/ff31558cadeb",
+          "review_url": null
+        }
+      ]
+    },
+    "packages/inputmethods/LatinIME": {
+      "logs": [
+        {
+          "datetime": "2025-09-27T19:56:11Z",
+          "kind": "Normal",
+          "repo": "packages/inputmethods/LatinIME",
+          "title": "Update Turkish Keyboard Layout XML Files",
+          "description": "    Added a new key specification for the Turkish keyboard layout in rowkeys_turkish_f3.xml.\n    Adjusted key widths in rows_turkish_f.xml for better layout consistency:\n        Changed key width from 8.333%p to 8.711%p in the second row.\n        Updated key width from 8.75%p to 8.711%p in the third row.\n        Modified the width of the shift key from 15%p to 10.8%p for improved usability.\n    Ensured proper positioning of included layouts and visual insets for a more refined keyboard design.\n\nBefore: https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/image.png\n\nAfter: https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/photo_2025-09-25_21-36-25.jpg\n\nReference (from gboard): https://raw.githubusercontent.com/my-garbage-stuff/garbage-images/refs/heads/main/gboard.png",
+          "author_name": "sulincix",
+          "author_email": "parduscix@gmail.com",
+          "change_id": "I531adb6d4c1208b6dcac705315a236c06e2802b4",
+          "commit": "da5086c11933b5d90db83ec19d0c6fe51812d86c",
+          "commit_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c11933",
+          "review_url": "https://review.lineageos.org/q/I531adb6d4c1208b6dcac705315a236c06e2802b4"
+        }
+      ]
+    },
+    "patches": {
+      "logs": [
+        {
+          "datetime": "2025-10-07T03:53:24Z",
+          "kind": "Normal",
+          "repo": "patches",
+          "title": "Initial patch rebase for LineageOS 23",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I2a94a22f324646b6d6d418398b847fb305e993b4",
+          "commit": "958d52e13eabb38ff8eeb18ff14969807ec183bb",
+          "commit_url": "https://github.com/android-kxxt/android_patches/commit/958d52e13eab",
+          "review_url": null
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-10-10T02:44:07Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for lmi-2025-10-10-02-39-43-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I8ade0fc724b0091c4d7196d2466827b170d4ea80",
+          "commit": "106bac73c76ec6de1c8ee697e0f08da0eec210dd",
+          "commit_url": "https://github.com/android-kxxt/state/commit/106bac73c76e",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-10T02:43:38Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of lmi-2025-10-10-02-39-43-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Id685b8b172281f60fc129ca7ce13a4fd7bb61a2c",
+          "commit": "ea2e3f027287338aa24fc0de0000afc32523379b",
+          "commit_url": "https://github.com/android-kxxt/state/commit/ea2e3f027287",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-03T07:30:52Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2025-10-03-06-59-26-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I1c595f234871a209b2a044f36240519c9655c13c",
+          "commit": "615e3ba0279a09bf52f8abd246a2145fe4a749a8",
+          "commit_url": "https://github.com/android-kxxt/state/commit/615e3ba0279a",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-03T07:30:24Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-10-03-06-59-26-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I586bad30779b27dca76a162745a50bd94d4a8a25",
+          "commit": "f1a0d4c6bfb1dd4776fbdd26b8e8c88756530d7b",
+          "commit_url": "https://github.com/android-kxxt/state/commit/f1a0d4c6bfb1",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-03T06:53:38Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of lmi-2025-10-03-06-48-59-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I707315cc5c603c45cb00f3acf24efa33bd3cc9fc",
+          "commit": "97e6dd22e7e289608511b162a36cc9a406648ac1",
+          "commit_url": "https://github.com/android-kxxt/state/commit/97e6dd22e7e2",
+          "review_url": null
+        }
+      ]
+    }
+  }
+}
