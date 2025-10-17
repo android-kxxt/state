@@ -1,0 +1,1146 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2025-10-04T16:15:11Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "21 was fun but now it's done",
+      "description": "",
+      "author_name": "Nolen Johnson",
+      "author_email": "johnsonnolen@gmail.com",
+      "change_id": "Iea8b38107a4128e9e8ddaa71541a0bd6a1b4fd9e",
+      "commit": "c0e674a31daa98b7bb3ae17ab1a77839ca09cc12",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/c0e674a31daa",
+      "review_url": "https://review.lineageos.org/q/Iea8b38107a4128e9e8ddaa71541a0bd6a1b4fd9e"
+    },
+    {
+      "datetime": "2025-10-08T10:10:29Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "apns: Update for CTM(Macau)",
+      "description": "* Enable IPv6\n\nRef:\n[1]https://android.googlesource.com/device/sample/+/main/etc/apns-full-conf.xml\n[2]https://www.ctm.net/en-US/person/T31-010010230170/202010/f92bf17b7e184c2db8d4b809b2d1ec3b.html",
+      "author_name": "Flicker372",
+      "author_email": "flicker372@outlook.com",
+      "change_id": "I72a1fad8742ac1f8007398f9c6920923c728c152",
+      "commit": "ea91f9d4edd7c6ef27f9f05e82bb09499d23a83c",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d4edd7",
+      "review_url": "https://review.lineageos.org/q/I72a1fad8742ac1f8007398f9c6920923c728c152"
+    },
+    {
+      "datetime": "2025-10-10T02:43:38Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of lmi-2025-10-10-02-39-43-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Id685b8b172281f60fc129ca7ce13a4fd7bb61a2c",
+      "commit": "ea2e3f027287338aa24fc0de0000afc32523379b",
+      "commit_url": "https://github.com/android-kxxt/state/commit/ea2e3f027287",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T02:44:07Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for lmi-2025-10-10-02-39-43-test",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I8ade0fc724b0091c4d7196d2466827b170d4ea80",
+      "commit": "106bac73c76ec6de1c8ee697e0f08da0eec210dd",
+      "commit_url": "https://github.com/android-kxxt/state/commit/106bac73c76e",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T02:51:24Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I97c78751263bb2b7b759c9a405a82763e0de9f6e",
+      "commit": "96fb1894aba36e38136c5f0f415fd6a587071a87",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/96fb1894aba3",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T03:18:57Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-10-10-02-51-39-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ief4dcf767d7d84073a8a583c742f081f90a33746",
+      "commit": "0b56ae7dd801f6205c7d87601991a05e9592f111",
+      "commit_url": "https://github.com/android-kxxt/state/commit/0b56ae7dd801",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T03:19:26Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2025-10-10-02-51-39-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I622a896eb830eb63f6bf564e5275845d2841b5b7",
+      "commit": "06c11ed47d97760e791ec459ff954a40abfe4556",
+      "commit_url": "https://github.com/android-kxxt/state/commit/06c11ed47d97",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T03:22:25Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ifc0e9d702813cbf7b3bdff74f1ad50009d09e3f1",
+      "commit": "c135e07e473af778eedc95fae68c1f4d80939f3f",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/c135e07e473a",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-10T17:41:00Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: borneo: Update maintainers",
+      "description": "",
+      "author_name": "Deivid21",
+      "author_email": "david.parra.ignacio@gmail.com",
+      "change_id": "Ieab0f37e90b74d251f3b3dafe712404b104b0402",
+      "commit": "cef5f928ecd3ba7b69551826ce0d821583702f73",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cef5f928ecd3",
+      "review_url": "https://review.lineageos.org/q/Ieab0f37e90b74d251f3b3dafe712404b104b0402"
+    },
+    {
+      "datetime": "2025-10-10T18:04:34Z",
+      "kind": "Normal",
+      "repo": "frameworks/base",
+      "title": "services: core: wfd: extend check for qualcomm wfd jar",
+      "description": "Some BSPs have moved WfdCommon.jar out of the boot classpath\nand moved it to /system_ext/framework/.\n\nCheck the new location if the initial lookup fails.",
+      "author_name": "Alexander Martinz",
+      "author_email": "amartinz@shiftphones.com",
+      "change_id": "I78dff4bc649970e6c5608ae03f1789e30fc95c2f",
+      "commit": "e4fe97ca56e45d6a48f4fc4406a8abc5687416cf",
+      "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca56e4",
+      "review_url": "https://review.lineageos.org/q/I78dff4bc649970e6c5608ae03f1789e30fc95c2f"
+    },
+    {
+      "datetime": "2025-10-11T14:21:54Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Use `ab_copy_partitions` for aston",
+      "description": "Also, fix bad ships_fw usage while at it.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I361335f499efe366ee143162f30becf259b6e322",
+      "commit": "cb4b17e8ef1cdb05d5701c01576cfe0262fcd39a",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cb4b17e8ef1c",
+      "review_url": "https://review.lineageos.org/q/I361335f499efe366ee143162f30becf259b6e322"
+    },
+    {
+      "datetime": "2025-10-11T15:44:23Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "despite Google's best efforts",
+      "description": "",
+      "author_name": "Nolen Johnson",
+      "author_email": "johnsonnolen@gmail.com",
+      "change_id": "I9dea7e2d7f6ddc07ec789bb9018a88596887f08b",
+      "commit": "77a4942108fc98608919f6d5b4f5354e998fe898",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/77a4942108fc",
+      "review_url": "https://review.lineageos.org/q/I9dea7e2d7f6ddc07ec789bb9018a88596887f08b"
+    },
+    {
+      "datetime": "2025-10-11T16:13:36Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "LineageOS 23.0",
+      "description": "",
+      "author_name": "Nolen Johnson",
+      "author_email": "johnsonnolen@gmail.com",
+      "change_id": "I6a1498cc639c62396165d24fef4fb1b2539d3024",
+      "commit": "cd45b0f18ed6d341d1cf5d153e8abf29b8c5319a",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cd45b0f18ed6",
+      "review_url": "https://review.lineageos.org/q/I6a1498cc639c62396165d24fef4fb1b2539d3024"
+    },
+    {
+      "datetime": "2025-10-11T16:13:36Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Drop LineageOS 21.0",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I107a82a24808f8e70066e3c0cfa2f0e261b5d9ba",
+      "commit": "e7f718e149a99904c587dce68fddad3af2f0bbc3",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e7f718e149a9",
+      "review_url": "https://review.lineageos.org/q/I107a82a24808f8e70066e3c0cfa2f0e261b5d9ba"
+    },
+    {
+      "datetime": "2025-10-11T16:13:36Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Initial promotions to 23.0",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I7939bbf27de81c2adb85510e705c8c54458f6a41",
+      "commit": "20218fff3985663d285c084042ba05f5a3e64070",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/20218fff3985",
+      "review_url": "https://review.lineageos.org/q/I7939bbf27de81c2adb85510e705c8c54458f6a41"
+    },
+    {
+      "datetime": "2025-10-11T16:14:07Z",
+      "kind": "Normal",
+      "repo": "lineage/website",
+      "title": "LineageOS 23.0",
+      "description": "",
+      "author_name": "Nolen Johnson",
+      "author_email": "johnsonnolen@gmail.com",
+      "change_id": "I8a60ee0b367c0b3fed959d21d219d9aed7c88c2b",
+      "commit": "03fba08abb36431f86ff227a1f120db488ea7ff4",
+      "commit_url": "https://github.com/LineageOS/www/commit/03fba08abb36",
+      "review_url": "https://review.lineageos.org/q/I8a60ee0b367c0b3fed959d21d219d9aed7c88c2b"
+    },
+    {
+      "datetime": "2025-10-11T23:45:28Z",
+      "kind": "Normal",
+      "repo": "lineage/scripts",
+      "title": "device-deps-regenerator: Add lineage-23.0 branch",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I59baf49158eabb678aab99626295b2d28a449010",
+      "commit": "26194210cacb5dd7bac15a8a3e0411f644c3c0c7",
+      "commit_url": "https://github.com/LineageOS/scripts/commit/26194210cacb",
+      "review_url": "https://review.lineageos.org/q/I59baf49158eabb678aab99626295b2d28a449010"
+    },
+    {
+      "datetime": "2025-10-13T19:22:19Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "tucana: Promote to 23.0",
+      "description": "",
+      "author_name": "Alexander Baransky",
+      "author_email": "sanyapilot496@gmail.com",
+      "change_id": "I35f6cce7d64df405d3a526650c1f64417ab5bed6",
+      "commit": "1fb34476ccc33c4fb2adfb8ed95c9d879374cba0",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/1fb34476ccc3",
+      "review_url": "https://review.lineageos.org/q/I35f6cce7d64df405d3a526650c1f64417ab5bed6"
+    },
+    {
+      "datetime": "2025-10-13T19:22:43Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "devices: tucana: Promote to 23.0",
+      "description": "",
+      "author_name": "Alexander Baransky",
+      "author_email": "sanyapilot496@gmail.com",
+      "change_id": "Ida3d5c45ad128d712f04ab71102fa57114174990",
+      "commit": "b22a2046ef617497b7be5d833177db2b02819e58",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/b22a2046ef61",
+      "review_url": "https://review.lineageos.org/q/Ida3d5c45ad128d712f04ab71102fa57114174990"
+    },
+    {
+      "datetime": "2025-10-14T06:55:48Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ifd270cb9998bb5380343afa6939347f7afde06f2",
+      "commit": "a91a243147198700b550d69e3230387cca0fc8fb",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/a91a24314719",
+      "review_url": "https://review.lineageos.org/q/Ifd270cb9998bb5380343afa6939347f7afde06f2"
+    },
+    {
+      "datetime": "2025-10-14T14:04:17Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Spacewar: Promote to 23.0",
+      "description": "",
+      "author_name": "BrainKub",
+      "author_email": "fyhtjnt@gmail.com",
+      "change_id": "I419847721f1e0a3913d9acec123befc4df3fe960",
+      "commit": "8f71c763889b57a18e5c25140016ae06236a00f6",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/8f71c763889b",
+      "review_url": "https://review.lineageos.org/q/I419847721f1e0a3913d9acec123befc4df3fe960"
+    },
+    {
+      "datetime": "2025-10-14T14:08:03Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "devices: Spacewar: Promote to 23.0",
+      "description": "",
+      "author_name": "BrainKub",
+      "author_email": "fyhtjnt@gmail.com",
+      "change_id": "Ic0edc38387ee7dc118a5b9257dde433ff2d8a7d4",
+      "commit": "ec0106cccd98e0b358bd033d8110335eb8081a2f",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ec0106cccd98",
+      "review_url": "https://review.lineageos.org/q/Ic0edc38387ee7dc118a5b9257dde433ff2d8a7d4"
+    },
+    {
+      "datetime": "2025-10-15T08:31:42Z",
+      "kind": "Normal",
+      "repo": "lineage/charter",
+      "title": "device-support-requirements: Allow the usage of energy_aware and energy_step governors",
+      "description": "* energy_aware is shipped by default on s5e9925 and up (and possibly\n  some mid-range SoCs as well)\n* energy_step is the default governor on exynos9830",
+      "author_name": "ExtremeXT",
+      "author_email": "extremextdev@gmail.com",
+      "change_id": "Icf7a50bd8691262827ca75ca1c0131e5cd638c5b",
+      "commit": "cd37d09216be602fb0e5f836dc95466c9732666f",
+      "commit_url": "https://github.com/LineageOS/charter/commit/cd37d09216be",
+      "review_url": "https://review.lineageos.org/q/Icf7a50bd8691262827ca75ca1c0131e5cd638c5b"
+    },
+    {
+      "datetime": "2025-10-15T08:31:50Z",
+      "kind": "Normal",
+      "repo": "lineage/charter",
+      "title": "device-support-requirements: Allow the usage of ssg I/O scheduler",
+      "description": "* ssg is the default I/O scheduler on exynos2100 and up",
+      "author_name": "ExtremeXT",
+      "author_email": "extremextdev@gmail.com",
+      "change_id": "Icb587b11dda3d9b4a8ff8d12cd92b8c365203e6f",
+      "commit": "60e683956db76852dffe82fe841b19c5b621e624",
+      "commit_url": "https://github.com/LineageOS/charter/commit/60e683956db7",
+      "review_url": "https://review.lineageos.org/q/Icb587b11dda3d9b4a8ff8d12cd92b8c365203e6f"
+    },
+    {
+      "datetime": "2025-10-15T10:01:37Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 15-Oct-2025 10:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "I791383cbe05ef5fa743692c694575199d7d04742",
+      "commit": "b838e95f691f92617516edf243168d4799cabfed",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/b838e95f691f",
+      "review_url": "https://review.lineageos.org/q/I791383cbe05ef5fa743692c694575199d7d04742"
+    },
+    {
+      "datetime": "2025-10-15T23:30:46Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ie0573d8fead35cdf4d51c291a42e2601583942ad",
+      "commit": "8c535624cfb59ef6756ffd35be5482aa8eff6066",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/8c535624cfb5",
+      "review_url": "https://review.lineageos.org/q/Ie0573d8fead35cdf4d51c291a42e2601583942ad"
+    },
+    {
+      "datetime": "2025-10-16T04:15:34Z",
+      "kind": "Normal",
+      "repo": "frameworks/base",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I75eed7e2b2fba1ecd8c0117d12b9ed780a6d48cd",
+      "commit": "ce12674e7842b15ebde52c5bfd87b6ef79c38d03",
+      "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/ce12674e7842",
+      "review_url": "https://review.lineageos.org/q/I75eed7e2b2fba1ecd8c0117d12b9ed780a6d48cd"
+    },
+    {
+      "datetime": "2025-10-16T04:15:38Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Aperture",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I86378a80928abf9a6006ced582cd3021de5a78d3",
+      "commit": "12f690dbda8832081e6797280a4a9e912838d4e5",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690dbda88",
+      "review_url": "https://review.lineageos.org/q/I86378a80928abf9a6006ced582cd3021de5a78d3"
+    },
+    {
+      "datetime": "2025-10-16T04:15:38Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Camelot",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ib9674298dafb92f3ef7e75bd5f26b92915bb0c13",
+      "commit": "f3007f26412290e7b138e6c2d89ceaa53523e7bf",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f264122",
+      "review_url": "https://review.lineageos.org/q/Ib9674298dafb92f3ef7e75bd5f26b92915bb0c13"
+    },
+    {
+      "datetime": "2025-10-16T04:15:39Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Etar",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I0bb7338b72dcbda33cf69e196c60c387c840194f",
+      "commit": "d7da2d85adc162f14a22737fb69a766425c2ba22",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Etar/commit/d7da2d85adc1",
+      "review_url": "https://review.lineageos.org/q/I0bb7338b72dcbda33cf69e196c60c387c840194f"
+    },
+    {
+      "datetime": "2025-10-16T04:15:40Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Glimpse",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Iaf85319f0b602eda9f77f6a2af0d88c5ee86dc37",
+      "commit": "c20bdc7b0af23319958e1a6ae31764a5b4428248",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7b0af2",
+      "review_url": "https://review.lineageos.org/q/Iaf85319f0b602eda9f77f6a2af0d88c5ee86dc37"
+    },
+    {
+      "datetime": "2025-10-16T04:15:40Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I1f0c40d2917c6316b6fb85b7c74ca0e03e4df2c5",
+      "commit": "56497d98daa0bb4499a548c139ea89d47610f67e",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d98daa0",
+      "review_url": "https://review.lineageos.org/q/I1f0c40d2917c6316b6fb85b7c74ca0e03e4df2c5"
+    },
+    {
+      "datetime": "2025-10-16T04:15:41Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Recorder",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I18745adff3587a2ebbc0917c245b160d0d92ed9c",
+      "commit": "35cf18aaaf9aa1072b3692391e208a32d7530037",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/35cf18aaaf9a",
+      "review_url": "https://review.lineageos.org/q/I18745adff3587a2ebbc0917c245b160d0d92ed9c"
+    },
+    {
+      "datetime": "2025-10-16T04:15:41Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I65fbc9cababbb07daeeea9eb5425a6dc9ae86de8",
+      "commit": "36a44d6d5ceb48592c6c2d97d816ebb7a7bf694b",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6d5ceb",
+      "review_url": "https://review.lineageos.org/q/I65fbc9cababbb07daeeea9eb5425a6dc9ae86de8"
+    },
+    {
+      "datetime": "2025-10-16T04:15:42Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Updater",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I124dab5f25baee658a4f35a67857c0a087ba790f",
+      "commit": "2b23036a564f4000b42466abc48de11cff195c0c",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036a564f",
+      "review_url": "https://review.lineageos.org/q/I124dab5f25baee658a4f35a67857c0a087ba790f"
+    },
+    {
+      "datetime": "2025-10-16T10:01:54Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 16-Oct-2025 10:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "Ib5e94a93a088125a23710071ce2cfa0411c2657f",
+      "commit": "a050a59ba4de001de5d8cf1321f914d80cec2731",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/a050a59ba4de",
+      "review_url": "https://review.lineageos.org/q/Ib5e94a93a088125a23710071ce2cfa0411c2657f"
+    },
+    {
+      "datetime": "2025-10-16T16:05:06Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "hudson: Split aston models",
+      "description": "",
+      "author_name": "inferno0230",
+      "author_email": "mail@inferno0230.in",
+      "change_id": "Ia3146adb4cbcb021318c4895a5170b9385695136",
+      "commit": "d125237432af2ff4b71bf36d0405a31efd374cc8",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/d125237432af",
+      "review_url": "https://review.lineageos.org/q/Ia3146adb4cbcb021318c4895a5170b9385695136"
+    },
+    {
+      "datetime": "2025-10-16T17:50:23Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Split aston into variants",
+      "description": "",
+      "author_name": "inferno0230",
+      "author_email": "mail@inferno0230.in",
+      "change_id": "I4cb9eea653d071e3167b0197a36af712aa5938fd",
+      "commit": "925c95ca58e8ce3e325e463cc8aeeb79ad5c911c",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/925c95ca58e8",
+      "review_url": "https://review.lineageos.org/q/I4cb9eea653d071e3167b0197a36af712aa5938fd"
+    },
+    {
+      "datetime": "2025-10-16T23:30:39Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ie316c6852ffc804913b557a40701dc9c5b35f469",
+      "commit": "c30d8b986f26cd9986aad5c5df20b4d84f3c2220",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/c30d8b986f26",
+      "review_url": "https://review.lineageos.org/q/Ie316c6852ffc804913b557a40701dc9c5b35f469"
+    },
+    {
+      "datetime": "2025-10-17T01:00:32Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "hudson: Add Galaxy S20 Devices",
+      "description": "",
+      "author_name": "ExtremeXT",
+      "author_email": "extremextdev@gmail.com",
+      "change_id": "If69db441309f82b13c621182e408df1daed063a4",
+      "commit": "7a9f215d95af70f34c2cf02532140fdbd851b7a3",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/7a9f215d95af",
+      "review_url": "https://review.lineageos.org/q/If69db441309f82b13c621182e408df1daed063a4"
+    },
+    {
+      "datetime": "2025-10-17T01:41:00Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Add Galaxy S20 Devices",
+      "description": "",
+      "author_name": "ExtremeXT",
+      "author_email": "extremextdev@gmail.com",
+      "change_id": "Ie5863291b5b794b015f60523a9b2bf1455a84ce1",
+      "commit": "7987c5ea8eea2d05dfe71b0702ec4421f9700c7d",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/7987c5ea8eea",
+      "review_url": "https://review.lineageos.org/q/Ie5863291b5b794b015f60523a9b2bf1455a84ce1"
+    }
+  ],
+  "changes": {
+    "frameworks/base": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:34Z",
+          "kind": "Normal",
+          "repo": "frameworks/base",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I75eed7e2b2fba1ecd8c0117d12b9ed780a6d48cd",
+          "commit": "ce12674e7842b15ebde52c5bfd87b6ef79c38d03",
+          "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/ce12674e7842",
+          "review_url": "https://review.lineageos.org/q/I75eed7e2b2fba1ecd8c0117d12b9ed780a6d48cd"
+        },
+        {
+          "datetime": "2025-10-10T18:04:34Z",
+          "kind": "Normal",
+          "repo": "frameworks/base",
+          "title": "services: core: wfd: extend check for qualcomm wfd jar",
+          "description": "Some BSPs have moved WfdCommon.jar out of the boot classpath\nand moved it to /system_ext/framework/.\n\nCheck the new location if the initial lookup fails.",
+          "author_name": "Alexander Martinz",
+          "author_email": "amartinz@shiftphones.com",
+          "change_id": "I78dff4bc649970e6c5608ae03f1789e30fc95c2f",
+          "commit": "e4fe97ca56e45d6a48f4fc4406a8abc5687416cf",
+          "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca56e4",
+          "review_url": "https://review.lineageos.org/q/I78dff4bc649970e6c5608ae03f1789e30fc95c2f"
+        }
+      ]
+    },
+    "lineage/charter": {
+      "logs": [
+        {
+          "datetime": "2025-10-15T08:31:50Z",
+          "kind": "Normal",
+          "repo": "lineage/charter",
+          "title": "device-support-requirements: Allow the usage of ssg I/O scheduler",
+          "description": "* ssg is the default I/O scheduler on exynos2100 and up",
+          "author_name": "ExtremeXT",
+          "author_email": "extremextdev@gmail.com",
+          "change_id": "Icb587b11dda3d9b4a8ff8d12cd92b8c365203e6f",
+          "commit": "60e683956db76852dffe82fe841b19c5b621e624",
+          "commit_url": "https://github.com/LineageOS/charter/commit/60e683956db7",
+          "review_url": "https://review.lineageos.org/q/Icb587b11dda3d9b4a8ff8d12cd92b8c365203e6f"
+        },
+        {
+          "datetime": "2025-10-15T08:31:42Z",
+          "kind": "Normal",
+          "repo": "lineage/charter",
+          "title": "device-support-requirements: Allow the usage of energy_aware and energy_step governors",
+          "description": "* energy_aware is shipped by default on s5e9925 and up (and possibly\n  some mid-range SoCs as well)\n* energy_step is the default governor on exynos9830",
+          "author_name": "ExtremeXT",
+          "author_email": "extremextdev@gmail.com",
+          "change_id": "Icf7a50bd8691262827ca75ca1c0131e5cd638c5b",
+          "commit": "cd37d09216be602fb0e5f836dc95466c9732666f",
+          "commit_url": "https://github.com/LineageOS/charter/commit/cd37d09216be",
+          "review_url": "https://review.lineageos.org/q/Icf7a50bd8691262827ca75ca1c0131e5cd638c5b"
+        }
+      ]
+    },
+    "lineage/hudson": {
+      "logs": [
+        {
+          "datetime": "2025-10-17T01:00:32Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "hudson: Add Galaxy S20 Devices",
+          "description": "",
+          "author_name": "ExtremeXT",
+          "author_email": "extremextdev@gmail.com",
+          "change_id": "If69db441309f82b13c621182e408df1daed063a4",
+          "commit": "7a9f215d95af70f34c2cf02532140fdbd851b7a3",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/7a9f215d95af",
+          "review_url": "https://review.lineageos.org/q/If69db441309f82b13c621182e408df1daed063a4"
+        },
+        {
+          "datetime": "2025-10-16T23:30:39Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ie316c6852ffc804913b557a40701dc9c5b35f469",
+          "commit": "c30d8b986f26cd9986aad5c5df20b4d84f3c2220",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/c30d8b986f26",
+          "review_url": "https://review.lineageos.org/q/Ie316c6852ffc804913b557a40701dc9c5b35f469"
+        },
+        {
+          "datetime": "2025-10-16T16:05:06Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "hudson: Split aston models",
+          "description": "",
+          "author_name": "inferno0230",
+          "author_email": "mail@inferno0230.in",
+          "change_id": "Ia3146adb4cbcb021318c4895a5170b9385695136",
+          "commit": "d125237432af2ff4b71bf36d0405a31efd374cc8",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/d125237432af",
+          "review_url": "https://review.lineageos.org/q/Ia3146adb4cbcb021318c4895a5170b9385695136"
+        },
+        {
+          "datetime": "2025-10-15T23:30:46Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ie0573d8fead35cdf4d51c291a42e2601583942ad",
+          "commit": "8c535624cfb59ef6756ffd35be5482aa8eff6066",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/8c535624cfb5",
+          "review_url": "https://review.lineageos.org/q/Ie0573d8fead35cdf4d51c291a42e2601583942ad"
+        },
+        {
+          "datetime": "2025-10-14T14:04:17Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Spacewar: Promote to 23.0",
+          "description": "",
+          "author_name": "BrainKub",
+          "author_email": "fyhtjnt@gmail.com",
+          "change_id": "I419847721f1e0a3913d9acec123befc4df3fe960",
+          "commit": "8f71c763889b57a18e5c25140016ae06236a00f6",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/8f71c763889b",
+          "review_url": "https://review.lineageos.org/q/I419847721f1e0a3913d9acec123befc4df3fe960"
+        },
+        {
+          "datetime": "2025-10-14T06:55:48Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ifd270cb9998bb5380343afa6939347f7afde06f2",
+          "commit": "a91a243147198700b550d69e3230387cca0fc8fb",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/a91a24314719",
+          "review_url": "https://review.lineageos.org/q/Ifd270cb9998bb5380343afa6939347f7afde06f2"
+        },
+        {
+          "datetime": "2025-10-13T19:22:19Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "tucana: Promote to 23.0",
+          "description": "",
+          "author_name": "Alexander Baransky",
+          "author_email": "sanyapilot496@gmail.com",
+          "change_id": "I35f6cce7d64df405d3a526650c1f64417ab5bed6",
+          "commit": "1fb34476ccc33c4fb2adfb8ed95c9d879374cba0",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/1fb34476ccc3",
+          "review_url": "https://review.lineageos.org/q/I35f6cce7d64df405d3a526650c1f64417ab5bed6"
+        },
+        {
+          "datetime": "2025-10-11T15:44:23Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "despite Google's best efforts",
+          "description": "",
+          "author_name": "Nolen Johnson",
+          "author_email": "johnsonnolen@gmail.com",
+          "change_id": "I9dea7e2d7f6ddc07ec789bb9018a88596887f08b",
+          "commit": "77a4942108fc98608919f6d5b4f5354e998fe898",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/77a4942108fc",
+          "review_url": "https://review.lineageos.org/q/I9dea7e2d7f6ddc07ec789bb9018a88596887f08b"
+        },
+        {
+          "datetime": "2025-10-04T16:15:11Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "21 was fun but now it's done",
+          "description": "",
+          "author_name": "Nolen Johnson",
+          "author_email": "johnsonnolen@gmail.com",
+          "change_id": "Iea8b38107a4128e9e8ddaa71541a0bd6a1b4fd9e",
+          "commit": "c0e674a31daa98b7bb3ae17ab1a77839ca09cc12",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/c0e674a31daa",
+          "review_url": "https://review.lineageos.org/q/Iea8b38107a4128e9e8ddaa71541a0bd6a1b4fd9e"
+        }
+      ]
+    },
+    "lineage/mirror": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T10:01:54Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 16-Oct-2025 10:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "Ib5e94a93a088125a23710071ce2cfa0411c2657f",
+          "commit": "a050a59ba4de001de5d8cf1321f914d80cec2731",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/a050a59ba4de",
+          "review_url": "https://review.lineageos.org/q/Ib5e94a93a088125a23710071ce2cfa0411c2657f"
+        },
+        {
+          "datetime": "2025-10-15T10:01:37Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 15-Oct-2025 10:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "I791383cbe05ef5fa743692c694575199d7d04742",
+          "commit": "b838e95f691f92617516edf243168d4799cabfed",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/b838e95f691f",
+          "review_url": "https://review.lineageos.org/q/I791383cbe05ef5fa743692c694575199d7d04742"
+        }
+      ]
+    },
+    "lineage/scripts": {
+      "logs": [
+        {
+          "datetime": "2025-10-11T23:45:28Z",
+          "kind": "Normal",
+          "repo": "lineage/scripts",
+          "title": "device-deps-regenerator: Add lineage-23.0 branch",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I59baf49158eabb678aab99626295b2d28a449010",
+          "commit": "26194210cacb5dd7bac15a8a3e0411f644c3c0c7",
+          "commit_url": "https://github.com/LineageOS/scripts/commit/26194210cacb",
+          "review_url": "https://review.lineageos.org/q/I59baf49158eabb678aab99626295b2d28a449010"
+        }
+      ]
+    },
+    "lineage/website": {
+      "logs": [
+        {
+          "datetime": "2025-10-11T16:14:07Z",
+          "kind": "Normal",
+          "repo": "lineage/website",
+          "title": "LineageOS 23.0",
+          "description": "",
+          "author_name": "Nolen Johnson",
+          "author_email": "johnsonnolen@gmail.com",
+          "change_id": "I8a60ee0b367c0b3fed959d21d219d9aed7c88c2b",
+          "commit": "03fba08abb36431f86ff227a1f120db488ea7ff4",
+          "commit_url": "https://github.com/LineageOS/www/commit/03fba08abb36",
+          "review_url": "https://review.lineageos.org/q/I8a60ee0b367c0b3fed959d21d219d9aed7c88c2b"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-10-17T01:41:00Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Add Galaxy S20 Devices",
+          "description": "",
+          "author_name": "ExtremeXT",
+          "author_email": "extremextdev@gmail.com",
+          "change_id": "Ie5863291b5b794b015f60523a9b2bf1455a84ce1",
+          "commit": "7987c5ea8eea2d05dfe71b0702ec4421f9700c7d",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/7987c5ea8eea",
+          "review_url": "https://review.lineageos.org/q/Ie5863291b5b794b015f60523a9b2bf1455a84ce1"
+        },
+        {
+          "datetime": "2025-10-16T17:50:23Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Split aston into variants",
+          "description": "",
+          "author_name": "inferno0230",
+          "author_email": "mail@inferno0230.in",
+          "change_id": "I4cb9eea653d071e3167b0197a36af712aa5938fd",
+          "commit": "925c95ca58e8ce3e325e463cc8aeeb79ad5c911c",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/925c95ca58e8",
+          "review_url": "https://review.lineageos.org/q/I4cb9eea653d071e3167b0197a36af712aa5938fd"
+        },
+        {
+          "datetime": "2025-10-14T14:08:03Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "devices: Spacewar: Promote to 23.0",
+          "description": "",
+          "author_name": "BrainKub",
+          "author_email": "fyhtjnt@gmail.com",
+          "change_id": "Ic0edc38387ee7dc118a5b9257dde433ff2d8a7d4",
+          "commit": "ec0106cccd98e0b358bd033d8110335eb8081a2f",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ec0106cccd98",
+          "review_url": "https://review.lineageos.org/q/Ic0edc38387ee7dc118a5b9257dde433ff2d8a7d4"
+        },
+        {
+          "datetime": "2025-10-13T19:22:43Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "devices: tucana: Promote to 23.0",
+          "description": "",
+          "author_name": "Alexander Baransky",
+          "author_email": "sanyapilot496@gmail.com",
+          "change_id": "Ida3d5c45ad128d712f04ab71102fa57114174990",
+          "commit": "b22a2046ef617497b7be5d833177db2b02819e58",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/b22a2046ef61",
+          "review_url": "https://review.lineageos.org/q/Ida3d5c45ad128d712f04ab71102fa57114174990"
+        },
+        {
+          "datetime": "2025-10-11T16:13:36Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Initial promotions to 23.0",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I7939bbf27de81c2adb85510e705c8c54458f6a41",
+          "commit": "20218fff3985663d285c084042ba05f5a3e64070",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/20218fff3985",
+          "review_url": "https://review.lineageos.org/q/I7939bbf27de81c2adb85510e705c8c54458f6a41"
+        },
+        {
+          "datetime": "2025-10-11T16:13:36Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "LineageOS 23.0",
+          "description": "",
+          "author_name": "Nolen Johnson",
+          "author_email": "johnsonnolen@gmail.com",
+          "change_id": "I6a1498cc639c62396165d24fef4fb1b2539d3024",
+          "commit": "cd45b0f18ed6d341d1cf5d153e8abf29b8c5319a",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cd45b0f18ed6",
+          "review_url": "https://review.lineageos.org/q/I6a1498cc639c62396165d24fef4fb1b2539d3024"
+        },
+        {
+          "datetime": "2025-10-11T16:13:36Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Drop LineageOS 21.0",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I107a82a24808f8e70066e3c0cfa2f0e261b5d9ba",
+          "commit": "e7f718e149a99904c587dce68fddad3af2f0bbc3",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e7f718e149a9",
+          "review_url": "https://review.lineageos.org/q/I107a82a24808f8e70066e3c0cfa2f0e261b5d9ba"
+        },
+        {
+          "datetime": "2025-10-11T14:21:54Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Use `ab_copy_partitions` for aston",
+          "description": "Also, fix bad ships_fw usage while at it.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I361335f499efe366ee143162f30becf259b6e322",
+          "commit": "cb4b17e8ef1cdb05d5701c01576cfe0262fcd39a",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cb4b17e8ef1c",
+          "review_url": "https://review.lineageos.org/q/I361335f499efe366ee143162f30becf259b6e322"
+        },
+        {
+          "datetime": "2025-10-10T17:41:00Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: borneo: Update maintainers",
+          "description": "",
+          "author_name": "Deivid21",
+          "author_email": "david.parra.ignacio@gmail.com",
+          "change_id": "Ieab0f37e90b74d251f3b3dafe712404b104b0402",
+          "commit": "cef5f928ecd3ba7b69551826ce0d821583702f73",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/cef5f928ecd3",
+          "review_url": "https://review.lineageos.org/q/Ieab0f37e90b74d251f3b3dafe712404b104b0402"
+        }
+      ]
+    },
+    "ota": {
+      "logs": [
+        {
+          "datetime": "2025-10-10T03:22:25Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ifc0e9d702813cbf7b3bdff74f1ad50009d09e3f1",
+          "commit": "c135e07e473af778eedc95fae68c1f4d80939f3f",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/c135e07e473a",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-10T02:51:24Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for lmi (UNOFFICIAL, Test)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I97c78751263bb2b7b759c9a405a82763e0de9f6e",
+          "commit": "96fb1894aba36e38136c5f0f415fd6a587071a87",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/96fb1894aba3",
+          "review_url": null
+        }
+      ]
+    },
+    "packages/apps/Aperture": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:38Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Aperture",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I86378a80928abf9a6006ced582cd3021de5a78d3",
+          "commit": "12f690dbda8832081e6797280a4a9e912838d4e5",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690dbda88",
+          "review_url": "https://review.lineageos.org/q/I86378a80928abf9a6006ced582cd3021de5a78d3"
+        }
+      ]
+    },
+    "packages/apps/Camelot": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:38Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Camelot",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ib9674298dafb92f3ef7e75bd5f26b92915bb0c13",
+          "commit": "f3007f26412290e7b138e6c2d89ceaa53523e7bf",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f264122",
+          "review_url": "https://review.lineageos.org/q/Ib9674298dafb92f3ef7e75bd5f26b92915bb0c13"
+        }
+      ]
+    },
+    "packages/apps/Etar": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:39Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Etar",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I0bb7338b72dcbda33cf69e196c60c387c840194f",
+          "commit": "d7da2d85adc162f14a22737fb69a766425c2ba22",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Etar/commit/d7da2d85adc1",
+          "review_url": "https://review.lineageos.org/q/I0bb7338b72dcbda33cf69e196c60c387c840194f"
+        }
+      ]
+    },
+    "packages/apps/Glimpse": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:40Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Glimpse",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Iaf85319f0b602eda9f77f6a2af0d88c5ee86dc37",
+          "commit": "c20bdc7b0af23319958e1a6ae31764a5b4428248",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7b0af2",
+          "review_url": "https://review.lineageos.org/q/Iaf85319f0b602eda9f77f6a2af0d88c5ee86dc37"
+        }
+      ]
+    },
+    "packages/apps/LineageParts": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:40Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I1f0c40d2917c6316b6fb85b7c74ca0e03e4df2c5",
+          "commit": "56497d98daa0bb4499a548c139ea89d47610f67e",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d98daa0",
+          "review_url": "https://review.lineageos.org/q/I1f0c40d2917c6316b6fb85b7c74ca0e03e4df2c5"
+        }
+      ]
+    },
+    "packages/apps/Recorder": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:41Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Recorder",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I18745adff3587a2ebbc0917c245b160d0d92ed9c",
+          "commit": "35cf18aaaf9aa1072b3692391e208a32d7530037",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/35cf18aaaf9a",
+          "review_url": "https://review.lineageos.org/q/I18745adff3587a2ebbc0917c245b160d0d92ed9c"
+        }
+      ]
+    },
+    "packages/apps/Twelve": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:41Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I65fbc9cababbb07daeeea9eb5425a6dc9ae86de8",
+          "commit": "36a44d6d5ceb48592c6c2d97d816ebb7a7bf694b",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6d5ceb",
+          "review_url": "https://review.lineageos.org/q/I65fbc9cababbb07daeeea9eb5425a6dc9ae86de8"
+        }
+      ]
+    },
+    "packages/apps/Updater": {
+      "logs": [
+        {
+          "datetime": "2025-10-16T04:15:42Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Updater",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I124dab5f25baee658a4f35a67857c0a087ba790f",
+          "commit": "2b23036a564f4000b42466abc48de11cff195c0c",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036a564f",
+          "review_url": "https://review.lineageos.org/q/I124dab5f25baee658a4f35a67857c0a087ba790f"
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-10-10T03:19:26Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2025-10-10-02-51-39-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I622a896eb830eb63f6bf564e5275845d2841b5b7",
+          "commit": "06c11ed47d97760e791ec459ff954a40abfe4556",
+          "commit_url": "https://github.com/android-kxxt/state/commit/06c11ed47d97",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-10T03:18:57Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-10-10-02-51-39-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ief4dcf767d7d84073a8a583c742f081f90a33746",
+          "commit": "0b56ae7dd801f6205c7d87601991a05e9592f111",
+          "commit_url": "https://github.com/android-kxxt/state/commit/0b56ae7dd801",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-10T02:44:07Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for lmi-2025-10-10-02-39-43-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I8ade0fc724b0091c4d7196d2466827b170d4ea80",
+          "commit": "106bac73c76ec6de1c8ee697e0f08da0eec210dd",
+          "commit_url": "https://github.com/android-kxxt/state/commit/106bac73c76e",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-10T02:43:38Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of lmi-2025-10-10-02-39-43-test",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Id685b8b172281f60fc129ca7ce13a4fd7bb61a2c",
+          "commit": "ea2e3f027287338aa24fc0de0000afc32523379b",
+          "commit_url": "https://github.com/android-kxxt/state/commit/ea2e3f027287",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/lineage": {
+      "logs": [
+        {
+          "datetime": "2025-10-08T10:10:29Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "apns: Update for CTM(Macau)",
+          "description": "* Enable IPv6\n\nRef:\n[1]https://android.googlesource.com/device/sample/+/main/etc/apns-full-conf.xml\n[2]https://www.ctm.net/en-US/person/T31-010010230170/202010/f92bf17b7e184c2db8d4b809b2d1ec3b.html",
+          "author_name": "Flicker372",
+          "author_email": "flicker372@outlook.com",
+          "change_id": "I72a1fad8742ac1f8007398f9c6920923c728c152",
+          "commit": "ea91f9d4edd7c6ef27f9f05e82bb09499d23a83c",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d4edd7",
+          "review_url": "https://review.lineageos.org/q/I72a1fad8742ac1f8007398f9c6920923c728c152"
+        }
+      ]
+    }
+  }
+}
