@@ -1,6 +1,966 @@
 {
   "added_repos": {},
   "removed_repos": {},
-  "log": [],
-  "changes": {}
+  "log": [
+    {
+      "datetime": "2025-10-22T09:40:54Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: config: Enable HW Rounded corner",
+      "description": "",
+      "author_name": "Ravi Ranjan",
+      "author_email": "rravi@codeaurora.org",
+      "change_id": "Ia36658077c074c5e959c75fcee9835e80028276d",
+      "commit": "c795e36cb7f308cf6b07f3c366250567bb80570e",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/c795e36cb7f3",
+      "review_url": "https://review.lineageos.org/q/Ia36658077c074c5e959c75fcee9835e80028276d"
+    },
+    {
+      "datetime": "2025-10-23T09:25:25Z",
+      "kind": "Normal",
+      "repo": "hardware/lineage/interfaces",
+      "title": "livedisplay: sysfs: chown on boot as well",
+      "description": "",
+      "author_name": "Giovanni Ricca",
+      "author_email": "giovanniricca@proton.me",
+      "change_id": "Ie1619d19b2b928f8cbaa014730f344399e5fe310",
+      "commit": "7d86725b9b202b7ef43c4466ba73de6707ecf3cb",
+      "commit_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d86725b9b20",
+      "review_url": "https://review.lineageos.org/q/Ie1619d19b2b928f8cbaa014730f344399e5fe310"
+    },
+    {
+      "datetime": "2025-10-24T07:56:52Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "fixup",
+      "description": "",
+      "author_name": "Levi Zim",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ibe262e02d7de2ae0f8f831263397c4bb5400a494",
+      "commit": "d5eb3ff39609806530a910d020d1620169a88fde",
+      "commit_url": "https://github.com/android-kxxt/state/commit/d5eb3ff39609",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-24T07:59:59Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2025-10-24-02-57-34-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I7ba298199870e4331aa6b419d3710c6723c100f0",
+      "commit": "e42a0b00a42d4811075f15235b6605984557f7b4",
+      "commit_url": "https://github.com/android-kxxt/state/commit/e42a0b00a42d",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-24T14:35:26Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/mondrian",
+      "title": "mondrian: Decommonize vendor security patch level",
+      "description": "This should be the minimum of all vendor components, including firmware\nand device specific blobs. We can assume the sm8450-common blobs to be\nthe latest available for any device using this tree. Thus, setting this\nfrom the device specific trees according to the stock rom correctly\nsets the patch to the minimum of the vendor blobs.",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I873011e3abdac42d89120b8b2ef5b77f61f6a15b",
+      "commit": "23cc1878e4558486530cab1de7940356707057e3",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/23cc1878e455",
+      "review_url": "https://review.lineageos.org/q/I873011e3abdac42d89120b8b2ef5b77f61f6a15b"
+    },
+    {
+      "datetime": "2025-10-24T14:55:58Z",
+      "kind": "Normal",
+      "repo": "vendor/xiaomi/mondrian",
+      "title": "mondrian: Update blobs and firmware from OS2.0.207.0.VMNMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Iee4c5e4d614e7c62d04f65a5a944ecbb8169139a",
+      "commit": "957ec67daa14862b3bfe7c442bedf3ee5e87683a",
+      "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_mondrian/commit/957ec67daa14",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-24T15:07:51Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/mondrian",
+      "title": "mondrian: Update blobs and firmware from OS2.0.207.0.VMNMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I11b1d232748a60da56b1e78e34aaf2f7c7d3afd0",
+      "commit": "58996616f032801c5fad4af5a615083655a9bbac",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/58996616f032",
+      "review_url": "https://review.lineageos.org/q/I11b1d232748a60da56b1e78e34aaf2f7c7d3afd0"
+    },
+    {
+      "datetime": "2025-10-24T15:35:20Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "apns: Add Altel and Tele2",
+      "description": "Carrier documentation:\n[1]https://altel.kz/new/helps/settings\n[2]https://tele2.kz/help/d/11\n\nThird-party ref:\nhttps://apn.how/kz/tele2-altel",
+      "author_name": "tejas101k",
+      "author_email": "tejassingh649@rediffmail.com",
+      "change_id": "I94ceef2d10aff5573946827736644578ad625273",
+      "commit": "327eacafd389668042fd4e1fdef86b3706fe6732",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/327eacafd389",
+      "review_url": "https://review.lineageos.org/q/I94ceef2d10aff5573946827736644578ad625273"
+    },
+    {
+      "datetime": "2025-10-24T22:52:38Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "firmware_update_oplus: Filter out oplusstanvbk for tablets",
+      "description": "",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "Ifc3654e8a35c46732a39d6fdc5ec14bbd8695b72",
+      "commit": "773dd834500b9a27350a261288337278b46027dd",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/773dd834500b",
+      "review_url": "https://review.lineageos.org/q/Ifc3654e8a35c46732a39d6fdc5ec14bbd8695b72"
+    },
+    {
+      "datetime": "2025-10-25T06:53:52Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "apns: Add KKTCell APNs",
+      "description": "Northern Cyprus version of Turkcell.",
+      "author_name": "Atakan",
+      "author_email": "ata.kaner03@gmail.com",
+      "change_id": "Ib7457577ff5954937d3e06e2720e34af2ef7a13c",
+      "commit": "13c54044bab58fdf9a0bb0af7c3e2e89fd15c898",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/13c54044bab5",
+      "review_url": "https://review.lineageos.org/q/Ib7457577ff5954937d3e06e2720e34af2ef7a13c"
+    },
+    {
+      "datetime": "2025-10-25T06:53:52Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "apns: Update APNs of Turkish carriers",
+      "description": "Reference for Turkcell: https://www.turkcell.com.tr/yardim/cihazlar/samsung-galaxy-s25-ultra-yardim#internet-ayarlari\n\nOther carriers were obtained by comparing APN configs from various OEMs.",
+      "author_name": "Atakan",
+      "author_email": "ata.kaner03@gmail.com",
+      "change_id": "I70292b3e0163532bd6ecadda7e27b13121b16f1d",
+      "commit": "7f2f42fc11e757fab834d632f07e456786ceec30",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/7f2f42fc11e7",
+      "review_url": "https://review.lineageos.org/q/I70292b3e0163532bd6ecadda7e27b13121b16f1d"
+    },
+    {
+      "datetime": "2025-10-25T21:23:06Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Add wikipedia links to IMS quirk description",
+      "description": "Also, VoWi-Fi -> VoWiFi while at it.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Ibe3a5246b737d9fdcd5741298b8b7096b9f6c21e",
+      "commit": "ce1c8fe873589cee174649da513dd49944e83e86",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe87358",
+      "review_url": "https://review.lineageos.org/q/Ibe3a5246b737d9fdcd5741298b8b7096b9f6c21e"
+    },
+    {
+      "datetime": "2025-10-26T11:19:08Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Set executable permission on extract-files.py",
+      "description": "We can extract only the common blobs without the need of using a device\nspecific extract-files.py.",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I556327ebcb74199fe6bf7ad358500fcdf1da530a",
+      "commit": "e6ff015fa93ff9531f165d68df25e8aed47fb546",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/e6ff015fa93f",
+      "review_url": "https://review.lineageos.org/q/I556327ebcb74199fe6bf7ad358500fcdf1da530a"
+    },
+    {
+      "datetime": "2025-10-26T11:27:45Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Cleanup batterysecret rules using wakelock_use macro",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Icfd14fc1b4e8772185c99fba2eceed1f424f8ea8",
+      "commit": "1920c12a055b3a07b1acb8e11b8f900c9d7106d3",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/1920c12a055b",
+      "review_url": "https://review.lineageos.org/q/Icfd14fc1b4e8772185c99fba2eceed1f424f8ea8"
+    },
+    {
+      "datetime": "2025-10-26T11:27:45Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Drop unused Goodix touchscreen wakeup label",
+      "description": "Not needed since using Qualcomm's Goodix touchscreen driver.",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "Id799966233c45dd606933cf7ace6372b137c5d69",
+      "commit": "f346ffe78b8cc8b3fde818a3ba7d4a75accf7783",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/f346ffe78b8c",
+      "review_url": "https://review.lineageos.org/q/Id799966233c45dd606933cf7ace6372b137c5d69"
+    },
+    {
+      "datetime": "2025-10-26T11:27:45Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Drop unused qcom-battery sysfs rules",
+      "description": "",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "Ibee4bbb0a8d044b813c6d6f07859b27fecd32b7b",
+      "commit": "61617bb99bc706f441190b93e810b7059e0b4624",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/61617bb99bc7",
+      "review_url": "https://review.lineageos.org/q/Ibee4bbb0a8d044b813c6d6f07859b27fecd32b7b"
+    },
+    {
+      "datetime": "2025-10-26T11:34:47Z",
+      "kind": "Normal",
+      "repo": "vendor/xiaomi/sm8450-common",
+      "title": "sm8450-common: Update blobs and firmware from OS2.0.204.0.VLFMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I271abd61c57087366c4ed1f265874e1a348014b6",
+      "commit": "32bf6adf3c28905f0e482c004ecad41e087d3d2b",
+      "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_sm8450-common/commit/32bf6adf3c28",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-26T12:09:08Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Cleanup audio related policies",
+      "description": "",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "I770d24a339378e400187e9a05637d1dd99b8ff89",
+      "commit": "464774b50c9131006740de543dc30be4cd57c99e",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/464774b50c91",
+      "review_url": "https://review.lineageos.org/q/I770d24a339378e400187e9a05637d1dd99b8ff89"
+    },
+    {
+      "datetime": "2025-10-26T12:09:12Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Drop unused thermal_zone87 temp label",
+      "description": "Stock audio.primary.taro.so used to reference\n/sys/class/thermal/thermal_zone87/temp, but this is already labelled by\nsepolicy_vndr and it's not used with source built audio hal anymore.",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "I41ea17e86f61d18abe82af5be2c6b1a8ba25920a",
+      "commit": "e454f298c66199fcd65bd4cb0eded724d258712d",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/e454f298c661",
+      "review_url": "https://review.lineageos.org/q/I41ea17e86f61d18abe82af5be2c6b1a8ba25920a"
+    },
+    {
+      "datetime": "2025-10-26T12:10:06Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Correct audio hal socket rules and use unix_socket_connect macro",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I89147ef389a2a5cc62717fb2c7579d7d68f0bdc9",
+      "commit": "d097013a6f1b24bafd2bb0b0df061d1aa1a2f132",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/d097013a6f1b",
+      "review_url": "https://review.lineageos.org/q/I89147ef389a2a5cc62717fb2c7579d7d68f0bdc9"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Align verified boot algorithms and rollback indices with stock",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Ied5b6614a1ba6821afef2c6b122128e6619d8f08",
+      "commit": "ae65f2d33bf2ea0f8944b3f1f381c29ee81337b7",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/ae65f2d33bf2",
+      "review_url": "https://review.lineageos.org/q/Ied5b6614a1ba6821afef2c6b122128e6619d8f08"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Decommonize vendor security patch level",
+      "description": "This should be the minimum of all vendor components, including firmware\nand device specific blobs. We can assume the sm8450-common blobs to be\nthe latest available for any device using this tree. Thus, setting this\nfrom the device specific trees according to the stock rom correctly\nsets the patch to the minimum of the vendor blobs.",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I873011e3abdac42d89120b8b2ef5b77f61f6a15b",
+      "commit": "74187ce0f572c2353435002b98468cad97816ae7",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/74187ce0f572",
+      "review_url": "https://review.lineageos.org/q/I873011e3abdac42d89120b8b2ef5b77f61f6a15b"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Remove software OMX blobs",
+      "description": "Default to C2 codecs from swcodec apex.",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I32f0b0abe680c1f350268115a3cc5488a2a57ec3",
+      "commit": "aab9c9b56255e95ec1048bf5327131daad9d23dd",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/aab9c9b56255",
+      "review_url": "https://review.lineageos.org/q/I32f0b0abe680c1f350268115a3cc5488a2a57ec3"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Update blobs and firmware from OS2.0.204.0.VLFMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Ic07f0997626343c2df9905de808fb2fab66857d4",
+      "commit": "da8f1abaf56b3d1fa10c9b5ae2e51703442e2925",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/da8f1abaf56b",
+      "review_url": "https://review.lineageos.org/q/Ic07f0997626343c2df9905de808fb2fab66857d4"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Use vendor enhanced media codecs for cape and taro",
+      "description": "CLO loads the the _vendor prefixed versions of the configs and the cape\nand taro configs load media_codecs_system_default.xml and dolby codecs,\nbut since we don't want dolby codecs just copy the\nmedia_codecs_system_default.xml directly.",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Ib323cf8ea3d2d0124c48ef188dc805f4f80d2616",
+      "commit": "abbcdffed8aaae81fa065b3d65360ed2fe5867fd",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/abbcdffed8aa",
+      "review_url": "https://review.lineageos.org/q/Ib323cf8ea3d2d0124c48ef188dc805f4f80d2616"
+    },
+    {
+      "datetime": "2025-10-26T12:10:11Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Allow camera HAL to find quickcamera HAL",
+      "description": "Fixes SELinux denied:\nE SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.quickcamera::IQuickCameraService sid=u:r:hal_camera_default:s0 pid=1341 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:hal_quickcamera_hwservice:s0 tclass=hwservice_manager permissive=0",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "I35befcb5eb71f0aa880d43f6ad810ec64cb13889",
+      "commit": "56fe494cc7953dde33e65816cccf3201ee041884",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/56fe494cc795",
+      "review_url": "https://review.lineageos.org/q/I35befcb5eb71f0aa880d43f6ad810ec64cb13889"
+    },
+    {
+      "datetime": "2025-10-27T08:32:45Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "apn: Add finetwork",
+      "description": "From https://blog.finetwork.com/configurar-apn-finetwork-movil and MIUI",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I6ea99da32e4f688cab2dc43335393c07caf9e275",
+      "commit": "a13626ad899607f6aa3cc3a8780db719af996223",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a13626ad8996",
+      "review_url": "https://review.lineageos.org/q/I6ea99da32e4f688cab2dc43335393c07caf9e275"
+    },
+    {
+      "datetime": "2025-10-27T23:01:28Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 27-Oct-2025 23:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "I41b295d73ba589e41ccb3d5b67c40bac5ef3064a",
+      "commit": "ba1a2437a4580e32b096b343e4173fe614dc2772",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/ba1a2437a458",
+      "review_url": "https://review.lineageos.org/q/I41b295d73ba589e41ccb3d5b67c40bac5ef3064a"
+    },
+    {
+      "datetime": "2025-10-27T23:30:44Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I00310bf2c8abb0e937fb358e50fa596d52f44b52",
+      "commit": "8b59fe9a6eb6d302cfa925bee8dde3c61297b835",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/8b59fe9a6eb6",
+      "review_url": "https://review.lineageos.org/q/I00310bf2c8abb0e937fb358e50fa596d52f44b52"
+    },
+    {
+      "datetime": "2025-10-28T00:01:29Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I3a3e3d7bbce65c8193b5318a65ff70b386a2a703",
+      "commit": "9bcfeed7d122c6955b696464073c1a2d8959a5b6",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed7d122",
+      "review_url": "https://review.lineageos.org/q/I3a3e3d7bbce65c8193b5318a65ff70b386a2a703"
+    },
+    {
+      "datetime": "2025-10-28T00:10:06Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: moto-sm6225: Update maintainers & models",
+      "description": "",
+      "author_name": "Deivid21",
+      "author_email": "david.parra.ignacio@gmail.com",
+      "change_id": "I72bb48908416f77a81063020316627304eb92815",
+      "commit": "5d68c6b8b77ef3763630ea1e17db6c6c3e47924d",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b8b77e",
+      "review_url": "https://review.lineageos.org/q/I72bb48908416f77a81063020316627304eb92815"
+    },
+    {
+      "datetime": "2025-10-28T08:18:03Z",
+      "kind": "Normal",
+      "repo": "vendor/qcom/opensource/vibrator",
+      "title": "vibrator: Add support for aw-haptic-hv",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Ib453fa1a1f93f6b073a5348c2e2b29c3d249c644",
+      "commit": "a3629984b613e589c2fc07656d38558643f5aaee",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a3629984b613",
+      "review_url": "https://review.lineageos.org/q/Ib453fa1a1f93f6b073a5348c2e2b29c3d249c644"
+    },
+    {
+      "datetime": "2025-10-29T14:41:39Z",
+      "kind": "Normal",
+      "repo": "vendor/partner_gms",
+      "title": "Update FDroid to 1.23.1",
+      "description": "",
+      "author_name": "Martin Matuska",
+      "author_email": "martin@matuska.de",
+      "change_id": null,
+      "commit": "7d5b2a68434fa3507e412f07910d430311d58fb5",
+      "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/7d5b2a68434f",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-29T14:41:39Z",
+      "kind": "Normal",
+      "repo": "vendor/partner_gms",
+      "title": "Update FakeStore to 0.3.9",
+      "description": "",
+      "author_name": "Pete Fotheringham",
+      "author_email": "petefoth@e.email",
+      "change_id": null,
+      "commit": "66099f9f61abd2cdb6a1d701da26b5f9c4979876",
+      "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/66099f9f61ab",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-10-29T14:41:39Z",
+      "kind": "Normal",
+      "repo": "vendor/partner_gms",
+      "title": "Update GmsCore to 0.3.9",
+      "description": "",
+      "author_name": "Pete Fotheringham",
+      "author_email": "petefoth@e.email",
+      "change_id": null,
+      "commit": "e788cd922dc4b953789b7280ddbf536a8caa54bb",
+      "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/e788cd922dc4",
+      "review_url": null
+    }
+  ],
+  "changes": {
+    "device/xiaomi/mondrian": {
+      "logs": [
+        {
+          "datetime": "2025-10-24T15:07:51Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/mondrian",
+          "title": "mondrian: Update blobs and firmware from OS2.0.207.0.VMNMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I11b1d232748a60da56b1e78e34aaf2f7c7d3afd0",
+          "commit": "58996616f032801c5fad4af5a615083655a9bbac",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/58996616f032",
+          "review_url": "https://review.lineageos.org/q/I11b1d232748a60da56b1e78e34aaf2f7c7d3afd0"
+        },
+        {
+          "datetime": "2025-10-24T14:35:26Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/mondrian",
+          "title": "mondrian: Decommonize vendor security patch level",
+          "description": "This should be the minimum of all vendor components, including firmware\nand device specific blobs. We can assume the sm8450-common blobs to be\nthe latest available for any device using this tree. Thus, setting this\nfrom the device specific trees according to the stock rom correctly\nsets the patch to the minimum of the vendor blobs.",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I873011e3abdac42d89120b8b2ef5b77f61f6a15b",
+          "commit": "23cc1878e4558486530cab1de7940356707057e3",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/23cc1878e455",
+          "review_url": "https://review.lineageos.org/q/I873011e3abdac42d89120b8b2ef5b77f61f6a15b"
+        }
+      ]
+    },
+    "device/xiaomi/sm8450-common": {
+      "logs": [
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Update blobs and firmware from OS2.0.204.0.VLFMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Ic07f0997626343c2df9905de808fb2fab66857d4",
+          "commit": "da8f1abaf56b3d1fa10c9b5ae2e51703442e2925",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/da8f1abaf56b",
+          "review_url": "https://review.lineageos.org/q/Ic07f0997626343c2df9905de808fb2fab66857d4"
+        },
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Decommonize vendor security patch level",
+          "description": "This should be the minimum of all vendor components, including firmware\nand device specific blobs. We can assume the sm8450-common blobs to be\nthe latest available for any device using this tree. Thus, setting this\nfrom the device specific trees according to the stock rom correctly\nsets the patch to the minimum of the vendor blobs.",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I873011e3abdac42d89120b8b2ef5b77f61f6a15b",
+          "commit": "74187ce0f572c2353435002b98468cad97816ae7",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/74187ce0f572",
+          "review_url": "https://review.lineageos.org/q/I873011e3abdac42d89120b8b2ef5b77f61f6a15b"
+        },
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Align verified boot algorithms and rollback indices with stock",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Ied5b6614a1ba6821afef2c6b122128e6619d8f08",
+          "commit": "ae65f2d33bf2ea0f8944b3f1f381c29ee81337b7",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/ae65f2d33bf2",
+          "review_url": "https://review.lineageos.org/q/Ied5b6614a1ba6821afef2c6b122128e6619d8f08"
+        },
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Use vendor enhanced media codecs for cape and taro",
+          "description": "CLO loads the the _vendor prefixed versions of the configs and the cape\nand taro configs load media_codecs_system_default.xml and dolby codecs,\nbut since we don't want dolby codecs just copy the\nmedia_codecs_system_default.xml directly.",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Ib323cf8ea3d2d0124c48ef188dc805f4f80d2616",
+          "commit": "abbcdffed8aaae81fa065b3d65360ed2fe5867fd",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/abbcdffed8aa",
+          "review_url": "https://review.lineageos.org/q/Ib323cf8ea3d2d0124c48ef188dc805f4f80d2616"
+        },
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Remove software OMX blobs",
+          "description": "Default to C2 codecs from swcodec apex.",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I32f0b0abe680c1f350268115a3cc5488a2a57ec3",
+          "commit": "aab9c9b56255e95ec1048bf5327131daad9d23dd",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/aab9c9b56255",
+          "review_url": "https://review.lineageos.org/q/I32f0b0abe680c1f350268115a3cc5488a2a57ec3"
+        },
+        {
+          "datetime": "2025-10-26T12:10:11Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Allow camera HAL to find quickcamera HAL",
+          "description": "Fixes SELinux denied:\nE SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.quickcamera::IQuickCameraService sid=u:r:hal_camera_default:s0 pid=1341 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:hal_quickcamera_hwservice:s0 tclass=hwservice_manager permissive=0",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "I35befcb5eb71f0aa880d43f6ad810ec64cb13889",
+          "commit": "56fe494cc7953dde33e65816cccf3201ee041884",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/56fe494cc795",
+          "review_url": "https://review.lineageos.org/q/I35befcb5eb71f0aa880d43f6ad810ec64cb13889"
+        },
+        {
+          "datetime": "2025-10-26T12:10:06Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Correct audio hal socket rules and use unix_socket_connect macro",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I89147ef389a2a5cc62717fb2c7579d7d68f0bdc9",
+          "commit": "d097013a6f1b24bafd2bb0b0df061d1aa1a2f132",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/d097013a6f1b",
+          "review_url": "https://review.lineageos.org/q/I89147ef389a2a5cc62717fb2c7579d7d68f0bdc9"
+        },
+        {
+          "datetime": "2025-10-26T12:09:12Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Drop unused thermal_zone87 temp label",
+          "description": "Stock audio.primary.taro.so used to reference\n/sys/class/thermal/thermal_zone87/temp, but this is already labelled by\nsepolicy_vndr and it's not used with source built audio hal anymore.",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "I41ea17e86f61d18abe82af5be2c6b1a8ba25920a",
+          "commit": "e454f298c66199fcd65bd4cb0eded724d258712d",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/e454f298c661",
+          "review_url": "https://review.lineageos.org/q/I41ea17e86f61d18abe82af5be2c6b1a8ba25920a"
+        },
+        {
+          "datetime": "2025-10-26T12:09:08Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Cleanup audio related policies",
+          "description": "",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "I770d24a339378e400187e9a05637d1dd99b8ff89",
+          "commit": "464774b50c9131006740de543dc30be4cd57c99e",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/464774b50c91",
+          "review_url": "https://review.lineageos.org/q/I770d24a339378e400187e9a05637d1dd99b8ff89"
+        },
+        {
+          "datetime": "2025-10-26T11:27:45Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Drop unused Goodix touchscreen wakeup label",
+          "description": "Not needed since using Qualcomm's Goodix touchscreen driver.",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "Id799966233c45dd606933cf7ace6372b137c5d69",
+          "commit": "f346ffe78b8cc8b3fde818a3ba7d4a75accf7783",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/f346ffe78b8c",
+          "review_url": "https://review.lineageos.org/q/Id799966233c45dd606933cf7ace6372b137c5d69"
+        },
+        {
+          "datetime": "2025-10-26T11:27:45Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Cleanup batterysecret rules using wakelock_use macro",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Icfd14fc1b4e8772185c99fba2eceed1f424f8ea8",
+          "commit": "1920c12a055b3a07b1acb8e11b8f900c9d7106d3",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/1920c12a055b",
+          "review_url": "https://review.lineageos.org/q/Icfd14fc1b4e8772185c99fba2eceed1f424f8ea8"
+        },
+        {
+          "datetime": "2025-10-26T11:27:45Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Drop unused qcom-battery sysfs rules",
+          "description": "",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "Ibee4bbb0a8d044b813c6d6f07859b27fecd32b7b",
+          "commit": "61617bb99bc706f441190b93e810b7059e0b4624",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/61617bb99bc7",
+          "review_url": "https://review.lineageos.org/q/Ibee4bbb0a8d044b813c6d6f07859b27fecd32b7b"
+        },
+        {
+          "datetime": "2025-10-26T11:19:08Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Set executable permission on extract-files.py",
+          "description": "We can extract only the common blobs without the need of using a device\nspecific extract-files.py.",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I556327ebcb74199fe6bf7ad358500fcdf1da530a",
+          "commit": "e6ff015fa93ff9531f165d68df25e8aed47fb546",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/e6ff015fa93f",
+          "review_url": "https://review.lineageos.org/q/I556327ebcb74199fe6bf7ad358500fcdf1da530a"
+        },
+        {
+          "datetime": "2025-10-22T09:40:54Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: config: Enable HW Rounded corner",
+          "description": "",
+          "author_name": "Ravi Ranjan",
+          "author_email": "rravi@codeaurora.org",
+          "change_id": "Ia36658077c074c5e959c75fcee9835e80028276d",
+          "commit": "c795e36cb7f308cf6b07f3c366250567bb80570e",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/c795e36cb7f3",
+          "review_url": "https://review.lineageos.org/q/Ia36658077c074c5e959c75fcee9835e80028276d"
+        }
+      ]
+    },
+    "hardware/lineage/interfaces": {
+      "logs": [
+        {
+          "datetime": "2025-10-23T09:25:25Z",
+          "kind": "Normal",
+          "repo": "hardware/lineage/interfaces",
+          "title": "livedisplay: sysfs: chown on boot as well",
+          "description": "",
+          "author_name": "Giovanni Ricca",
+          "author_email": "giovanniricca@proton.me",
+          "change_id": "Ie1619d19b2b928f8cbaa014730f344399e5fe310",
+          "commit": "7d86725b9b202b7ef43c4466ba73de6707ecf3cb",
+          "commit_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d86725b9b20",
+          "review_url": "https://review.lineageos.org/q/Ie1619d19b2b928f8cbaa014730f344399e5fe310"
+        }
+      ]
+    },
+    "lineage/hudson": {
+      "logs": [
+        {
+          "datetime": "2025-10-27T23:30:44Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I00310bf2c8abb0e937fb358e50fa596d52f44b52",
+          "commit": "8b59fe9a6eb6d302cfa925bee8dde3c61297b835",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/8b59fe9a6eb6",
+          "review_url": "https://review.lineageos.org/q/I00310bf2c8abb0e937fb358e50fa596d52f44b52"
+        }
+      ]
+    },
+    "lineage/mirror": {
+      "logs": [
+        {
+          "datetime": "2025-10-27T23:01:28Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 27-Oct-2025 23:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "I41b295d73ba589e41ccb3d5b67c40bac5ef3064a",
+          "commit": "ba1a2437a4580e32b096b343e4173fe614dc2772",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/ba1a2437a458",
+          "review_url": "https://review.lineageos.org/q/I41b295d73ba589e41ccb3d5b67c40bac5ef3064a"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-10-28T00:10:06Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: moto-sm6225: Update maintainers & models",
+          "description": "",
+          "author_name": "Deivid21",
+          "author_email": "david.parra.ignacio@gmail.com",
+          "change_id": "I72bb48908416f77a81063020316627304eb92815",
+          "commit": "5d68c6b8b77ef3763630ea1e17db6c6c3e47924d",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b8b77e",
+          "review_url": "https://review.lineageos.org/q/I72bb48908416f77a81063020316627304eb92815"
+        },
+        {
+          "datetime": "2025-10-28T00:01:29Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I3a3e3d7bbce65c8193b5318a65ff70b386a2a703",
+          "commit": "9bcfeed7d122c6955b696464073c1a2d8959a5b6",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed7d122",
+          "review_url": "https://review.lineageos.org/q/I3a3e3d7bbce65c8193b5318a65ff70b386a2a703"
+        },
+        {
+          "datetime": "2025-10-25T21:23:06Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Add wikipedia links to IMS quirk description",
+          "description": "Also, VoWi-Fi -> VoWiFi while at it.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Ibe3a5246b737d9fdcd5741298b8b7096b9f6c21e",
+          "commit": "ce1c8fe873589cee174649da513dd49944e83e86",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe87358",
+          "review_url": "https://review.lineageos.org/q/Ibe3a5246b737d9fdcd5741298b8b7096b9f6c21e"
+        },
+        {
+          "datetime": "2025-10-24T22:52:38Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "firmware_update_oplus: Filter out oplusstanvbk for tablets",
+          "description": "",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "Ifc3654e8a35c46732a39d6fdc5ec14bbd8695b72",
+          "commit": "773dd834500b9a27350a261288337278b46027dd",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/773dd834500b",
+          "review_url": "https://review.lineageos.org/q/Ifc3654e8a35c46732a39d6fdc5ec14bbd8695b72"
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-10-24T07:59:59Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2025-10-24-02-57-34-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I7ba298199870e4331aa6b419d3710c6723c100f0",
+          "commit": "e42a0b00a42d4811075f15235b6605984557f7b4",
+          "commit_url": "https://github.com/android-kxxt/state/commit/e42a0b00a42d",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-24T07:56:52Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "fixup",
+          "description": "",
+          "author_name": "Levi Zim",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ibe262e02d7de2ae0f8f831263397c4bb5400a494",
+          "commit": "d5eb3ff39609806530a910d020d1620169a88fde",
+          "commit_url": "https://github.com/android-kxxt/state/commit/d5eb3ff39609",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/lineage": {
+      "logs": [
+        {
+          "datetime": "2025-10-27T08:32:45Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "apn: Add finetwork",
+          "description": "From https://blog.finetwork.com/configurar-apn-finetwork-movil and MIUI",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I6ea99da32e4f688cab2dc43335393c07caf9e275",
+          "commit": "a13626ad899607f6aa3cc3a8780db719af996223",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a13626ad8996",
+          "review_url": "https://review.lineageos.org/q/I6ea99da32e4f688cab2dc43335393c07caf9e275"
+        },
+        {
+          "datetime": "2025-10-25T06:53:52Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "apns: Add KKTCell APNs",
+          "description": "Northern Cyprus version of Turkcell.",
+          "author_name": "Atakan",
+          "author_email": "ata.kaner03@gmail.com",
+          "change_id": "Ib7457577ff5954937d3e06e2720e34af2ef7a13c",
+          "commit": "13c54044bab58fdf9a0bb0af7c3e2e89fd15c898",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/13c54044bab5",
+          "review_url": "https://review.lineageos.org/q/Ib7457577ff5954937d3e06e2720e34af2ef7a13c"
+        },
+        {
+          "datetime": "2025-10-25T06:53:52Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "apns: Update APNs of Turkish carriers",
+          "description": "Reference for Turkcell: https://www.turkcell.com.tr/yardim/cihazlar/samsung-galaxy-s25-ultra-yardim#internet-ayarlari\n\nOther carriers were obtained by comparing APN configs from various OEMs.",
+          "author_name": "Atakan",
+          "author_email": "ata.kaner03@gmail.com",
+          "change_id": "I70292b3e0163532bd6ecadda7e27b13121b16f1d",
+          "commit": "7f2f42fc11e757fab834d632f07e456786ceec30",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/7f2f42fc11e7",
+          "review_url": "https://review.lineageos.org/q/I70292b3e0163532bd6ecadda7e27b13121b16f1d"
+        },
+        {
+          "datetime": "2025-10-24T15:35:20Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "apns: Add Altel and Tele2",
+          "description": "Carrier documentation:\n[1]https://altel.kz/new/helps/settings\n[2]https://tele2.kz/help/d/11\n\nThird-party ref:\nhttps://apn.how/kz/tele2-altel",
+          "author_name": "tejas101k",
+          "author_email": "tejassingh649@rediffmail.com",
+          "change_id": "I94ceef2d10aff5573946827736644578ad625273",
+          "commit": "327eacafd389668042fd4e1fdef86b3706fe6732",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/327eacafd389",
+          "review_url": "https://review.lineageos.org/q/I94ceef2d10aff5573946827736644578ad625273"
+        }
+      ]
+    },
+    "vendor/partner_gms": {
+      "logs": [
+        {
+          "datetime": "2025-10-29T14:41:39Z",
+          "kind": "Normal",
+          "repo": "vendor/partner_gms",
+          "title": "Update FDroid to 1.23.1",
+          "description": "",
+          "author_name": "Martin Matuska",
+          "author_email": "martin@matuska.de",
+          "change_id": null,
+          "commit": "7d5b2a68434fa3507e412f07910d430311d58fb5",
+          "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/7d5b2a68434f",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-29T14:41:39Z",
+          "kind": "Normal",
+          "repo": "vendor/partner_gms",
+          "title": "Update GmsCore to 0.3.9",
+          "description": "",
+          "author_name": "Pete Fotheringham",
+          "author_email": "petefoth@e.email",
+          "change_id": null,
+          "commit": "e788cd922dc4b953789b7280ddbf536a8caa54bb",
+          "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/e788cd922dc4",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-10-29T14:41:39Z",
+          "kind": "Normal",
+          "repo": "vendor/partner_gms",
+          "title": "Update FakeStore to 0.3.9",
+          "description": "",
+          "author_name": "Pete Fotheringham",
+          "author_email": "petefoth@e.email",
+          "change_id": null,
+          "commit": "66099f9f61abd2cdb6a1d701da26b5f9c4979876",
+          "commit_url": "https://github.com/lineageos4microg/android_vendor_partner_gms/commit/66099f9f61ab",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/qcom/opensource/vibrator": {
+      "logs": [
+        {
+          "datetime": "2025-10-28T08:18:03Z",
+          "kind": "Normal",
+          "repo": "vendor/qcom/opensource/vibrator",
+          "title": "vibrator: Add support for aw-haptic-hv",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Ib453fa1a1f93f6b073a5348c2e2b29c3d249c644",
+          "commit": "a3629984b613e589c2fc07656d38558643f5aaee",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a3629984b613",
+          "review_url": "https://review.lineageos.org/q/Ib453fa1a1f93f6b073a5348c2e2b29c3d249c644"
+        }
+      ]
+    },
+    "vendor/xiaomi/mondrian": {
+      "logs": [
+        {
+          "datetime": "2025-10-24T14:55:58Z",
+          "kind": "Normal",
+          "repo": "vendor/xiaomi/mondrian",
+          "title": "mondrian: Update blobs and firmware from OS2.0.207.0.VMNMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Iee4c5e4d614e7c62d04f65a5a944ecbb8169139a",
+          "commit": "957ec67daa14862b3bfe7c442bedf3ee5e87683a",
+          "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_mondrian/commit/957ec67daa14",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/xiaomi/sm8450-common": {
+      "logs": [
+        {
+          "datetime": "2025-10-26T11:34:47Z",
+          "kind": "Normal",
+          "repo": "vendor/xiaomi/sm8450-common",
+          "title": "sm8450-common: Update blobs and firmware from OS2.0.204.0.VLFMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I271abd61c57087366c4ed1f265874e1a348014b6",
+          "commit": "32bf6adf3c28905f0e482c004ecad41e087d3d2b",
+          "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_sm8450-common/commit/32bf6adf3c28",
+          "review_url": null
+        }
+      ]
+    }
+  }
 }
