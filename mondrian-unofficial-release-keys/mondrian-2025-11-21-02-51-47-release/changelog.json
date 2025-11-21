@@ -1,0 +1,850 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2025-11-12T01:45:46Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Build IFAAService from source",
+      "description": "",
+      "author_name": "AdarshGrewal",
+      "author_email": "adarshgrewal@gmail.com",
+      "change_id": "I804f0a424010cefaa3cc6f394c716b8b43302466",
+      "commit": "edaf02a2fb36630ae4a9859a37a6073f7cbfc901",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/edaf02a2fb36",
+      "review_url": "https://review.lineageos.org/q/I804f0a424010cefaa3cc6f394c716b8b43302466"
+    },
+    {
+      "datetime": "2025-11-12T01:54:38Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Allow apps to read Mlipay and IFAA props",
+      "description": "",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "Idd3872911876eaf75d94e36e31da0f0de282f784",
+      "commit": "30d2110252d8f7ef71927ff034450b1dfd1dfbf7",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/30d2110252d8",
+      "review_url": "https://review.lineageos.org/q/Idd3872911876eaf75d94e36e31da0f0de282f784"
+    },
+    {
+      "datetime": "2025-11-12T01:58:28Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Replace isolated_app with isolated_app_all",
+      "description": "Replace certain policies for isolated_app with the newly introduced\nisolated_app_all for better scalability.",
+      "author_name": "Charles Chen",
+      "author_email": "liangyuchen@google.com",
+      "change_id": "I1b6866d56f15089babe368bb60335c7ed99bdd6b",
+      "commit": "67d1b4c87ddefeccb9866d70f7ebc3d28eff7114",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/67d1b4c87dde",
+      "review_url": "https://review.lineageos.org/q/I1b6866d56f15089babe368bb60335c7ed99bdd6b"
+    },
+    {
+      "datetime": "2025-11-12T02:05:46Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: Allow system_app to access Mlipay service",
+      "description": " * This fixed Alipay fingerprint payment activation",
+      "author_name": "EndCredits",
+      "author_email": "alicization.han@gmail.com",
+      "change_id": "Ia0ae4744d40f245a48dd5764d3cb868fb9923cb2",
+      "commit": "fbb6d4be1b0ebf3d36698a1271fcccd054e1b8d7",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/fbb6d4be1b0e",
+      "review_url": "https://review.lineageos.org/q/Ia0ae4744d40f245a48dd5764d3cb868fb9923cb2"
+    },
+    {
+      "datetime": "2025-11-12T21:09:45Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Settings",
+      "title": "fixup! Settings: Add toggle for heads up notifications",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "I06fc78b226681dcc94532d1fd438a3477e1a6d8c",
+      "commit": "f08363f4549c30a2de7d829c8e9f9291a705d579",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/f08363f4549c",
+      "review_url": "https://review.lineageos.org/q/I06fc78b226681dcc94532d1fd438a3477e1a6d8c"
+    },
+    {
+      "datetime": "2025-11-14T03:18:02Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-11-14-02-46-43-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ia6e3b7b3457c85851493f3651bb46eb44aaf9795",
+      "commit": "5db4202e66a8701e3bb415f457a7b1334428ce0c",
+      "commit_url": "https://github.com/android-kxxt/state/commit/5db4202e66a8",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-14T03:18:33Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2025-11-14-02-46-43-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ibcf98a9f0186f493a65fa0772a7c8f9e50e2121a",
+      "commit": "db7a845adadaafb0c8017bacc27a4254df4e6259",
+      "commit_url": "https://github.com/android-kxxt/state/commit/db7a845adada",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-14T03:22:08Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I3ddc917e3871cae2186fc8e00ca0bb36a98f5740",
+      "commit": "c50efe0f5e5f39d6ced65ea701a157fb5b78647b",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/c50efe0f5e5f",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-15T00:36:45Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8450-common",
+      "title": "sm8450-common: sepolicy: Label `wakeup_enable` for FPC fingerprint sysfs node",
+      "description": "",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "I0e3539a37986cf8b3343df17930658024d8d3701",
+      "commit": "c7db096a98a43afca3bdd768446b8f6b081d6e39",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/c7db096a98a4",
+      "review_url": "https://review.lineageos.org/q/I0e3539a37986cf8b3343df17930658024d8d3701"
+    },
+    {
+      "datetime": "2025-11-15T18:01:49Z",
+      "kind": "Normal",
+      "repo": "frameworks/base",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Id6a7c986c1c697088584da5ecec7a08ee8497a74",
+      "commit": "f0964915f5992fd38cf1e5e3f87c0d3ac719aa09",
+      "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/f0964915f599",
+      "review_url": "https://review.lineageos.org/q/Id6a7c986c1c697088584da5ecec7a08ee8497a74"
+    },
+    {
+      "datetime": "2025-11-15T18:01:55Z",
+      "kind": "Normal",
+      "repo": "lineage-sdk",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Icde57a6132dae7fb11b0e15cc29a0d53d65a78fc",
+      "commit": "39cff88b7316546d43a5b983168c03d048f4378a",
+      "commit_url": "https://github.com/LineageOS/android_lineage-sdk/commit/39cff88b7316",
+      "review_url": "https://review.lineageos.org/q/Icde57a6132dae7fb11b0e15cc29a0d53d65a78fc"
+    },
+    {
+      "datetime": "2025-11-15T18:01:56Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Aperture",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I8f8fb2458bca075870c43bfd20ab875b424a034f",
+      "commit": "825b7f6fb921c4e73faf0af3eab5ca39002b63fb",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6fb921",
+      "review_url": "https://review.lineageos.org/q/I8f8fb2458bca075870c43bfd20ab875b424a034f"
+    },
+    {
+      "datetime": "2025-11-15T18:01:57Z",
+      "kind": "Normal",
+      "repo": "packages/apps/DeskClock",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ie8718ec716483f36796c7fbe785440db9f596283",
+      "commit": "8987c256ccea8cf2dee41ab5755e511f5012ed2c",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c256ccea",
+      "review_url": "https://review.lineageos.org/q/Ie8718ec716483f36796c7fbe785440db9f596283"
+    },
+    {
+      "datetime": "2025-11-15T18:01:58Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Jelly",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Ifb2f5731ce4a5af02734d45653b8eb2fea109618",
+      "commit": "e7bc9a2eefa68eccd6fe47e65226a3c50976ccf2",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2eefa6",
+      "review_url": "https://review.lineageos.org/q/Ifb2f5731ce4a5af02734d45653b8eb2fea109618"
+    },
+    {
+      "datetime": "2025-11-15T18:01:59Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I47aa3a6de3123f346ed14c4315cdabd574013261",
+      "commit": "91c1b40c0539518dd05f8474c95438eb9f1b8228",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/91c1b40c0539",
+      "review_url": "https://review.lineageos.org/q/I47aa3a6de3123f346ed14c4315cdabd574013261"
+    },
+    {
+      "datetime": "2025-11-15T18:02:00Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Twelve",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Id144c39c81f1dbff0c5cafe8b59ff1cca1215d63",
+      "commit": "6b0152dfdcb62d1fbd3220bdbc9d357e8b756f3a",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152dfdcb6",
+      "review_url": "https://review.lineageos.org/q/Id144c39c81f1dbff0c5cafe8b59ff1cca1215d63"
+    },
+    {
+      "datetime": "2025-11-15T18:02:01Z",
+      "kind": "Normal",
+      "repo": "packages/apps/Updater",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I1df9f9f547899e14b8e4b005ef5e42713b4f960e",
+      "commit": "4150e2f3f3b9877e34c7dbf0a63ef67fb7a7b79b",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/4150e2f3f3b9",
+      "review_url": "https://review.lineageos.org/q/I1df9f9f547899e14b8e4b005ef5e42713b4f960e"
+    },
+    {
+      "datetime": "2025-11-15T18:02:01Z",
+      "kind": "Normal",
+      "repo": "packages/resources/devicesettings",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I73f805f3fc55a1bec57d6aca646701c6641870f8",
+      "commit": "15f32219b74aff7f3d6aa75117593b4c9d488cf0",
+      "commit_url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/15f32219b74a",
+      "review_url": "https://review.lineageos.org/q/I73f805f3fc55a1bec57d6aca646701c6641870f8"
+    },
+    {
+      "datetime": "2025-11-15T18:02:09Z",
+      "kind": "Normal",
+      "repo": "vendor/crowdin",
+      "title": "Automatic translation import",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "Idbd59a1457f5d327be013f9c746f838e4a1c9f5c",
+      "commit": "93da2a70107666ad73da68b27a7b463bd0627adb",
+      "commit_url": "https://github.com/LineageOS/android_vendor_crowdin/commit/93da2a701076",
+      "review_url": "https://review.lineageos.org/q/Idbd59a1457f5d327be013f9c746f838e4a1c9f5c"
+    },
+    {
+      "datetime": "2025-11-16T09:55:27Z",
+      "kind": "Normal",
+      "repo": "system/media",
+      "title": "audio: Allow opting out of speaker_layout_channel_mask field",
+      "description": "Required for ABI compatibility with audio HAL compiled before 15 QPR2.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I0bf7eafbeb19957326de04ecf7b903580315dc59",
+      "commit": "e1120728af257ee8963abf2a3b8e9f1009358014",
+      "commit_url": "https://github.com/LineageOS/android_system_media/commit/e1120728af25",
+      "review_url": "https://review.lineageos.org/q/I0bf7eafbeb19957326de04ecf7b903580315dc59"
+    },
+    {
+      "datetime": "2025-11-16T18:37:38Z",
+      "kind": "Normal",
+      "repo": "hardware/interfaces",
+      "title": "audio: Allow opting out of speaker_layout_channel_mask field",
+      "description": "Required for ABI compatibility with audio HAL compiled before 15 QPR2.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I76f881da057d78cf78d5c4d5ff612ddccc9e674e",
+      "commit": "2e4a41b1d9a564244af6ff772561ba843baa5049",
+      "commit_url": "https://github.com/LineageOS/android_hardware_interfaces/commit/2e4a41b1d9a5",
+      "review_url": "https://review.lineageos.org/q/I76f881da057d78cf78d5c4d5ff612ddccc9e674e"
+    },
+    {
+      "datetime": "2025-11-17T23:01:35Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 17-Nov-2025 23:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "Ie5396a253ba50e9e972df4b53d9329bca7f472c8",
+      "commit": "1d16a3304cdc5eaca2965ebc6225ac47da00f000",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/1d16a3304cdc",
+      "review_url": "https://review.lineageos.org/q/Ie5396a253ba50e9e972df4b53d9329bca7f472c8"
+    },
+    {
+      "datetime": "2025-11-17T23:56:37Z",
+      "kind": "Normal",
+      "repo": "lineage/website",
+      "title": "www: Update homepage images for themes",
+      "description": "Uploading new copies of two images with transparent backgrounds so they\nwork with any changes in background color.",
+      "author_name": "Asher S",
+      "author_email": "dayanhammer@gmail.com",
+      "change_id": "Id2feb31f67c101d7c4a2a761adac7fb8ee6b0feb",
+      "commit": "8591b4f324a410b4532f78ae125a5edb47425102",
+      "commit_url": "https://github.com/LineageOS/www/commit/8591b4f324a4",
+      "review_url": "https://review.lineageos.org/q/Id2feb31f67c101d7c4a2a761adac7fb8ee6b0feb"
+    },
+    {
+      "datetime": "2025-11-18T00:21:25Z",
+      "kind": "Merge",
+      "repo": "kernel/xiaomi/sm8250",
+      "title": "Merge remote-tracking branch 'qcom_sm8250/lineage-20' into lineage-22.2",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "I770f7905eee1157db90c2d552679c4dd2fda8083",
+      "commit": "d401417d0c4587687a5b32351ab5c014579777a2",
+      "commit_url": "https://github.com/LineageOS/android_kernel_xiaomi_sm8250/commit/d401417d0c45",
+      "review_url": "https://review.lineageos.org/q/I770f7905eee1157db90c2d552679c4dd2fda8083"
+    },
+    {
+      "datetime": "2025-11-18T23:01:53Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated aosp-minimal to 18-Nov-2025 23:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "Idc01b61c784c1dc03f6e9a0844f7afcd9c0b7b86",
+      "commit": "8c18f7d5a2a2d35333fa20f6bc56a1ebc01b04d6",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/8c18f7d5a2a2",
+      "review_url": "https://review.lineageos.org/q/Idc01b61c784c1dc03f6e9a0844f7afcd9c0b7b86"
+    },
+    {
+      "datetime": "2025-11-19T11:02:00Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated aosp-minimal to 19-Nov-2025 11:02 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "Iaf2abfe87ffced9ff8a4e3d87ab0e54b629b00b6",
+      "commit": "78d0a5a1dbb8f2e5835ab11952f3e4e716059ec8",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/78d0a5a1dbb8",
+      "review_url": "https://review.lineageos.org/q/Iaf2abfe87ffced9ff8a4e3d87ab0e54b629b00b6"
+    },
+    {
+      "datetime": "2025-11-19T18:32:09Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: quirks: encryption: Fix typo",
+      "description": "",
+      "author_name": "Ferdinand Saurenbach",
+      "author_email": "ferdinand@fsrb.de",
+      "change_id": "I537060e9b8e2610f17b77ebab262c3b0e3a54acf",
+      "commit": "3a49e26d12b8a6de104a68898914f944a46f42ac",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/3a49e26d12b8",
+      "review_url": "https://review.lineageos.org/q/I537060e9b8e2610f17b77ebab262c3b0e3a54acf"
+    },
+    {
+      "datetime": "2025-11-20T17:16:18Z",
+      "kind": "Merge",
+      "repo": "external/vim",
+      "title": "Merge tag 'v9.1.1919' of https://github.com/vim/vim into lineage-23.0",
+      "description": "v9.1.1919\n\n* tag 'v9.1.1919' of https://github.com/vim/vim:\n  patch 9.1.1919: tabpanel: cannot handle mouse clicks in command line\n  runtime(netrw): Use proper UNC notation for temp files\n  runtime(compiler): expand errorformats in maven compiler\n  runtime(doc): Remove :runtime completion (#11447) todo item\n  patch 9.1.1918: completion: crash with fuzzy completion\n  translation(it): Update Italian translation\n  patch 9.1.1917: Vim9: incorrect type inference with mkdir()\n  patch 9.1.1916: WinEnter autocommand confuses Vim when closing tabpage\n  runtime(compiler): Remove version check in rustc compiler\n  runtime(compiler): add biome linter\n  runtime(vim): Update base syntax and generator, match :cd commands\n  patch 9.1.1915: :breaklist accepts unprocessed arguments.\n  runtime(new-tutor): escape tutor filename\n  patch 9.1.1914: runtime(netrw): wipes unnamed buffers\n  patch 9.1.1913: Error message with :unlet! and non-existing dictionary item\n  runtime(doc): Wrap overlength lines in uganda.txt\n  runtime(help): Update syntax, match tables at :help :digraph-table\n  patch 9.1.1912: tests: test_plugin_comment fails\n  patch 9.1.1911: build failure on Solaris with gcc 5\n  patch 9.1.1910: tests: test failures in Test_term_gettitle() in CI\n  patch 9.1.1909: filetype: .mom files recognized as nroff files\n  runtime(erlang): recognize -if/-elif as erlangPreCondit in syntax script\n  runtime(doc): Improve :help :ls description formatting\n  runtime(vim): Update base syntax, match :prompt command args\n  patch 9.1.1908: tests: test_crash.vim times out in CI ASAN builds\n  runtime(css): improve cssBoxProp matches\n  patch 9.1.1907: xterm: no support for mouse buttons 8 and 9\n  patch 9.1.1906: filetype: not all Ruby files are recognized\n  patch 9.1.1905: tabpanel: truncates terminal output\n  runtime(sqlcomplete): only set 'omnifunc' if dbext plugin was loaded\n  runtime(doc): Wrap some overlength lines in vim9{,class}.txt.\n  runtime(vim): Update base syntax, refine object constructor matching\n  runtime(doc): Update Section 4 of vim9.txt\n  runtime(sml): Fix number regex in syntax script\n  patch 9.1.1904: Code still supports GTK2 versions older than 2.4\n  patch 9.1.1903: GTK naming still reflects GTK1 support\n  patch 9.1.1902: GTK fails to compile with !FEAT_PROP_POPUP\n  runtime(vim): Update base syntax, fix :augroup error matching\n  runtime(doc): Improve windows.txt formatting\n  patch 9.1.1901: tests: test_vim9_generics fails without job feature\n  runtime(doc): Clean up file header whitespace\n  runtime(vim): Update base syntax, match :*do command arg\n  runtime(spec): Add support for more tags and distributions\n  runtime(vim): Update base syntax, match Vim9 object type constructor\n  patch 9.1.1900: tabpanel: wrong condition after v9.1.1898\n  runtime(doc): Rewrite some overlength lines\n  runtime(doc): Wrap some overlength lines in the user manual\n  runtime(doc): Improve :help synconcealed() description\n  patch 9.1.1899: tabpanel: getcmdscreenpos() wrong when tabpanel is shown\n  patch 9.1.1898: tabpanel: inconsistent use of cmdline with tabpanel\n  patch 9.1.1897: Mac: Build failure on Mac OS X 10.6\n  runtime(compiler): do not override &l:makeprg on :compiler!\n  runtime(sml): add filetype plugin, move options from indent to ftplugin\n  runtime(vim): 'iskeyword' setting not correctly restored",
+      "author_name": "Thomas Turner",
+      "author_email": "thomas_turner@talktalk.net",
+      "change_id": "Ia6e368583551fb1b9249cc8bb7f1ea04d66cb676",
+      "commit": "f31199df8fca8148b61ae94bbfcb834021f5bdd9",
+      "commit_url": "https://github.com/LineageOS/android_external_vim/commit/f31199df8fca",
+      "review_url": "https://review.lineageos.org/q/Ia6e368583551fb1b9249cc8bb7f1ea04d66cb676"
+    },
+    {
+      "datetime": "2025-11-21T02:46:00Z",
+      "kind": "Normal",
+      "repo": "patches",
+      "title": "23: Drop obsolete patches",
+      "description": "",
+      "author_name": "Levi Zim",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I8d28b36e438a86344b8346b1d67a19030be3f397",
+      "commit": "dd4901aab97291580d8180215cb7fd03e7325bb7",
+      "commit_url": "https://github.com/android-kxxt/android_patches/commit/dd4901aab972",
+      "review_url": null
+    }
+  ],
+  "changes": {
+    "device/xiaomi/sm8450-common": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T00:36:45Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Label `wakeup_enable` for FPC fingerprint sysfs node",
+          "description": "",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "I0e3539a37986cf8b3343df17930658024d8d3701",
+          "commit": "c7db096a98a43afca3bdd768446b8f6b081d6e39",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/c7db096a98a4",
+          "review_url": "https://review.lineageos.org/q/I0e3539a37986cf8b3343df17930658024d8d3701"
+        },
+        {
+          "datetime": "2025-11-12T02:05:46Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Allow system_app to access Mlipay service",
+          "description": " * This fixed Alipay fingerprint payment activation",
+          "author_name": "EndCredits",
+          "author_email": "alicization.han@gmail.com",
+          "change_id": "Ia0ae4744d40f245a48dd5764d3cb868fb9923cb2",
+          "commit": "fbb6d4be1b0ebf3d36698a1271fcccd054e1b8d7",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/fbb6d4be1b0e",
+          "review_url": "https://review.lineageos.org/q/Ia0ae4744d40f245a48dd5764d3cb868fb9923cb2"
+        },
+        {
+          "datetime": "2025-11-12T01:58:28Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Replace isolated_app with isolated_app_all",
+          "description": "Replace certain policies for isolated_app with the newly introduced\nisolated_app_all for better scalability.",
+          "author_name": "Charles Chen",
+          "author_email": "liangyuchen@google.com",
+          "change_id": "I1b6866d56f15089babe368bb60335c7ed99bdd6b",
+          "commit": "67d1b4c87ddefeccb9866d70f7ebc3d28eff7114",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/67d1b4c87dde",
+          "review_url": "https://review.lineageos.org/q/I1b6866d56f15089babe368bb60335c7ed99bdd6b"
+        },
+        {
+          "datetime": "2025-11-12T01:54:38Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: sepolicy: Allow apps to read Mlipay and IFAA props",
+          "description": "",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "Idd3872911876eaf75d94e36e31da0f0de282f784",
+          "commit": "30d2110252d8f7ef71927ff034450b1dfd1dfbf7",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/30d2110252d8",
+          "review_url": "https://review.lineageos.org/q/Idd3872911876eaf75d94e36e31da0f0de282f784"
+        },
+        {
+          "datetime": "2025-11-12T01:45:46Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8450-common",
+          "title": "sm8450-common: Build IFAAService from source",
+          "description": "",
+          "author_name": "AdarshGrewal",
+          "author_email": "adarshgrewal@gmail.com",
+          "change_id": "I804f0a424010cefaa3cc6f394c716b8b43302466",
+          "commit": "edaf02a2fb36630ae4a9859a37a6073f7cbfc901",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8450-common/commit/edaf02a2fb36",
+          "review_url": "https://review.lineageos.org/q/I804f0a424010cefaa3cc6f394c716b8b43302466"
+        }
+      ]
+    },
+    "external/vim": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T17:16:18Z",
+          "kind": "Merge",
+          "repo": "external/vim",
+          "title": "Merge tag 'v9.1.1919' of https://github.com/vim/vim into lineage-23.0",
+          "description": "v9.1.1919\n\n* tag 'v9.1.1919' of https://github.com/vim/vim:\n  patch 9.1.1919: tabpanel: cannot handle mouse clicks in command line\n  runtime(netrw): Use proper UNC notation for temp files\n  runtime(compiler): expand errorformats in maven compiler\n  runtime(doc): Remove :runtime completion (#11447) todo item\n  patch 9.1.1918: completion: crash with fuzzy completion\n  translation(it): Update Italian translation\n  patch 9.1.1917: Vim9: incorrect type inference with mkdir()\n  patch 9.1.1916: WinEnter autocommand confuses Vim when closing tabpage\n  runtime(compiler): Remove version check in rustc compiler\n  runtime(compiler): add biome linter\n  runtime(vim): Update base syntax and generator, match :cd commands\n  patch 9.1.1915: :breaklist accepts unprocessed arguments.\n  runtime(new-tutor): escape tutor filename\n  patch 9.1.1914: runtime(netrw): wipes unnamed buffers\n  patch 9.1.1913: Error message with :unlet! and non-existing dictionary item\n  runtime(doc): Wrap overlength lines in uganda.txt\n  runtime(help): Update syntax, match tables at :help :digraph-table\n  patch 9.1.1912: tests: test_plugin_comment fails\n  patch 9.1.1911: build failure on Solaris with gcc 5\n  patch 9.1.1910: tests: test failures in Test_term_gettitle() in CI\n  patch 9.1.1909: filetype: .mom files recognized as nroff files\n  runtime(erlang): recognize -if/-elif as erlangPreCondit in syntax script\n  runtime(doc): Improve :help :ls description formatting\n  runtime(vim): Update base syntax, match :prompt command args\n  patch 9.1.1908: tests: test_crash.vim times out in CI ASAN builds\n  runtime(css): improve cssBoxProp matches\n  patch 9.1.1907: xterm: no support for mouse buttons 8 and 9\n  patch 9.1.1906: filetype: not all Ruby files are recognized\n  patch 9.1.1905: tabpanel: truncates terminal output\n  runtime(sqlcomplete): only set 'omnifunc' if dbext plugin was loaded\n  runtime(doc): Wrap some overlength lines in vim9{,class}.txt.\n  runtime(vim): Update base syntax, refine object constructor matching\n  runtime(doc): Update Section 4 of vim9.txt\n  runtime(sml): Fix number regex in syntax script\n  patch 9.1.1904: Code still supports GTK2 versions older than 2.4\n  patch 9.1.1903: GTK naming still reflects GTK1 support\n  patch 9.1.1902: GTK fails to compile with !FEAT_PROP_POPUP\n  runtime(vim): Update base syntax, fix :augroup error matching\n  runtime(doc): Improve windows.txt formatting\n  patch 9.1.1901: tests: test_vim9_generics fails without job feature\n  runtime(doc): Clean up file header whitespace\n  runtime(vim): Update base syntax, match :*do command arg\n  runtime(spec): Add support for more tags and distributions\n  runtime(vim): Update base syntax, match Vim9 object type constructor\n  patch 9.1.1900: tabpanel: wrong condition after v9.1.1898\n  runtime(doc): Rewrite some overlength lines\n  runtime(doc): Wrap some overlength lines in the user manual\n  runtime(doc): Improve :help synconcealed() description\n  patch 9.1.1899: tabpanel: getcmdscreenpos() wrong when tabpanel is shown\n  patch 9.1.1898: tabpanel: inconsistent use of cmdline with tabpanel\n  patch 9.1.1897: Mac: Build failure on Mac OS X 10.6\n  runtime(compiler): do not override &l:makeprg on :compiler!\n  runtime(sml): add filetype plugin, move options from indent to ftplugin\n  runtime(vim): 'iskeyword' setting not correctly restored",
+          "author_name": "Thomas Turner",
+          "author_email": "thomas_turner@talktalk.net",
+          "change_id": "Ia6e368583551fb1b9249cc8bb7f1ea04d66cb676",
+          "commit": "f31199df8fca8148b61ae94bbfcb834021f5bdd9",
+          "commit_url": "https://github.com/LineageOS/android_external_vim/commit/f31199df8fca",
+          "review_url": "https://review.lineageos.org/q/Ia6e368583551fb1b9249cc8bb7f1ea04d66cb676"
+        }
+      ]
+    },
+    "frameworks/base": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:49Z",
+          "kind": "Normal",
+          "repo": "frameworks/base",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Id6a7c986c1c697088584da5ecec7a08ee8497a74",
+          "commit": "f0964915f5992fd38cf1e5e3f87c0d3ac719aa09",
+          "commit_url": "https://github.com/LineageOS/android_frameworks_base/commit/f0964915f599",
+          "review_url": "https://review.lineageos.org/q/Id6a7c986c1c697088584da5ecec7a08ee8497a74"
+        }
+      ]
+    },
+    "hardware/interfaces": {
+      "logs": [
+        {
+          "datetime": "2025-11-16T18:37:38Z",
+          "kind": "Normal",
+          "repo": "hardware/interfaces",
+          "title": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "description": "Required for ABI compatibility with audio HAL compiled before 15 QPR2.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I76f881da057d78cf78d5c4d5ff612ddccc9e674e",
+          "commit": "2e4a41b1d9a564244af6ff772561ba843baa5049",
+          "commit_url": "https://github.com/LineageOS/android_hardware_interfaces/commit/2e4a41b1d9a5",
+          "review_url": "https://review.lineageos.org/q/I76f881da057d78cf78d5c4d5ff612ddccc9e674e"
+        }
+      ]
+    },
+    "kernel/xiaomi/sm8250": {
+      "logs": [
+        {
+          "datetime": "2025-11-18T00:21:25Z",
+          "kind": "Merge",
+          "repo": "kernel/xiaomi/sm8250",
+          "title": "Merge remote-tracking branch 'qcom_sm8250/lineage-20' into lineage-22.2",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "I770f7905eee1157db90c2d552679c4dd2fda8083",
+          "commit": "d401417d0c4587687a5b32351ab5c014579777a2",
+          "commit_url": "https://github.com/LineageOS/android_kernel_xiaomi_sm8250/commit/d401417d0c45",
+          "review_url": "https://review.lineageos.org/q/I770f7905eee1157db90c2d552679c4dd2fda8083"
+        }
+      ]
+    },
+    "lineage-sdk": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:55Z",
+          "kind": "Normal",
+          "repo": "lineage-sdk",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Icde57a6132dae7fb11b0e15cc29a0d53d65a78fc",
+          "commit": "39cff88b7316546d43a5b983168c03d048f4378a",
+          "commit_url": "https://github.com/LineageOS/android_lineage-sdk/commit/39cff88b7316",
+          "review_url": "https://review.lineageos.org/q/Icde57a6132dae7fb11b0e15cc29a0d53d65a78fc"
+        }
+      ]
+    },
+    "lineage/mirror": {
+      "logs": [
+        {
+          "datetime": "2025-11-19T11:02:00Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated aosp-minimal to 19-Nov-2025 11:02 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "Iaf2abfe87ffced9ff8a4e3d87ab0e54b629b00b6",
+          "commit": "78d0a5a1dbb8f2e5835ab11952f3e4e716059ec8",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/78d0a5a1dbb8",
+          "review_url": "https://review.lineageos.org/q/Iaf2abfe87ffced9ff8a4e3d87ab0e54b629b00b6"
+        },
+        {
+          "datetime": "2025-11-18T23:01:53Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated aosp-minimal to 18-Nov-2025 23:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "Idc01b61c784c1dc03f6e9a0844f7afcd9c0b7b86",
+          "commit": "8c18f7d5a2a2d35333fa20f6bc56a1ebc01b04d6",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/8c18f7d5a2a2",
+          "review_url": "https://review.lineageos.org/q/Idc01b61c784c1dc03f6e9a0844f7afcd9c0b7b86"
+        },
+        {
+          "datetime": "2025-11-17T23:01:35Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 17-Nov-2025 23:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "Ie5396a253ba50e9e972df4b53d9329bca7f472c8",
+          "commit": "1d16a3304cdc5eaca2965ebc6225ac47da00f000",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/1d16a3304cdc",
+          "review_url": "https://review.lineageos.org/q/Ie5396a253ba50e9e972df4b53d9329bca7f472c8"
+        }
+      ]
+    },
+    "lineage/website": {
+      "logs": [
+        {
+          "datetime": "2025-11-17T23:56:37Z",
+          "kind": "Normal",
+          "repo": "lineage/website",
+          "title": "www: Update homepage images for themes",
+          "description": "Uploading new copies of two images with transparent backgrounds so they\nwork with any changes in background color.",
+          "author_name": "Asher S",
+          "author_email": "dayanhammer@gmail.com",
+          "change_id": "Id2feb31f67c101d7c4a2a761adac7fb8ee6b0feb",
+          "commit": "8591b4f324a410b4532f78ae125a5edb47425102",
+          "commit_url": "https://github.com/LineageOS/www/commit/8591b4f324a4",
+          "review_url": "https://review.lineageos.org/q/Id2feb31f67c101d7c4a2a761adac7fb8ee6b0feb"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-11-19T18:32:09Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: quirks: encryption: Fix typo",
+          "description": "",
+          "author_name": "Ferdinand Saurenbach",
+          "author_email": "ferdinand@fsrb.de",
+          "change_id": "I537060e9b8e2610f17b77ebab262c3b0e3a54acf",
+          "commit": "3a49e26d12b8a6de104a68898914f944a46f42ac",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/3a49e26d12b8",
+          "review_url": "https://review.lineageos.org/q/I537060e9b8e2610f17b77ebab262c3b0e3a54acf"
+        }
+      ]
+    },
+    "ota": {
+      "logs": [
+        {
+          "datetime": "2025-11-14T03:22:08Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I3ddc917e3871cae2186fc8e00ca0bb36a98f5740",
+          "commit": "c50efe0f5e5f39d6ced65ea701a157fb5b78647b",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/c50efe0f5e5f",
+          "review_url": null
+        }
+      ]
+    },
+    "packages/apps/Aperture": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:56Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Aperture",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I8f8fb2458bca075870c43bfd20ab875b424a034f",
+          "commit": "825b7f6fb921c4e73faf0af3eab5ca39002b63fb",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6fb921",
+          "review_url": "https://review.lineageos.org/q/I8f8fb2458bca075870c43bfd20ab875b424a034f"
+        }
+      ]
+    },
+    "packages/apps/DeskClock": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:57Z",
+          "kind": "Normal",
+          "repo": "packages/apps/DeskClock",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ie8718ec716483f36796c7fbe785440db9f596283",
+          "commit": "8987c256ccea8cf2dee41ab5755e511f5012ed2c",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c256ccea",
+          "review_url": "https://review.lineageos.org/q/Ie8718ec716483f36796c7fbe785440db9f596283"
+        }
+      ]
+    },
+    "packages/apps/Jelly": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:58Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Jelly",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Ifb2f5731ce4a5af02734d45653b8eb2fea109618",
+          "commit": "e7bc9a2eefa68eccd6fe47e65226a3c50976ccf2",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2eefa6",
+          "review_url": "https://review.lineageos.org/q/Ifb2f5731ce4a5af02734d45653b8eb2fea109618"
+        }
+      ]
+    },
+    "packages/apps/LineageParts": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:01:59Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I47aa3a6de3123f346ed14c4315cdabd574013261",
+          "commit": "91c1b40c0539518dd05f8474c95438eb9f1b8228",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/91c1b40c0539",
+          "review_url": "https://review.lineageos.org/q/I47aa3a6de3123f346ed14c4315cdabd574013261"
+        }
+      ]
+    },
+    "packages/apps/Settings": {
+      "logs": [
+        {
+          "datetime": "2025-11-12T21:09:45Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Settings",
+          "title": "fixup! Settings: Add toggle for heads up notifications",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "I06fc78b226681dcc94532d1fd438a3477e1a6d8c",
+          "commit": "f08363f4549c30a2de7d829c8e9f9291a705d579",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/f08363f4549c",
+          "review_url": "https://review.lineageos.org/q/I06fc78b226681dcc94532d1fd438a3477e1a6d8c"
+        }
+      ]
+    },
+    "packages/apps/Twelve": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:02:00Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Twelve",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Id144c39c81f1dbff0c5cafe8b59ff1cca1215d63",
+          "commit": "6b0152dfdcb62d1fbd3220bdbc9d357e8b756f3a",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152dfdcb6",
+          "review_url": "https://review.lineageos.org/q/Id144c39c81f1dbff0c5cafe8b59ff1cca1215d63"
+        }
+      ]
+    },
+    "packages/apps/Updater": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:02:01Z",
+          "kind": "Normal",
+          "repo": "packages/apps/Updater",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I1df9f9f547899e14b8e4b005ef5e42713b4f960e",
+          "commit": "4150e2f3f3b9877e34c7dbf0a63ef67fb7a7b79b",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/4150e2f3f3b9",
+          "review_url": "https://review.lineageos.org/q/I1df9f9f547899e14b8e4b005ef5e42713b4f960e"
+        }
+      ]
+    },
+    "packages/resources/devicesettings": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:02:01Z",
+          "kind": "Normal",
+          "repo": "packages/resources/devicesettings",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I73f805f3fc55a1bec57d6aca646701c6641870f8",
+          "commit": "15f32219b74aff7f3d6aa75117593b4c9d488cf0",
+          "commit_url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/15f32219b74a",
+          "review_url": "https://review.lineageos.org/q/I73f805f3fc55a1bec57d6aca646701c6641870f8"
+        }
+      ]
+    },
+    "patches": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T02:46:00Z",
+          "kind": "Normal",
+          "repo": "patches",
+          "title": "23: Drop obsolete patches",
+          "description": "",
+          "author_name": "Levi Zim",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I8d28b36e438a86344b8346b1d67a19030be3f397",
+          "commit": "dd4901aab97291580d8180215cb7fd03e7325bb7",
+          "commit_url": "https://github.com/android-kxxt/android_patches/commit/dd4901aab972",
+          "review_url": null
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-11-14T03:18:33Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2025-11-14-02-46-43-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ibcf98a9f0186f493a65fa0772a7c8f9e50e2121a",
+          "commit": "db7a845adadaafb0c8017bacc27a4254df4e6259",
+          "commit_url": "https://github.com/android-kxxt/state/commit/db7a845adada",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-11-14T03:18:02Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-11-14-02-46-43-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ia6e3b7b3457c85851493f3651bb46eb44aaf9795",
+          "commit": "5db4202e66a8701e3bb415f457a7b1334428ce0c",
+          "commit_url": "https://github.com/android-kxxt/state/commit/5db4202e66a8",
+          "review_url": null
+        }
+      ]
+    },
+    "system/media": {
+      "logs": [
+        {
+          "datetime": "2025-11-16T09:55:27Z",
+          "kind": "Normal",
+          "repo": "system/media",
+          "title": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "description": "Required for ABI compatibility with audio HAL compiled before 15 QPR2.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I0bf7eafbeb19957326de04ecf7b903580315dc59",
+          "commit": "e1120728af257ee8963abf2a3b8e9f1009358014",
+          "commit_url": "https://github.com/LineageOS/android_system_media/commit/e1120728af25",
+          "review_url": "https://review.lineageos.org/q/I0bf7eafbeb19957326de04ecf7b903580315dc59"
+        }
+      ]
+    },
+    "vendor/crowdin": {
+      "logs": [
+        {
+          "datetime": "2025-11-15T18:02:09Z",
+          "kind": "Normal",
+          "repo": "vendor/crowdin",
+          "title": "Automatic translation import",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "Idbd59a1457f5d327be013f9c746f838e4a1c9f5c",
+          "commit": "93da2a70107666ad73da68b27a7b463bd0627adb",
+          "commit_url": "https://github.com/LineageOS/android_vendor_crowdin/commit/93da2a701076",
+          "review_url": "https://review.lineageos.org/q/Idbd59a1457f5d327be013f9c746f838e4a1c9f5c"
+        }
+      ]
+    }
+  }
+}
