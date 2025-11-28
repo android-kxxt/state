@@ -1,0 +1,1114 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2025-11-02T00:52:17Z",
+      "kind": "Normal",
+      "repo": "packages/apps/SetupWizard",
+      "title": "SetupWizard: Actually remove 2 button nav leftovers",
+      "description": "",
+      "author_name": "pnguyen879",
+      "author_email": "howardson2001@gmail.com",
+      "change_id": "I939906cd89fac2b3b9bc778148e5947b04a100d1",
+      "commit": "d470698baff6ca7eac5509ddcf9e6ba42bec408d",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/d470698baff6",
+      "review_url": "https://review.lineageos.org/q/I939906cd89fac2b3b9bc778148e5947b04a100d1"
+    },
+    {
+      "datetime": "2025-11-17T17:26:41Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "build: Fix sourcing envsetup from anywhere",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "Id1ee24e89a554c8de42366f9f0f5da03d3c86143",
+      "commit": "c4e86b6e4a3960ae2740a340cb7a0058cbbbe5e5",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/c4e86b6e4a39",
+      "review_url": "https://review.lineageos.org/q/Id1ee24e89a554c8de42366f9f0f5da03d3c86143"
+    },
+    {
+      "datetime": "2025-11-18T15:49:05Z",
+      "kind": "Normal",
+      "repo": "hardware/qcom-caf/sm8750/display/core",
+      "title": "Reapply \"Revert^2 \"sdm: add support for DS merge mode\"\"",
+      "description": "This reverts commit 061e54d1413e78f7224f9918c523a1253d5fc0d1.\n\nReason: No longer needed with OOS 16 blobs",
+      "author_name": "Giovanni Ricca",
+      "author_email": "giovanniricca@proton.me",
+      "change_id": "I2ba56dfa868d43f3a2f7e4fc5216d72a41486401",
+      "commit": "dc857522011eb18f4b90869891d9dfe78e4294b8",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/dc857522011e",
+      "review_url": "https://review.lineageos.org/q/I2ba56dfa868d43f3a2f7e4fc5216d72a41486401"
+    },
+    {
+      "datetime": "2025-11-19T00:21:18Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "hudson: Promote dre to 23.0",
+      "description": "",
+      "author_name": "Nick Reuter",
+      "author_email": "nreuter85@gmail.com",
+      "change_id": "I8667e3f35a762adbfb68b1114f679d49d60ce46b",
+      "commit": "661ad5b7a63cf5647f3dfb6d09952e420d38bb08",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/661ad5b7a63c",
+      "review_url": "https://review.lineageos.org/q/I8667e3f35a762adbfb68b1114f679d49d60ce46b"
+    },
+    {
+      "datetime": "2025-11-20T12:50:56Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/mondrian",
+      "title": "mondrian: Update blobs and firmware from OS2.0.208.0.VMNMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "Iccdfdbfec4f58c1c34f6ba3ad3a85608b75c0108",
+      "commit": "0377ab689255abe3b74706f44c7cc2b934c04c5b",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/0377ab689255",
+      "review_url": "https://review.lineageos.org/q/Iccdfdbfec4f58c1c34f6ba3ad3a85608b75c0108"
+    },
+    {
+      "datetime": "2025-11-20T12:51:06Z",
+      "kind": "Normal",
+      "repo": "vendor/xiaomi/mondrian",
+      "title": "mondrian: Update blobs and firmware from OS2.0.208.0.VMNMIXM",
+      "description": "",
+      "author_name": "Arian",
+      "author_email": "arian.kulmer@web.de",
+      "change_id": "I82367dcd11f9db889677aeadd75505abe081accf",
+      "commit": "daa1fdcab02cef04322dc7086a81f94f9179d1a6",
+      "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_mondrian/commit/daa1fdcab02c",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-20T13:51:17Z",
+      "kind": "Normal",
+      "repo": "hardware/qcom-caf/sm8750/display/core",
+      "title": "Revert \"display-core: Make IsGPUHWAvailable() non-virtual and force it to true\"",
+      "description": "This reverts commit bfe044bb17b48bd7993449be07aec777acfbb966.\n\nReason: No longer needed with OOS 16 blobs",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I90bee7abe59771dfa6a2c7238f54d5ca59608c9c",
+      "commit": "4a213555352d7c391711dd173a98b76cf19dc72a",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/4a213555352d",
+      "review_url": "https://review.lineageos.org/q/I90bee7abe59771dfa6a2c7238f54d5ca59608c9c"
+    },
+    {
+      "datetime": "2025-11-20T20:02:25Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/display/core",
+      "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core into HEAD",
+      "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core:\n  sdmclient: Add logs for layer marked as skip\n  sdm: Avoid null commit at the start of TUI in VHM\n  sdm: Support AgingSurface loading\n  sdm: Bypass compilation for Aiqe\n  display-core: Bypass compilation for formats\n  snapalloc: Set graphics metadata on auxiliary buffer at allocation time\n  Fix non-constant-expression build time error\n  sdm: Avoid disconnecting WFD while initiating secure session\n  sdm: Avoid config change when transitioning to active mode\n  sdmclient: Reset the first_cycle flag in Postcommit.\n  sdmclient: Update SetDisplayBrightness API\n  sdmclient: Don't wait for VM reclaim during TUI end.\n  sdm: Wait for VM reclaim event before handling TUI end.\n  snapalloc: Update non-fatal error logs to warning in Metadata APIs\n  sdm: Wait for VM reclaim event before handling TUI end.\n  display-core: Skip ABC files export for secondary panel\n  sdmclient: Add helper API for Layer Command BufferSlotsToClear\n  snapalloc: Update non-fatal error logs to warning in Metadata APIs\n  display-core: Export ABC config files during re-config\n  sdm: Add check for mode change before setting bit_clk_rate_\n  sdmclient: Fix CheckLayerBufferBinding definition dependency\n  snapalloc: Close the fence FD after use in lock\n  sdmclient: destroy pluggable displays during TUITransitionPrepare\n  sdmclient: add definition for SetAIScalerMode API",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I67e5a77999c4eee6384bca2eb58b4c668270d786",
+      "commit": "5c18ca2afe7cd850bdeaecc8410c7f61f2175773",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/5c18ca2afe7c",
+      "review_url": "https://review.lineageos.org/q/I67e5a77999c4eee6384bca2eb58b4c668270d786"
+    },
+    {
+      "datetime": "2025-11-20T20:02:43Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/display/hal",
+      "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+      "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display:\n  display: add soc ids for Sun iot\n  gralloc: Increase allocator binder thread priority\n  gralloc : Bypass compilation for formats not supported on neo\n  init: add enable_snapalloc prop for neo61\n  hw_fence: Conditional compilation of hw_fence for composerv3 and above\n  init: Enable null-display for neo61 LA\n  composer: Adapt SetDisplayBrightness API to new interface\n  config: Set Blur property based for canoe target",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I4c0de4eb2a72f1368d280cd72b44491948f0fa27",
+      "commit": "572019cf23158204f477d61b518b9ae6e213fcf1",
+      "commit_url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019cf2315",
+      "review_url": "https://review.lineageos.org/q/I4c0de4eb2a72f1368d280cd72b44491948f0fa27"
+    },
+    {
+      "datetime": "2025-11-20T20:03:11Z",
+      "kind": "Merge",
+      "repo": "hardware/qcom-caf/sm8750/display/intf",
+      "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
+      "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf:\n  display-intf: Add VIEW_ID Metadata type\n  display-intf: Add 1K aligned format & modifier\n  display-intf: add deinit method to lifecycle\n  sdmclient: Update SetDisplayBrightness API\n  display-intf: Enumerate MIPMAP formats and modifiers\n  display-intf: Add CheckLayerBufferBinding API interface\n  display-intf: Add support for HDR/SDR ratio\n  common: Add support for UBWC 6.0\n  common: Add support for UBWC 6.0\n  sdmclient: Add new API for AI Scaler in AIQE display interface",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I64642d123e323772033a465d36f5d07c41457f75",
+      "commit": "19b5c055b40bc3d7af4309662eea98c7e7a72cee",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c055b40b",
+      "review_url": "https://review.lineageos.org/q/I64642d123e323772033a465d36f5d07c41457f75"
+    },
+    {
+      "datetime": "2025-11-21T01:51:44Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8550",
+      "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+      "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+      "author_name": "Ankit Lathiya",
+      "author_email": "alathiya@qti.qualcomm.com",
+      "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+      "commit": "c2a16e9708770c3c88d3a9c87aec9293fcd14846",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e970877",
+      "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+    },
+    {
+      "datetime": "2025-11-21T03:27:18Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2025-11-21-02-51-47-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I518f0f2bccb929aaaec54bf521aae7ab8be708eb",
+      "commit": "bf5ffb4c5d7b88400c48d5ade48ef51bbce27d3e",
+      "commit_url": "https://github.com/android-kxxt/state/commit/bf5ffb4c5d7b",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-21T03:28:01Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2025-11-21-02-51-47-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Iffdca4dcee9b3593a752aec78521dd891c829e9b",
+      "commit": "376e09a4b4089bd8dc88d1d2d58671092972eb79",
+      "commit_url": "https://github.com/android-kxxt/state/commit/376e09a4b408",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-21T03:35:13Z",
+      "kind": "Normal",
+      "repo": "ota",
+      "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I8b811b2f63a1736cb074b0339303a4721ad0761b",
+      "commit": "1313fb0af661953039b25d75fcfc4f24bcf3f335",
+      "commit_url": "https://github.com/android-kxxt/ota/commit/1313fb0af661",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-21T22:26:32Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8450",
+      "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+      "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+      "author_name": "Ankit Lathiya",
+      "author_email": "alathiya@qti.qualcomm.com",
+      "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+      "commit": "3cf5bcbc10525edf9e156fadb089450299377aa8",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3cf5bcbc1052",
+      "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+    },
+    {
+      "datetime": "2025-11-21T22:26:50Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8650",
+      "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+      "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+      "author_name": "Ankit Lathiya",
+      "author_email": "alathiya@qti.qualcomm.com",
+      "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+      "commit": "2c83259538a584b093511128d1bfc442d6efd8e1",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259538a5",
+      "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+    },
+    {
+      "datetime": "2025-11-21T22:26:59Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8750",
+      "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+      "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+      "author_name": "Ankit Lathiya",
+      "author_email": "alathiya@qti.qualcomm.com",
+      "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+      "commit": "dd8ebd72c21da1e34c7b501c713df82a46639abd",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd72c21d",
+      "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+    },
+    {
+      "datetime": "2025-11-22T23:27:38Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "LineageParts: Set group key for contributors cloud IA",
+      "description": "Order has to be adjusted since it has 3 preferences inside:\n* 15 - legal_container\n* 16 - regulatory_info\n* 17 - safety_info",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I544d216da86a107d4901ce752cbd79a425500c7a",
+      "commit": "5b14bf8c24372c000ebb6fd65d857a8ce5b3edc8",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/5b14bf8c2437",
+      "review_url": "https://review.lineageos.org/q/I544d216da86a107d4901ce752cbd79a425500c7a"
+    },
+    {
+      "datetime": "2025-11-23T12:15:28Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "ChargingControlSettings: Ditch DropDownPreference and use ListPreference",
+      "description": "This custom and quite old preference type is only used here,\nlet's just stop using it.",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "Ib4a82e9c66e5d8606ad8845fa71eeb894b535a94",
+      "commit": "31662bd36c81d9ea7f22428f3e56252ccf91eaaa",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/31662bd36c81",
+      "review_url": "https://review.lineageos.org/q/Ib4a82e9c66e5d8606ad8845fa71eeb894b535a94"
+    },
+    {
+      "datetime": "2025-11-23T12:15:38Z",
+      "kind": "Normal",
+      "repo": "lineage-sdk",
+      "title": "LineagePreferenceLib: RIP DropDownPreference type",
+      "description": "It no longer fits well in modern Settings UI.",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I780009571b9bde2e7655a77c8d683f66225ab6ad",
+      "commit": "60d0477f66f48cde55c6b46d765638d929d2edb7",
+      "commit_url": "https://github.com/LineageOS/android_lineage-sdk/commit/60d0477f66f4",
+      "review_url": "https://review.lineageos.org/q/I780009571b9bde2e7655a77c8d683f66225ab6ad"
+    },
+    {
+      "datetime": "2025-11-23T16:14:09Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy-legacy-um",
+      "title": "legacy: Disallow system_server from loading kernel modules",
+      "description": "Triggers neverallow on BP3A.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I20560c2d7305ee351ca5105aa282357105003e6a",
+      "commit": "a6b7ae68c751aae993342142a82fd9b40898cce6",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae68c751",
+      "review_url": "https://review.lineageos.org/q/I20560c2d7305ee351ca5105aa282357105003e6a"
+    },
+    {
+      "datetime": "2025-11-23T16:15:04Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/legacy-um",
+      "title": "legacy: Disallow system_server from loading kernel modules",
+      "description": "Triggers neverallow on BP3A.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I20560c2d7305ee351ca5105aa282357105003e6a",
+      "commit": "f06f20f3a9028d71e50d2505a4ec26a1ef112194",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f3a902",
+      "review_url": "https://review.lineageos.org/q/I20560c2d7305ee351ca5105aa282357105003e6a"
+    },
+    {
+      "datetime": "2025-11-23T16:58:46Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "devices: dre: Promote to 23.0",
+      "description": "",
+      "author_name": "Nick Reuter",
+      "author_email": "nreuter85@gmail.com",
+      "change_id": "I831d3939252f0f943e419e8b13c0b186fb183268",
+      "commit": "444f8d07712d51fb0ea25e7f496633e9162d3a05",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/444f8d07712d",
+      "review_url": "https://review.lineageos.org/q/I831d3939252f0f943e419e8b13c0b186fb183268"
+    },
+    {
+      "datetime": "2025-11-23T18:53:45Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy-legacy-um",
+      "title": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+      "description": "Fixes neverallow on BP3A.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Ie3b183d600390baca71851d9a45e14648a9172ae",
+      "commit": "b28a32c46c6765aa06504ae4ef8e3fa93b217b15",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c46c67",
+      "review_url": "https://review.lineageos.org/q/Ie3b183d600390baca71851d9a45e14648a9172ae"
+    },
+    {
+      "datetime": "2025-11-23T18:54:49Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/legacy-um",
+      "title": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+      "description": "Fixes neverallow on BP3A.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Ie3b183d600390baca71851d9a45e14648a9172ae",
+      "commit": "ac205a3f1585c18cd514dad601c992d0355e1a19",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3f1585",
+      "review_url": "https://review.lineageos.org/q/Ie3b183d600390baca71851d9a45e14648a9172ae"
+    },
+    {
+      "datetime": "2025-11-23T23:02:58Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/sm8250-common",
+      "title": "sm8250-common: Convert overlays to RRO",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Id0226559b81e115a6340591e7a107d25d7ad6848",
+      "commit": "1f60b5ddd2de3f04c1996f1cafe9de41e4a51805",
+      "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8250-common/commit/1f60b5ddd2de",
+      "review_url": "https://review.lineageos.org/q/Id0226559b81e115a6340591e7a107d25d7ad6848"
+    },
+    {
+      "datetime": "2025-11-23T23:52:18Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/lmi",
+      "title": "lmi: Convert overlays to RRO",
+      "description": "",
+      "author_name": "Sebastiano Barezzi",
+      "author_email": "seba@sebaubuntu.dev",
+      "change_id": "Id0226559b81e115a6340591e7a107d25d7ad6848",
+      "commit": "6efad5a890a2b4733c1a9666d729feef6c7a9f4e",
+      "commit_url": "https://github.com/xiaomi-sm8250-devs/android_device_xiaomi_lmi/commit/6efad5a890a2",
+      "review_url": null
+    },
+    {
+      "datetime": "2025-11-25T01:50:02Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Update gauguin maintainer list",
+      "description": "As per the co-maintainer's request",
+      "author_name": "Penguin766",
+      "author_email": "p7040647@gmail.com",
+      "change_id": "I697b6458cacc14b8d815061f1a81fddbd1ac6d86",
+      "commit": "4b134c267cf09c6d0f6731764767b94eb2495982",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/4b134c267cf0",
+      "review_url": "https://review.lineageos.org/q/I697b6458cacc14b8d815061f1a81fddbd1ac6d86"
+    },
+    {
+      "datetime": "2025-11-25T08:13:50Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "LineageParts: Add MD3 styling to Trust notification",
+      "description": "",
+      "author_name": "pnguyen879",
+      "author_email": "howardson2001@gmail.com",
+      "change_id": "I74e6c0f6c915dce3be680768cbb100e4432c17ef",
+      "commit": "f74caaf24ddc5cf1d0bf8ddfc442f629df3d5e0b",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f74caaf24ddc",
+      "review_url": "https://review.lineageos.org/q/I74e6c0f6c915dce3be680768cbb100e4432c17ef"
+    },
+    {
+      "datetime": "2025-11-25T11:01:39Z",
+      "kind": "Normal",
+      "repo": "lineage/mirror",
+      "title": "Updated to 25-Nov-2025 11:01 UTC",
+      "description": "",
+      "author_name": "Tim Schumacher",
+      "author_email": "timschumi@gmx.de",
+      "change_id": "Ia5435bc394a9b0a45a3251932601f81829e5e6ab",
+      "commit": "2074512360c345ecf8972012b95d4b3ce0a8fd9e",
+      "commit_url": "https://github.com/LineageOS/mirror/commit/2074512360c3",
+      "review_url": "https://review.lineageos.org/q/Ia5435bc394a9b0a45a3251932601f81829e5e6ab"
+    },
+    {
+      "datetime": "2025-11-25T11:29:34Z",
+      "kind": "Normal",
+      "repo": "hardware/qcom-caf/sm8450/audio/pal",
+      "title": "Revert \"ResourceManager: fix activeStreams check\"",
+      "description": "After commit [1], this change breaks speaker mode in calls such that\nhandset is still used after enabling speaker.\n\n[1]: b459e8b116fa61bbd633d161316ea25b376f8a93\n     (\"pal: stream concurrency and custom key optimization\")\n\nThis reverts commit 45d066e39a8a29f2013471fd8ca8874eecd52954.",
+      "author_name": "Fiqri Ardyansyah",
+      "author_email": "fiqri191002@gmail.com",
+      "change_id": "Ieaa95b8f4b5f3e2d47edc3372d7054661b6e5be3",
+      "commit": "0ab95e9be6aa4ba5fd3d75cdac8f145a60ff60a7",
+      "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0ab95e9be6aa",
+      "review_url": "https://review.lineageos.org/q/Ieaa95b8f4b5f3e2d47edc3372d7054661b6e5be3"
+    },
+    {
+      "datetime": "2025-11-25T23:30:51Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Regenerate device dependency mappings",
+      "description": "",
+      "author_name": "LineageOS Infra",
+      "author_email": "infra@lineageos.org",
+      "change_id": "I99dc4358147a7a31fea3dcf326ff0e286759e73a",
+      "commit": "4eb5ef00ae90e32df765f3895f9dd74759716dcb",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/4eb5ef00ae90",
+      "review_url": "https://review.lineageos.org/q/I99dc4358147a7a31fea3dcf326ff0e286759e73a"
+    },
+    {
+      "datetime": "2025-11-26T00:57:39Z",
+      "kind": "Normal",
+      "repo": "packages/apps/LineageParts",
+      "title": "DisplayRotation: Use new method to listen for preference changes",
+      "description": "Usage of addOnSwitchChangeListener(OnCheckedChangeListener) is\ndeprecated. The Javadoc explicitly says:\n\n  Use setOnPreferenceChangeListener(OnPreferenceChangeListener) instead.",
+      "author_name": "Bruno Martins",
+      "author_email": "bgcngm@gmail.com",
+      "change_id": "I7a31cbdb8b68fc9e851c040f6b056bf7bfa5d2a8",
+      "commit": "3cc78273c510a58209464d4ae332f0fb3541d247",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3cc78273c510",
+      "review_url": "https://review.lineageos.org/q/I7a31cbdb8b68fc9e851c040f6b056bf7bfa5d2a8"
+    },
+    {
+      "datetime": "2025-11-26T04:33:18Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "Time is money",
+      "description": "",
+      "author_name": "pnguyen879",
+      "author_email": "howardson2001@gmail.com",
+      "change_id": "Ib091879b51f0856b04da0b3c3587a816ff9e24f4",
+      "commit": "8496bac150ade4db542fe0fffacfe963d899795e",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/8496bac150ad",
+      "review_url": "https://review.lineageos.org/q/Ib091879b51f0856b04da0b3c3587a816ff9e24f4"
+    },
+    {
+      "datetime": "2025-11-26T05:18:49Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: devices: Add LG V60 ThinQ (timelm)",
+      "description": "",
+      "author_name": "pnguyen879",
+      "author_email": "howardson2001@gmail.com",
+      "change_id": "I9330eaca1d959e64a7c9af2264a6a950cc3294bb",
+      "commit": "e7987ee6ffb458297dcffb6f612712b641880738",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e7987ee6ffb4",
+      "review_url": "https://review.lineageos.org/q/I9330eaca1d959e64a7c9af2264a6a950cc3294bb"
+    },
+    {
+      "datetime": "2025-11-26T18:46:27Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Update alioth maintainer list",
+      "description": "As per the co-maintainer's request",
+      "author_name": "Christian Hoffmann",
+      "author_email": "chrmhoffmann@gmail.com",
+      "change_id": "If042a18215033b998d0e69765b770ca184c8e68b",
+      "commit": "e880e36eb3c9c5b84ab79253680721ec321ce99b",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e880e36eb3c9",
+      "review_url": "https://review.lineageos.org/q/If042a18215033b998d0e69765b770ca184c8e68b"
+    },
+    {
+      "datetime": "2025-11-27T10:07:02Z",
+      "kind": "Normal",
+      "repo": "lineage/hudson",
+      "title": "sake: Promote to 23.0",
+      "description": "",
+      "author_name": "Michael Zh",
+      "author_email": "mikooomichael@gmail.com",
+      "change_id": "I38d35a4b8154813d949419da80f5a2c2ed22a19c",
+      "commit": "b3b5d56215eb352008c7d638619d863f16bfcdf8",
+      "commit_url": "https://github.com/LineageOS/hudson/commit/b3b5d56215eb",
+      "review_url": "https://review.lineageos.org/q/I38d35a4b8154813d949419da80f5a2c2ed22a19c"
+    },
+    {
+      "datetime": "2025-11-27T10:07:31Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Promote sake to 23.0",
+      "description": "* I006D and ZS590KS are two names ASUS uses for the same model",
+      "author_name": "Michael Zh",
+      "author_email": "mikooomichael@gmail.com",
+      "change_id": "Ia48305d39ddf69bac85a80305de7668b201e63b0",
+      "commit": "ea98db60f69a5f440f9dd47cad045d1b745b2bec",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ea98db60f69a",
+      "review_url": "https://review.lineageos.org/q/Ia48305d39ddf69bac85a80305de7668b201e63b0"
+    },
+    {
+      "datetime": "2025-11-27T14:43:54Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Allow A16 FW for dodge and erhai",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I5cd4827dacd3b4f0ac21b30e2e8d3096381e0aff",
+      "commit": "42682e474ae09409e6fe1fe7868f0801df563b4f",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/42682e474ae0",
+      "review_url": "https://review.lineageos.org/q/I5cd4827dacd3b4f0ac21b30e2e8d3096381e0aff"
+    }
+  ],
+  "changes": {
+    "device/qcom/sepolicy-legacy-um": {
+      "logs": [
+        {
+          "datetime": "2025-11-23T18:53:45Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy-legacy-um",
+          "title": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "description": "Fixes neverallow on BP3A.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Ie3b183d600390baca71851d9a45e14648a9172ae",
+          "commit": "b28a32c46c6765aa06504ae4ef8e3fa93b217b15",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c46c67",
+          "review_url": "https://review.lineageos.org/q/Ie3b183d600390baca71851d9a45e14648a9172ae"
+        },
+        {
+          "datetime": "2025-11-23T16:14:09Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy-legacy-um",
+          "title": "legacy: Disallow system_server from loading kernel modules",
+          "description": "Triggers neverallow on BP3A.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I20560c2d7305ee351ca5105aa282357105003e6a",
+          "commit": "a6b7ae68c751aae993342142a82fd9b40898cce6",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae68c751",
+          "review_url": "https://review.lineageos.org/q/I20560c2d7305ee351ca5105aa282357105003e6a"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/legacy-um": {
+      "logs": [
+        {
+          "datetime": "2025-11-23T18:54:49Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/legacy-um",
+          "title": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "description": "Fixes neverallow on BP3A.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Ie3b183d600390baca71851d9a45e14648a9172ae",
+          "commit": "ac205a3f1585c18cd514dad601c992d0355e1a19",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3f1585",
+          "review_url": "https://review.lineageos.org/q/Ie3b183d600390baca71851d9a45e14648a9172ae"
+        },
+        {
+          "datetime": "2025-11-23T16:15:04Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/legacy-um",
+          "title": "legacy: Disallow system_server from loading kernel modules",
+          "description": "Triggers neverallow on BP3A.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I20560c2d7305ee351ca5105aa282357105003e6a",
+          "commit": "f06f20f3a9028d71e50d2505a4ec26a1ef112194",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f3a902",
+          "review_url": "https://review.lineageos.org/q/I20560c2d7305ee351ca5105aa282357105003e6a"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8450": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T22:26:32Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8450",
+          "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+          "author_name": "Ankit Lathiya",
+          "author_email": "alathiya@qti.qualcomm.com",
+          "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+          "commit": "3cf5bcbc10525edf9e156fadb089450299377aa8",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3cf5bcbc1052",
+          "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8550": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T01:51:44Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8550",
+          "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+          "author_name": "Ankit Lathiya",
+          "author_email": "alathiya@qti.qualcomm.com",
+          "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+          "commit": "c2a16e9708770c3c88d3a9c87aec9293fcd14846",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e970877",
+          "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8650": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T22:26:50Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8650",
+          "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+          "author_name": "Ankit Lathiya",
+          "author_email": "alathiya@qti.qualcomm.com",
+          "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+          "commit": "2c83259538a584b093511128d1bfc442d6efd8e1",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259538a5",
+          "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8750": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T22:26:59Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8750",
+          "title": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "description": "BOARD_PRODUCT_PREBUILT_DIR is obsolete. Use BOARD_PRODUCT_SEPOLICY_PREBUILT_DIRS instead",
+          "author_name": "Ankit Lathiya",
+          "author_email": "alathiya@qti.qualcomm.com",
+          "change_id": "Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db",
+          "commit": "dd8ebd72c21da1e34c7b501c713df82a46639abd",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd72c21d",
+          "review_url": "https://review.lineageos.org/q/Ibab1dd25e4db1505c2dcb2f8cd852daf7416e0db"
+        }
+      ]
+    },
+    "device/xiaomi/lmi": {
+      "logs": [
+        {
+          "datetime": "2025-11-23T23:52:18Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/lmi",
+          "title": "lmi: Convert overlays to RRO",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Id0226559b81e115a6340591e7a107d25d7ad6848",
+          "commit": "6efad5a890a2b4733c1a9666d729feef6c7a9f4e",
+          "commit_url": "https://github.com/xiaomi-sm8250-devs/android_device_xiaomi_lmi/commit/6efad5a890a2",
+          "review_url": null
+        }
+      ]
+    },
+    "device/xiaomi/mondrian": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T12:50:56Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/mondrian",
+          "title": "mondrian: Update blobs and firmware from OS2.0.208.0.VMNMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "Iccdfdbfec4f58c1c34f6ba3ad3a85608b75c0108",
+          "commit": "0377ab689255abe3b74706f44c7cc2b934c04c5b",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian/commit/0377ab689255",
+          "review_url": "https://review.lineageos.org/q/Iccdfdbfec4f58c1c34f6ba3ad3a85608b75c0108"
+        }
+      ]
+    },
+    "device/xiaomi/sm8250-common": {
+      "logs": [
+        {
+          "datetime": "2025-11-23T23:02:58Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/sm8250-common",
+          "title": "sm8250-common: Convert overlays to RRO",
+          "description": "",
+          "author_name": "Sebastiano Barezzi",
+          "author_email": "seba@sebaubuntu.dev",
+          "change_id": "Id0226559b81e115a6340591e7a107d25d7ad6848",
+          "commit": "1f60b5ddd2de3f04c1996f1cafe9de41e4a51805",
+          "commit_url": "https://github.com/LineageOS/android_device_xiaomi_sm8250-common/commit/1f60b5ddd2de",
+          "review_url": "https://review.lineageos.org/q/Id0226559b81e115a6340591e7a107d25d7ad6848"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8450/audio/pal": {
+      "logs": [
+        {
+          "datetime": "2025-11-25T11:29:34Z",
+          "kind": "Normal",
+          "repo": "hardware/qcom-caf/sm8450/audio/pal",
+          "title": "Revert \"ResourceManager: fix activeStreams check\"",
+          "description": "After commit [1], this change breaks speaker mode in calls such that\nhandset is still used after enabling speaker.\n\n[1]: b459e8b116fa61bbd633d161316ea25b376f8a93\n     (\"pal: stream concurrency and custom key optimization\")\n\nThis reverts commit 45d066e39a8a29f2013471fd8ca8874eecd52954.",
+          "author_name": "Fiqri Ardyansyah",
+          "author_email": "fiqri191002@gmail.com",
+          "change_id": "Ieaa95b8f4b5f3e2d47edc3372d7054661b6e5be3",
+          "commit": "0ab95e9be6aa4ba5fd3d75cdac8f145a60ff60a7",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0ab95e9be6aa",
+          "review_url": "https://review.lineageos.org/q/Ieaa95b8f4b5f3e2d47edc3372d7054661b6e5be3"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/display/core": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T20:02:25Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/display/core",
+          "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core into HEAD",
+          "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core:\n  sdmclient: Add logs for layer marked as skip\n  sdm: Avoid null commit at the start of TUI in VHM\n  sdm: Support AgingSurface loading\n  sdm: Bypass compilation for Aiqe\n  display-core: Bypass compilation for formats\n  snapalloc: Set graphics metadata on auxiliary buffer at allocation time\n  Fix non-constant-expression build time error\n  sdm: Avoid disconnecting WFD while initiating secure session\n  sdm: Avoid config change when transitioning to active mode\n  sdmclient: Reset the first_cycle flag in Postcommit.\n  sdmclient: Update SetDisplayBrightness API\n  sdmclient: Don't wait for VM reclaim during TUI end.\n  sdm: Wait for VM reclaim event before handling TUI end.\n  snapalloc: Update non-fatal error logs to warning in Metadata APIs\n  sdm: Wait for VM reclaim event before handling TUI end.\n  display-core: Skip ABC files export for secondary panel\n  sdmclient: Add helper API for Layer Command BufferSlotsToClear\n  snapalloc: Update non-fatal error logs to warning in Metadata APIs\n  display-core: Export ABC config files during re-config\n  sdm: Add check for mode change before setting bit_clk_rate_\n  sdmclient: Fix CheckLayerBufferBinding definition dependency\n  snapalloc: Close the fence FD after use in lock\n  sdmclient: destroy pluggable displays during TUITransitionPrepare\n  sdmclient: add definition for SetAIScalerMode API",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I67e5a77999c4eee6384bca2eb58b4c668270d786",
+          "commit": "5c18ca2afe7cd850bdeaecc8410c7f61f2175773",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/5c18ca2afe7c",
+          "review_url": "https://review.lineageos.org/q/I67e5a77999c4eee6384bca2eb58b4c668270d786"
+        },
+        {
+          "datetime": "2025-11-20T13:51:17Z",
+          "kind": "Normal",
+          "repo": "hardware/qcom-caf/sm8750/display/core",
+          "title": "Revert \"display-core: Make IsGPUHWAvailable() non-virtual and force it to true\"",
+          "description": "This reverts commit bfe044bb17b48bd7993449be07aec777acfbb966.\n\nReason: No longer needed with OOS 16 blobs",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I90bee7abe59771dfa6a2c7238f54d5ca59608c9c",
+          "commit": "4a213555352d7c391711dd173a98b76cf19dc72a",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/4a213555352d",
+          "review_url": "https://review.lineageos.org/q/I90bee7abe59771dfa6a2c7238f54d5ca59608c9c"
+        },
+        {
+          "datetime": "2025-11-18T15:49:05Z",
+          "kind": "Normal",
+          "repo": "hardware/qcom-caf/sm8750/display/core",
+          "title": "Reapply \"Revert^2 \"sdm: add support for DS merge mode\"\"",
+          "description": "This reverts commit 061e54d1413e78f7224f9918c523a1253d5fc0d1.\n\nReason: No longer needed with OOS 16 blobs",
+          "author_name": "Giovanni Ricca",
+          "author_email": "giovanniricca@proton.me",
+          "change_id": "I2ba56dfa868d43f3a2f7e4fc5216d72a41486401",
+          "commit": "dc857522011eb18f4b90869891d9dfe78e4294b8",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/dc857522011e",
+          "review_url": "https://review.lineageos.org/q/I2ba56dfa868d43f3a2f7e4fc5216d72a41486401"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/display/hal": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T20:02:43Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/display/hal",
+          "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+          "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display:\n  display: add soc ids for Sun iot\n  gralloc: Increase allocator binder thread priority\n  gralloc : Bypass compilation for formats not supported on neo\n  init: add enable_snapalloc prop for neo61\n  hw_fence: Conditional compilation of hw_fence for composerv3 and above\n  init: Enable null-display for neo61 LA\n  composer: Adapt SetDisplayBrightness API to new interface\n  config: Set Blur property based for canoe target",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I4c0de4eb2a72f1368d280cd72b44491948f0fa27",
+          "commit": "572019cf23158204f477d61b518b9ae6e213fcf1",
+          "commit_url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019cf2315",
+          "review_url": "https://review.lineageos.org/q/I4c0de4eb2a72f1368d280cd72b44491948f0fa27"
+        }
+      ]
+    },
+    "hardware/qcom-caf/sm8750/display/intf": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T20:03:11Z",
+          "kind": "Merge",
+          "repo": "hardware/qcom-caf/sm8750/display/intf",
+          "title": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
+          "description": "DISPLAY.LA.5.0.r1-06900-pakala.0\n\n* tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf:\n  display-intf: Add VIEW_ID Metadata type\n  display-intf: Add 1K aligned format & modifier\n  display-intf: add deinit method to lifecycle\n  sdmclient: Update SetDisplayBrightness API\n  display-intf: Enumerate MIPMAP formats and modifiers\n  display-intf: Add CheckLayerBufferBinding API interface\n  display-intf: Add support for HDR/SDR ratio\n  common: Add support for UBWC 6.0\n  common: Add support for UBWC 6.0\n  sdmclient: Add new API for AI Scaler in AIQE display interface",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I64642d123e323772033a465d36f5d07c41457f75",
+          "commit": "19b5c055b40bc3d7af4309662eea98c7e7a72cee",
+          "commit_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c055b40b",
+          "review_url": "https://review.lineageos.org/q/I64642d123e323772033a465d36f5d07c41457f75"
+        }
+      ]
+    },
+    "lineage-sdk": {
+      "logs": [
+        {
+          "datetime": "2025-11-23T12:15:38Z",
+          "kind": "Normal",
+          "repo": "lineage-sdk",
+          "title": "LineagePreferenceLib: RIP DropDownPreference type",
+          "description": "It no longer fits well in modern Settings UI.",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I780009571b9bde2e7655a77c8d683f66225ab6ad",
+          "commit": "60d0477f66f48cde55c6b46d765638d929d2edb7",
+          "commit_url": "https://github.com/LineageOS/android_lineage-sdk/commit/60d0477f66f4",
+          "review_url": "https://review.lineageos.org/q/I780009571b9bde2e7655a77c8d683f66225ab6ad"
+        }
+      ]
+    },
+    "lineage/hudson": {
+      "logs": [
+        {
+          "datetime": "2025-11-27T10:07:02Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "sake: Promote to 23.0",
+          "description": "",
+          "author_name": "Michael Zh",
+          "author_email": "mikooomichael@gmail.com",
+          "change_id": "I38d35a4b8154813d949419da80f5a2c2ed22a19c",
+          "commit": "b3b5d56215eb352008c7d638619d863f16bfcdf8",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/b3b5d56215eb",
+          "review_url": "https://review.lineageos.org/q/I38d35a4b8154813d949419da80f5a2c2ed22a19c"
+        },
+        {
+          "datetime": "2025-11-26T04:33:18Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Time is money",
+          "description": "",
+          "author_name": "pnguyen879",
+          "author_email": "howardson2001@gmail.com",
+          "change_id": "Ib091879b51f0856b04da0b3c3587a816ff9e24f4",
+          "commit": "8496bac150ade4db542fe0fffacfe963d899795e",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/8496bac150ad",
+          "review_url": "https://review.lineageos.org/q/Ib091879b51f0856b04da0b3c3587a816ff9e24f4"
+        },
+        {
+          "datetime": "2025-11-25T23:30:51Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "Regenerate device dependency mappings",
+          "description": "",
+          "author_name": "LineageOS Infra",
+          "author_email": "infra@lineageos.org",
+          "change_id": "I99dc4358147a7a31fea3dcf326ff0e286759e73a",
+          "commit": "4eb5ef00ae90e32df765f3895f9dd74759716dcb",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/4eb5ef00ae90",
+          "review_url": "https://review.lineageos.org/q/I99dc4358147a7a31fea3dcf326ff0e286759e73a"
+        },
+        {
+          "datetime": "2025-11-19T00:21:18Z",
+          "kind": "Normal",
+          "repo": "lineage/hudson",
+          "title": "hudson: Promote dre to 23.0",
+          "description": "",
+          "author_name": "Nick Reuter",
+          "author_email": "nreuter85@gmail.com",
+          "change_id": "I8667e3f35a762adbfb68b1114f679d49d60ce46b",
+          "commit": "661ad5b7a63cf5647f3dfb6d09952e420d38bb08",
+          "commit_url": "https://github.com/LineageOS/hudson/commit/661ad5b7a63c",
+          "review_url": "https://review.lineageos.org/q/I8667e3f35a762adbfb68b1114f679d49d60ce46b"
+        }
+      ]
+    },
+    "lineage/mirror": {
+      "logs": [
+        {
+          "datetime": "2025-11-25T11:01:39Z",
+          "kind": "Normal",
+          "repo": "lineage/mirror",
+          "title": "Updated to 25-Nov-2025 11:01 UTC",
+          "description": "",
+          "author_name": "Tim Schumacher",
+          "author_email": "timschumi@gmx.de",
+          "change_id": "Ia5435bc394a9b0a45a3251932601f81829e5e6ab",
+          "commit": "2074512360c345ecf8972012b95d4b3ce0a8fd9e",
+          "commit_url": "https://github.com/LineageOS/mirror/commit/2074512360c3",
+          "review_url": "https://review.lineageos.org/q/Ia5435bc394a9b0a45a3251932601f81829e5e6ab"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2025-11-27T14:43:54Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Allow A16 FW for dodge and erhai",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I5cd4827dacd3b4f0ac21b30e2e8d3096381e0aff",
+          "commit": "42682e474ae09409e6fe1fe7868f0801df563b4f",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/42682e474ae0",
+          "review_url": "https://review.lineageos.org/q/I5cd4827dacd3b4f0ac21b30e2e8d3096381e0aff"
+        },
+        {
+          "datetime": "2025-11-27T10:07:31Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Promote sake to 23.0",
+          "description": "* I006D and ZS590KS are two names ASUS uses for the same model",
+          "author_name": "Michael Zh",
+          "author_email": "mikooomichael@gmail.com",
+          "change_id": "Ia48305d39ddf69bac85a80305de7668b201e63b0",
+          "commit": "ea98db60f69a5f440f9dd47cad045d1b745b2bec",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/ea98db60f69a",
+          "review_url": "https://review.lineageos.org/q/Ia48305d39ddf69bac85a80305de7668b201e63b0"
+        },
+        {
+          "datetime": "2025-11-26T18:46:27Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Update alioth maintainer list",
+          "description": "As per the co-maintainer's request",
+          "author_name": "Christian Hoffmann",
+          "author_email": "chrmhoffmann@gmail.com",
+          "change_id": "If042a18215033b998d0e69765b770ca184c8e68b",
+          "commit": "e880e36eb3c9c5b84ab79253680721ec321ce99b",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e880e36eb3c9",
+          "review_url": "https://review.lineageos.org/q/If042a18215033b998d0e69765b770ca184c8e68b"
+        },
+        {
+          "datetime": "2025-11-26T05:18:49Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: devices: Add LG V60 ThinQ (timelm)",
+          "description": "",
+          "author_name": "pnguyen879",
+          "author_email": "howardson2001@gmail.com",
+          "change_id": "I9330eaca1d959e64a7c9af2264a6a950cc3294bb",
+          "commit": "e7987ee6ffb458297dcffb6f612712b641880738",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/e7987ee6ffb4",
+          "review_url": "https://review.lineageos.org/q/I9330eaca1d959e64a7c9af2264a6a950cc3294bb"
+        },
+        {
+          "datetime": "2025-11-25T01:50:02Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Update gauguin maintainer list",
+          "description": "As per the co-maintainer's request",
+          "author_name": "Penguin766",
+          "author_email": "p7040647@gmail.com",
+          "change_id": "I697b6458cacc14b8d815061f1a81fddbd1ac6d86",
+          "commit": "4b134c267cf09c6d0f6731764767b94eb2495982",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/4b134c267cf0",
+          "review_url": "https://review.lineageos.org/q/I697b6458cacc14b8d815061f1a81fddbd1ac6d86"
+        },
+        {
+          "datetime": "2025-11-23T16:58:46Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "devices: dre: Promote to 23.0",
+          "description": "",
+          "author_name": "Nick Reuter",
+          "author_email": "nreuter85@gmail.com",
+          "change_id": "I831d3939252f0f943e419e8b13c0b186fb183268",
+          "commit": "444f8d07712d51fb0ea25e7f496633e9162d3a05",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/444f8d07712d",
+          "review_url": "https://review.lineageos.org/q/I831d3939252f0f943e419e8b13c0b186fb183268"
+        }
+      ]
+    },
+    "ota": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T03:35:13Z",
+          "kind": "Normal",
+          "repo": "ota",
+          "title": "Update OTA metadata for mondrian (UNOFFICIAL, Release)",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I8b811b2f63a1736cb074b0339303a4721ad0761b",
+          "commit": "1313fb0af661953039b25d75fcfc4f24bcf3f335",
+          "commit_url": "https://github.com/android-kxxt/ota/commit/1313fb0af661",
+          "review_url": null
+        }
+      ]
+    },
+    "packages/apps/LineageParts": {
+      "logs": [
+        {
+          "datetime": "2025-11-26T00:57:39Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "DisplayRotation: Use new method to listen for preference changes",
+          "description": "Usage of addOnSwitchChangeListener(OnCheckedChangeListener) is\ndeprecated. The Javadoc explicitly says:\n\n  Use setOnPreferenceChangeListener(OnPreferenceChangeListener) instead.",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "I7a31cbdb8b68fc9e851c040f6b056bf7bfa5d2a8",
+          "commit": "3cc78273c510a58209464d4ae332f0fb3541d247",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3cc78273c510",
+          "review_url": "https://review.lineageos.org/q/I7a31cbdb8b68fc9e851c040f6b056bf7bfa5d2a8"
+        },
+        {
+          "datetime": "2025-11-25T08:13:50Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "LineageParts: Add MD3 styling to Trust notification",
+          "description": "",
+          "author_name": "pnguyen879",
+          "author_email": "howardson2001@gmail.com",
+          "change_id": "I74e6c0f6c915dce3be680768cbb100e4432c17ef",
+          "commit": "f74caaf24ddc5cf1d0bf8ddfc442f629df3d5e0b",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f74caaf24ddc",
+          "review_url": "https://review.lineageos.org/q/I74e6c0f6c915dce3be680768cbb100e4432c17ef"
+        },
+        {
+          "datetime": "2025-11-23T12:15:28Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "ChargingControlSettings: Ditch DropDownPreference and use ListPreference",
+          "description": "This custom and quite old preference type is only used here,\nlet's just stop using it.",
+          "author_name": "Bruno Martins",
+          "author_email": "bgcngm@gmail.com",
+          "change_id": "Ib4a82e9c66e5d8606ad8845fa71eeb894b535a94",
+          "commit": "31662bd36c81d9ea7f22428f3e56252ccf91eaaa",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/31662bd36c81",
+          "review_url": "https://review.lineageos.org/q/Ib4a82e9c66e5d8606ad8845fa71eeb894b535a94"
+        },
+        {
+          "datetime": "2025-11-22T23:27:38Z",
+          "kind": "Normal",
+          "repo": "packages/apps/LineageParts",
+          "title": "LineageParts: Set group key for contributors cloud IA",
+          "description": "Order has to be adjusted since it has 3 preferences inside:\n* 15 - legal_container\n* 16 - regulatory_info\n* 17 - safety_info",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I544d216da86a107d4901ce752cbd79a425500c7a",
+          "commit": "5b14bf8c24372c000ebb6fd65d857a8ce5b3edc8",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/5b14bf8c2437",
+          "review_url": "https://review.lineageos.org/q/I544d216da86a107d4901ce752cbd79a425500c7a"
+        }
+      ]
+    },
+    "packages/apps/SetupWizard": {
+      "logs": [
+        {
+          "datetime": "2025-11-02T00:52:17Z",
+          "kind": "Normal",
+          "repo": "packages/apps/SetupWizard",
+          "title": "SetupWizard: Actually remove 2 button nav leftovers",
+          "description": "",
+          "author_name": "pnguyen879",
+          "author_email": "howardson2001@gmail.com",
+          "change_id": "I939906cd89fac2b3b9bc778148e5947b04a100d1",
+          "commit": "d470698baff6ca7eac5509ddcf9e6ba42bec408d",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/d470698baff6",
+          "review_url": "https://review.lineageos.org/q/I939906cd89fac2b3b9bc778148e5947b04a100d1"
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2025-11-21T03:28:01Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2025-11-21-02-51-47-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Iffdca4dcee9b3593a752aec78521dd891c829e9b",
+          "commit": "376e09a4b4089bd8dc88d1d2d58671092972eb79",
+          "commit_url": "https://github.com/android-kxxt/state/commit/376e09a4b408",
+          "review_url": null
+        },
+        {
+          "datetime": "2025-11-21T03:27:18Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2025-11-21-02-51-47-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I518f0f2bccb929aaaec54bf521aae7ab8be708eb",
+          "commit": "bf5ffb4c5d7b88400c48d5ade48ef51bbce27d3e",
+          "commit_url": "https://github.com/android-kxxt/state/commit/bf5ffb4c5d7b",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/lineage": {
+      "logs": [
+        {
+          "datetime": "2025-11-17T17:26:41Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "build: Fix sourcing envsetup from anywhere",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "Id1ee24e89a554c8de42366f9f0f5da03d3c86143",
+          "commit": "c4e86b6e4a3960ae2740a340cb7a0058cbbbe5e5",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/c4e86b6e4a39",
+          "review_url": "https://review.lineageos.org/q/Id1ee24e89a554c8de42366f9f0f5da03d3c86143"
+        }
+      ]
+    },
+    "vendor/xiaomi/mondrian": {
+      "logs": [
+        {
+          "datetime": "2025-11-20T12:51:06Z",
+          "kind": "Normal",
+          "repo": "vendor/xiaomi/mondrian",
+          "title": "mondrian: Update blobs and firmware from OS2.0.208.0.VMNMIXM",
+          "description": "",
+          "author_name": "Arian",
+          "author_email": "arian.kulmer@web.de",
+          "change_id": "I82367dcd11f9db889677aeadd75505abe081accf",
+          "commit": "daa1fdcab02cef04322dc7086a81f94f9179d1a6",
+          "commit_url": "https://github.com/TheMuppets/proprietary_vendor_xiaomi_mondrian/commit/daa1fdcab02c",
+          "review_url": null
+        }
+      ]
+    }
+  }
+}
