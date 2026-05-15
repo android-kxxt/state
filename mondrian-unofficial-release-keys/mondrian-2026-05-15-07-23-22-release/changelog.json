@@ -1,0 +1,538 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2026-05-05T15:51:21Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8650",
+      "title": "qva: Label AOSP NXP authsecret HAL",
+      "description": "",
+      "author_name": "AdarshGrewal",
+      "author_email": "adarshgrewal@gmail.com",
+      "change_id": "Ic4b8279e082301572709e09a5d5b709d37ab87a9",
+      "commit": "c557f5a66b5ab468ef92a0e32eae0580207a0f86",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c557f5a66b5a",
+      "review_url": "https://review.lineageos.org/q/Ic4b8279e082301572709e09a5d5b709d37ab87a9"
+    },
+    {
+      "datetime": "2026-05-05T15:52:23Z",
+      "kind": "Normal",
+      "repo": "device/qcom/sepolicy_vndr/sm8750",
+      "title": "qva: Label AOSP NXP authsecret HAL",
+      "description": "",
+      "author_name": "AdarshGrewal",
+      "author_email": "adarshgrewal@gmail.com",
+      "change_id": "Ic4b8279e082301572709e09a5d5b709d37ab87a9",
+      "commit": "a3c24fcf17f8aff88c184108f03de0bce2841b57",
+      "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3c24fcf17f8",
+      "review_url": "https://review.lineageos.org/q/Ic4b8279e082301572709e09a5d5b709d37ab87a9"
+    },
+    {
+      "datetime": "2026-05-11T16:12:53Z",
+      "kind": "Normal",
+      "repo": "packages/apps/DeskClock",
+      "title": "DeskClock: Fix bottom navigation label clipping in landscape",
+      "description": "The Material 3 Expressive migration in f4e0e040a updated the portrait\nBottomNavigationView to wrap_content (letting the library size each item\nvia its M3 tokens, with an 80dp item minimum) but only refreshed the\nbackground attribute in res/layout-land/desk_clock.xml, leaving the\nM2-era android:layout_height=\"72dp\" in place.\n\nSince the M3 NavigationBarItemView's default minimum height (~80dp)\nexceeds 72dp, each item's label TextView is clipped at the parent\nboundary, cutting off the lower half of \"Alarm/Clock/Timer/Stopwatch\"\nlabels on the landscape layout.\n\nApply the same wrap_content fix that portrait already received, so both\nlayouts defer sizing to the Material library.",
+      "author_name": "cynagenautes",
+      "author_email": "rainlinbolt2001@gmail.com",
+      "change_id": "Ica7263bcaa95c32244e52d654d5e6196d24694e3",
+      "commit": "23107f7f51a16d4787f5e5fe7e357234d018ed1d",
+      "commit_url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/23107f7f51a1",
+      "review_url": "https://review.lineageos.org/q/Ica7263bcaa95c32244e52d654d5e6196d24694e3"
+    },
+    {
+      "datetime": "2026-05-12T04:58:19Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "generated_kernel_includes: Fail immediately on errors",
+      "description": "Prior to this, any failure would be logged, but the rule would continue\nand still report that it succeeded.",
+      "author_name": "Aaron Kling",
+      "author_email": "webgeek1234@gmail.com",
+      "change_id": "I918746854e3255bd48d4d8cda5b0f7b23fc49e99",
+      "commit": "a67469aad07838245b7d9e6e8def61bfb8d48966",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a67469aad078",
+      "review_url": "https://review.lineageos.org/q/I918746854e3255bd48d4d8cda5b0f7b23fc49e99"
+    },
+    {
+      "datetime": "2026-05-12T04:58:19Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "generated_kernel_includes: Track kernel platform path change",
+      "description": "This also needs the new path",
+      "author_name": "Aaron Kling",
+      "author_email": "webgeek1234@gmail.com",
+      "change_id": "Ia270c1efec4197bc350332273a5820fbb7fa3f79",
+      "commit": "a5588130cf89846e1a05684635608d28c9ee8300",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a5588130cf89",
+      "review_url": "https://review.lineageos.org/q/Ia270c1efec4197bc350332273a5820fbb7fa3f79"
+    },
+    {
+      "datetime": "2026-05-12T04:58:19Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "kernel: Support having kernel platform in the main repo manifest",
+      "description": "This requires two changes:\n* Block the directory containing these trees from being scanned by bp\n* Parse the full manifest and trim it down to only the relevant kernel\n  platform repos for use by the bazel build system to generate module\n  versions",
+      "author_name": "Aaron Kling",
+      "author_email": "webgeek1234@gmail.com",
+      "change_id": "I2cb1d2852a5ce7c8e67ca96df01ab50fb720250c",
+      "commit": "ea5701565ea394c9848953a16061fedcd15a9a5c",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/ea5701565ea3",
+      "review_url": "https://review.lineageos.org/q/I2cb1d2852a5ce7c8e67ca96df01ab50fb720250c"
+    },
+    {
+      "datetime": "2026-05-12T14:11:26Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Drop \"MTXXXX\" from Mediatek SoC names",
+      "description": "These numbers make no sense whatsoever.",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Ie0f006582ca1beafadf86354dad4b1f5f7932546",
+      "commit": "41f2581badd46604c83649487ae7703b242404d5",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/41f2581badd4",
+      "review_url": "https://review.lineageos.org/q/Ie0f006582ca1beafadf86354dad4b1f5f7932546"
+    },
+    {
+      "datetime": "2026-05-12T14:12:29Z",
+      "kind": "Normal",
+      "repo": "lineage/wiki",
+      "title": "wiki: Fix lancelot SoC",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I9d016ab1387073afaad9af2655aa38c807fe0d67",
+      "commit": "96dc051d7f476f2883d4b71939a0ccfaed8c09d1",
+      "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/96dc051d7f47",
+      "review_url": "https://review.lineageos.org/q/I9d016ab1387073afaad9af2655aa38c807fe0d67"
+    },
+    {
+      "datetime": "2026-05-13T11:38:15Z",
+      "kind": "Normal",
+      "repo": "packages/modules/Connectivity",
+      "title": "ConnectivityService: Disable \"Close QUIC connection\" feature",
+      "description": "Setting this via device_config overlay doesn't seem to work, so hardcode\nthe default here, with the benefit that we'll be able to ensure this\ncontinues to work in future versions when the flag eventually gets\nremoved in AOSP.\n\nhttps://lowlevel.fun/posts/tiny-udp-cannon-android-vpn-bypass/",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@gmail.com",
+      "change_id": "I50374f2885c2b0c42d38263a67af2e15b3b83fdf",
+      "commit": "c9f3e7795256bd4a3f99d02e604e24fd1552c2b3",
+      "commit_url": "https://github.com/LineageOS/android_packages_modules_Connectivity/commit/c9f3e7795256",
+      "review_url": "https://review.lineageos.org/q/I50374f2885c2b0c42d38263a67af2e15b3b83fdf"
+    },
+    {
+      "datetime": "2026-05-13T14:05:44Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Fix 0501 release state",
+      "description": "",
+      "author_name": "Levi Zim",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I312dcaffb1208e4f3b679718cbe5ca5491d30dbc",
+      "commit": "41d779fad62f26362d609c16283d5a95af116bd7",
+      "commit_url": "https://github.com/android-kxxt/state/commit/41d779fad62f",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-05-13T14:22:41Z",
+      "kind": "Normal",
+      "repo": "patches",
+      "title": "Drop landed patches",
+      "description": "",
+      "author_name": "Levi Zim",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I0dda61167850c71a9c9113fceb14daadd8835386",
+      "commit": "7005442925e659233082ff8fe5c70d14b4799e7a",
+      "commit_url": "https://github.com/android-kxxt/android_patches/commit/7005442925e6",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-05-13T14:56:34Z",
+      "kind": "Normal",
+      "repo": "lineage/scripts",
+      "title": "lineage-priv-template: Add AVB_CUSTOM_*, WITH_AVB support",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I0c7f20a49e7f6db171c67e92fca61b7ce89eea4f",
+      "commit": "12aa796497d86ddefc742b432e4e023301c095af",
+      "commit_url": "https://github.com/LineageOS/scripts/commit/12aa796497d8",
+      "review_url": "https://review.lineageos.org/q/I0c7f20a49e7f6db171c67e92fca61b7ce89eea4f"
+    },
+    {
+      "datetime": "2026-05-14T10:28:44Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "roomservice: ruff format",
+      "description": "",
+      "author_name": "Michael Bestas",
+      "author_email": "mkbestas@lineageos.org",
+      "change_id": "Ib860b13f90754d2e75ca10bf7d330e6da1addfc2",
+      "commit": "11b051c30dcd1a5a954ee1f378fdf9c582f98e33",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/11b051c30dcd",
+      "review_url": "https://review.lineageos.org/q/Ib860b13f90754d2e75ca10bf7d330e6da1addfc2"
+    },
+    {
+      "datetime": "2026-05-14T10:42:00Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "Run `pre-commit run --all`",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I566189265170e4781ce4dde23ab51409e0dedb7b",
+      "commit": "fd81c5e8f8a99c112531f4908f816d0f96f4b1a2",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/fd81c5e8f8a9",
+      "review_url": "https://review.lineageos.org/q/I566189265170e4781ce4dde23ab51409e0dedb7b"
+    },
+    {
+      "datetime": "2026-05-14T10:42:00Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "Setup pre-commit",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I11a5bb82909da2feb877cbc31f8651bcc45b0788",
+      "commit": "07b883ef9702fb145753081bfb592617cf962d48",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/07b883ef9702",
+      "review_url": "https://review.lineageos.org/q/I11a5bb82909da2feb877cbc31f8651bcc45b0788"
+    },
+    {
+      "datetime": "2026-05-14T10:42:00Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "roomservice: Address ruff's \"E722 Do not use bare `except`\" warnings",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I1903f2f54362796e781df710eaa9bd123a35a4c6",
+      "commit": "33fdf544ca66936b402868e93c67bff2d89f6ddb",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/33fdf544ca66",
+      "review_url": "https://review.lineageos.org/q/I1903f2f54362796e781df710eaa9bd123a35a4c6"
+    },
+    {
+      "datetime": "2026-05-14T10:52:29Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "roomservice: os.system -> subprocess.run",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Ia9317aa1bf1d0e8b958d8e91350b5dbd9d93e5c5",
+      "commit": "3d0e844e0f9efc037dd6815f85a1eb688e5ad583",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/3d0e844e0f9e",
+      "review_url": "https://review.lineageos.org/q/Ia9317aa1bf1d0e8b958d8e91350b5dbd9d93e5c5"
+    },
+    {
+      "datetime": "2026-05-14T11:08:05Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "roomservice: Upgrade to f-strings",
+      "description": "",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "I0e8e7ca6e91e118e9137ef4372efc77a4b461446",
+      "commit": "362a33ddfbffd1dbfedf565f26b0c9e7fc6beef3",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/362a33ddfbff",
+      "review_url": "https://review.lineageos.org/q/I0e8e7ca6e91e118e9137ef4372efc77a4b461446"
+    },
+    {
+      "datetime": "2026-05-14T20:17:58Z",
+      "kind": "Normal",
+      "repo": "vendor/lineage",
+      "title": "roomservice: Simplify JSON file reading",
+      "description": "* Auto close file handle\n* Use json.load() to not have to call read() manually",
+      "author_name": "LuK1337",
+      "author_email": "priv.luk@gmail.com",
+      "change_id": "Id54da9e58941197eaa6cdd261eda3c689e6b62f8",
+      "commit": "93002ff9f94c95f6119a97a5ea8fead423c04c1f",
+      "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/93002ff9f94c",
+      "review_url": "https://review.lineageos.org/q/Id54da9e58941197eaa6cdd261eda3c689e6b62f8"
+    }
+  ],
+  "changes": {
+    "device/qcom/sepolicy_vndr/sm8650": {
+      "logs": [
+        {
+          "datetime": "2026-05-05T15:51:21Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8650",
+          "title": "qva: Label AOSP NXP authsecret HAL",
+          "description": "",
+          "author_name": "AdarshGrewal",
+          "author_email": "adarshgrewal@gmail.com",
+          "change_id": "Ic4b8279e082301572709e09a5d5b709d37ab87a9",
+          "commit": "c557f5a66b5ab468ef92a0e32eae0580207a0f86",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c557f5a66b5a",
+          "review_url": "https://review.lineageos.org/q/Ic4b8279e082301572709e09a5d5b709d37ab87a9"
+        }
+      ]
+    },
+    "device/qcom/sepolicy_vndr/sm8750": {
+      "logs": [
+        {
+          "datetime": "2026-05-05T15:52:23Z",
+          "kind": "Normal",
+          "repo": "device/qcom/sepolicy_vndr/sm8750",
+          "title": "qva: Label AOSP NXP authsecret HAL",
+          "description": "",
+          "author_name": "AdarshGrewal",
+          "author_email": "adarshgrewal@gmail.com",
+          "change_id": "Ic4b8279e082301572709e09a5d5b709d37ab87a9",
+          "commit": "a3c24fcf17f8aff88c184108f03de0bce2841b57",
+          "commit_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3c24fcf17f8",
+          "review_url": "https://review.lineageos.org/q/Ic4b8279e082301572709e09a5d5b709d37ab87a9"
+        }
+      ]
+    },
+    "lineage/scripts": {
+      "logs": [
+        {
+          "datetime": "2026-05-13T14:56:34Z",
+          "kind": "Normal",
+          "repo": "lineage/scripts",
+          "title": "lineage-priv-template: Add AVB_CUSTOM_*, WITH_AVB support",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I0c7f20a49e7f6db171c67e92fca61b7ce89eea4f",
+          "commit": "12aa796497d86ddefc742b432e4e023301c095af",
+          "commit_url": "https://github.com/LineageOS/scripts/commit/12aa796497d8",
+          "review_url": "https://review.lineageos.org/q/I0c7f20a49e7f6db171c67e92fca61b7ce89eea4f"
+        }
+      ]
+    },
+    "lineage/wiki": {
+      "logs": [
+        {
+          "datetime": "2026-05-12T14:12:29Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Fix lancelot SoC",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I9d016ab1387073afaad9af2655aa38c807fe0d67",
+          "commit": "96dc051d7f476f2883d4b71939a0ccfaed8c09d1",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/96dc051d7f47",
+          "review_url": "https://review.lineageos.org/q/I9d016ab1387073afaad9af2655aa38c807fe0d67"
+        },
+        {
+          "datetime": "2026-05-12T14:11:26Z",
+          "kind": "Normal",
+          "repo": "lineage/wiki",
+          "title": "wiki: Drop \"MTXXXX\" from Mediatek SoC names",
+          "description": "These numbers make no sense whatsoever.",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Ie0f006582ca1beafadf86354dad4b1f5f7932546",
+          "commit": "41f2581badd46604c83649487ae7703b242404d5",
+          "commit_url": "https://github.com/LineageOS/lineage_wiki/commit/41f2581badd4",
+          "review_url": "https://review.lineageos.org/q/Ie0f006582ca1beafadf86354dad4b1f5f7932546"
+        }
+      ]
+    },
+    "packages/apps/DeskClock": {
+      "logs": [
+        {
+          "datetime": "2026-05-11T16:12:53Z",
+          "kind": "Normal",
+          "repo": "packages/apps/DeskClock",
+          "title": "DeskClock: Fix bottom navigation label clipping in landscape",
+          "description": "The Material 3 Expressive migration in f4e0e040a updated the portrait\nBottomNavigationView to wrap_content (letting the library size each item\nvia its M3 tokens, with an 80dp item minimum) but only refreshed the\nbackground attribute in res/layout-land/desk_clock.xml, leaving the\nM2-era android:layout_height=\"72dp\" in place.\n\nSince the M3 NavigationBarItemView's default minimum height (~80dp)\nexceeds 72dp, each item's label TextView is clipped at the parent\nboundary, cutting off the lower half of \"Alarm/Clock/Timer/Stopwatch\"\nlabels on the landscape layout.\n\nApply the same wrap_content fix that portrait already received, so both\nlayouts defer sizing to the Material library.",
+          "author_name": "cynagenautes",
+          "author_email": "rainlinbolt2001@gmail.com",
+          "change_id": "Ica7263bcaa95c32244e52d654d5e6196d24694e3",
+          "commit": "23107f7f51a16d4787f5e5fe7e357234d018ed1d",
+          "commit_url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/23107f7f51a1",
+          "review_url": "https://review.lineageos.org/q/Ica7263bcaa95c32244e52d654d5e6196d24694e3"
+        }
+      ]
+    },
+    "packages/modules/Connectivity": {
+      "logs": [
+        {
+          "datetime": "2026-05-13T11:38:15Z",
+          "kind": "Normal",
+          "repo": "packages/modules/Connectivity",
+          "title": "ConnectivityService: Disable \"Close QUIC connection\" feature",
+          "description": "Setting this via device_config overlay doesn't seem to work, so hardcode\nthe default here, with the benefit that we'll be able to ensure this\ncontinues to work in future versions when the flag eventually gets\nremoved in AOSP.\n\nhttps://lowlevel.fun/posts/tiny-udp-cannon-android-vpn-bypass/",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@gmail.com",
+          "change_id": "I50374f2885c2b0c42d38263a67af2e15b3b83fdf",
+          "commit": "c9f3e7795256bd4a3f99d02e604e24fd1552c2b3",
+          "commit_url": "https://github.com/LineageOS/android_packages_modules_Connectivity/commit/c9f3e7795256",
+          "review_url": "https://review.lineageos.org/q/I50374f2885c2b0c42d38263a67af2e15b3b83fdf"
+        }
+      ]
+    },
+    "patches": {
+      "logs": [
+        {
+          "datetime": "2026-05-13T14:22:41Z",
+          "kind": "Normal",
+          "repo": "patches",
+          "title": "Drop landed patches",
+          "description": "",
+          "author_name": "Levi Zim",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I0dda61167850c71a9c9113fceb14daadd8835386",
+          "commit": "7005442925e659233082ff8fe5c70d14b4799e7a",
+          "commit_url": "https://github.com/android-kxxt/android_patches/commit/7005442925e6",
+          "review_url": null
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2026-05-13T14:05:44Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Fix 0501 release state",
+          "description": "",
+          "author_name": "Levi Zim",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I312dcaffb1208e4f3b679718cbe5ca5491d30dbc",
+          "commit": "41d779fad62f26362d609c16283d5a95af116bd7",
+          "commit_url": "https://github.com/android-kxxt/state/commit/41d779fad62f",
+          "review_url": null
+        }
+      ]
+    },
+    "vendor/lineage": {
+      "logs": [
+        {
+          "datetime": "2026-05-14T20:17:58Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "roomservice: Simplify JSON file reading",
+          "description": "* Auto close file handle\n* Use json.load() to not have to call read() manually",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Id54da9e58941197eaa6cdd261eda3c689e6b62f8",
+          "commit": "93002ff9f94c95f6119a97a5ea8fead423c04c1f",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/93002ff9f94c",
+          "review_url": "https://review.lineageos.org/q/Id54da9e58941197eaa6cdd261eda3c689e6b62f8"
+        },
+        {
+          "datetime": "2026-05-14T11:08:05Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "roomservice: Upgrade to f-strings",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I0e8e7ca6e91e118e9137ef4372efc77a4b461446",
+          "commit": "362a33ddfbffd1dbfedf565f26b0c9e7fc6beef3",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/362a33ddfbff",
+          "review_url": "https://review.lineageos.org/q/I0e8e7ca6e91e118e9137ef4372efc77a4b461446"
+        },
+        {
+          "datetime": "2026-05-14T10:52:29Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "roomservice: os.system -> subprocess.run",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "Ia9317aa1bf1d0e8b958d8e91350b5dbd9d93e5c5",
+          "commit": "3d0e844e0f9efc037dd6815f85a1eb688e5ad583",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/3d0e844e0f9e",
+          "review_url": "https://review.lineageos.org/q/Ia9317aa1bf1d0e8b958d8e91350b5dbd9d93e5c5"
+        },
+        {
+          "datetime": "2026-05-14T10:42:00Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "Run `pre-commit run --all`",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I566189265170e4781ce4dde23ab51409e0dedb7b",
+          "commit": "fd81c5e8f8a99c112531f4908f816d0f96f4b1a2",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/fd81c5e8f8a9",
+          "review_url": "https://review.lineageos.org/q/I566189265170e4781ce4dde23ab51409e0dedb7b"
+        },
+        {
+          "datetime": "2026-05-14T10:42:00Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "Setup pre-commit",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I11a5bb82909da2feb877cbc31f8651bcc45b0788",
+          "commit": "07b883ef9702fb145753081bfb592617cf962d48",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/07b883ef9702",
+          "review_url": "https://review.lineageos.org/q/I11a5bb82909da2feb877cbc31f8651bcc45b0788"
+        },
+        {
+          "datetime": "2026-05-14T10:42:00Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "roomservice: Address ruff's \"E722 Do not use bare `except`\" warnings",
+          "description": "",
+          "author_name": "LuK1337",
+          "author_email": "priv.luk@gmail.com",
+          "change_id": "I1903f2f54362796e781df710eaa9bd123a35a4c6",
+          "commit": "33fdf544ca66936b402868e93c67bff2d89f6ddb",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/33fdf544ca66",
+          "review_url": "https://review.lineageos.org/q/I1903f2f54362796e781df710eaa9bd123a35a4c6"
+        },
+        {
+          "datetime": "2026-05-14T10:28:44Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "roomservice: ruff format",
+          "description": "",
+          "author_name": "Michael Bestas",
+          "author_email": "mkbestas@lineageos.org",
+          "change_id": "Ib860b13f90754d2e75ca10bf7d330e6da1addfc2",
+          "commit": "11b051c30dcd1a5a954ee1f378fdf9c582f98e33",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/11b051c30dcd",
+          "review_url": "https://review.lineageos.org/q/Ib860b13f90754d2e75ca10bf7d330e6da1addfc2"
+        },
+        {
+          "datetime": "2026-05-12T04:58:19Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "kernel: Support having kernel platform in the main repo manifest",
+          "description": "This requires two changes:\n* Block the directory containing these trees from being scanned by bp\n* Parse the full manifest and trim it down to only the relevant kernel\n  platform repos for use by the bazel build system to generate module\n  versions",
+          "author_name": "Aaron Kling",
+          "author_email": "webgeek1234@gmail.com",
+          "change_id": "I2cb1d2852a5ce7c8e67ca96df01ab50fb720250c",
+          "commit": "ea5701565ea394c9848953a16061fedcd15a9a5c",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/ea5701565ea3",
+          "review_url": "https://review.lineageos.org/q/I2cb1d2852a5ce7c8e67ca96df01ab50fb720250c"
+        },
+        {
+          "datetime": "2026-05-12T04:58:19Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "generated_kernel_includes: Track kernel platform path change",
+          "description": "This also needs the new path",
+          "author_name": "Aaron Kling",
+          "author_email": "webgeek1234@gmail.com",
+          "change_id": "Ia270c1efec4197bc350332273a5820fbb7fa3f79",
+          "commit": "a5588130cf89846e1a05684635608d28c9ee8300",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a5588130cf89",
+          "review_url": "https://review.lineageos.org/q/Ia270c1efec4197bc350332273a5820fbb7fa3f79"
+        },
+        {
+          "datetime": "2026-05-12T04:58:19Z",
+          "kind": "Normal",
+          "repo": "vendor/lineage",
+          "title": "generated_kernel_includes: Fail immediately on errors",
+          "description": "Prior to this, any failure would be logged, but the rule would continue\nand still report that it succeeded.",
+          "author_name": "Aaron Kling",
+          "author_email": "webgeek1234@gmail.com",
+          "change_id": "I918746854e3255bd48d4d8cda5b0f7b23fc49e99",
+          "commit": "a67469aad07838245b7d9e6e8def61bfb8d48966",
+          "commit_url": "https://github.com/LineageOS/android_vendor_lineage/commit/a67469aad078",
+          "review_url": "https://review.lineageos.org/q/I918746854e3255bd48d4d8cda5b0f7b23fc49e99"
+        }
+      ]
+    }
+  }
+}
