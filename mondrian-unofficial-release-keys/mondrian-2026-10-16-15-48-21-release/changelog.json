@@ -1,0 +1,232 @@
+{
+  "added_repos": {},
+  "removed_repos": {},
+  "log": [
+    {
+      "datetime": "2026-10-15T16:32:31Z",
+      "kind": "Normal",
+      "repo": "external/tailscale",
+      "title": "android: authorize the platform Tailscale UI through a dedicated SELinux domain",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ie8f7b035e6b58dd23a06ab9121bb83f79d2cd15b",
+      "commit": "41deb7960427787b55d2b5cfce72c15a860090de",
+      "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/41deb7960427",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-15T16:33:18Z",
+      "kind": "Normal",
+      "repo": "external/tailscale/prebuilt",
+      "title": "Refresh Android binaries for platform UI LocalAPI access",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "If74b21fb19355c8284a51dbf7e7134d3d1c3b4ba",
+      "commit": "c2214221002e693d6e3e08ae310cae66a5ace3a6",
+      "commit_url": "https://github.com/android-kxxt/external_tailscale_prebuilt/commit/c2214221002e",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:06:40Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Save state of mondrian-2026-10-16-14-41-23-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I9ad50d65b73bd31961ac9bb4805d794df3cf43c9",
+      "commit": "02d112e614271ab9db47c226f442c834d660959c",
+      "commit_url": "https://github.com/android-kxxt/state/commit/02d112e61427",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:07:09Z",
+      "kind": "Normal",
+      "repo": "state",
+      "title": "Generate changelog for mondrian-2026-10-16-14-41-23-release",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I59abf8addef31b1f64ad00b8865e55fa1a5c73c8",
+      "commit": "77c3d80802a39569dff8b3fb2a54e3ac7a58861e",
+      "commit_url": "https://github.com/android-kxxt/state/commit/77c3d80802a3",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:27:49Z",
+      "kind": "Normal",
+      "repo": "external/tailscale",
+      "title": "android: expose the daemon UI integration as a required build target",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Iad7f11b37c34efb43ed3544be4cb0ea408d1bf1c",
+      "commit": "8aec76d6289452acabd77f80ea7b9f13aa08481c",
+      "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/8aec76d62894",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:27:49Z",
+      "kind": "Normal",
+      "repo": "external/tailscale",
+      "title": "android: preserve LocalAPI socket access across daemon startup",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I3e92dc51cc2581423dc61fc75e0b0d216c183cd3",
+      "commit": "d4e06647e40b770f2c936bf73d4501a01082ed57",
+      "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/d4e06647e40b",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:28:26Z",
+      "kind": "Normal",
+      "repo": "external/tailscale/prebuilt",
+      "title": "Refresh Android binaries with traversable LocalAPI socket and peer credentials",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "Ibfbf38ff8d92896f7d5c1b1514ee86cb347868d2",
+      "commit": "455345021db1c474709b0fc6e15a80fd131be592",
+      "commit_url": "https://github.com/android-kxxt/external_tailscale_prebuilt/commit/455345021db1",
+      "review_url": null
+    },
+    {
+      "datetime": "2026-10-16T15:33:01Z",
+      "kind": "Normal",
+      "repo": "device/xiaomi/miuicamera-mondrian",
+      "title": "fix sepolicy for Android 17",
+      "description": "",
+      "author_name": "kxxt",
+      "author_email": "rsworktech@outlook.com",
+      "change_id": "I0a3ed7b5a7b0d6329c98c106815415e84024c65d",
+      "commit": "f1bb013818a3d2f028b884e40a4dc5565067f97b",
+      "commit_url": "https://github.com/android-kxxt/android_device_xiaomi_miuicamera-mondrian/commit/f1bb013818a3",
+      "review_url": null
+    }
+  ],
+  "changes": {
+    "device/xiaomi/miuicamera-mondrian": {
+      "logs": [
+        {
+          "datetime": "2026-10-16T15:33:01Z",
+          "kind": "Normal",
+          "repo": "device/xiaomi/miuicamera-mondrian",
+          "title": "fix sepolicy for Android 17",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I0a3ed7b5a7b0d6329c98c106815415e84024c65d",
+          "commit": "f1bb013818a3d2f028b884e40a4dc5565067f97b",
+          "commit_url": "https://github.com/android-kxxt/android_device_xiaomi_miuicamera-mondrian/commit/f1bb013818a3",
+          "review_url": null
+        }
+      ]
+    },
+    "external/tailscale": {
+      "logs": [
+        {
+          "datetime": "2026-10-16T15:27:49Z",
+          "kind": "Normal",
+          "repo": "external/tailscale",
+          "title": "android: expose the daemon UI integration as a required build target",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Iad7f11b37c34efb43ed3544be4cb0ea408d1bf1c",
+          "commit": "8aec76d6289452acabd77f80ea7b9f13aa08481c",
+          "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/8aec76d62894",
+          "review_url": null
+        },
+        {
+          "datetime": "2026-10-16T15:27:49Z",
+          "kind": "Normal",
+          "repo": "external/tailscale",
+          "title": "android: preserve LocalAPI socket access across daemon startup",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I3e92dc51cc2581423dc61fc75e0b0d216c183cd3",
+          "commit": "d4e06647e40b770f2c936bf73d4501a01082ed57",
+          "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/d4e06647e40b",
+          "review_url": null
+        },
+        {
+          "datetime": "2026-10-15T16:32:31Z",
+          "kind": "Normal",
+          "repo": "external/tailscale",
+          "title": "android: authorize the platform Tailscale UI through a dedicated SELinux domain",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ie8f7b035e6b58dd23a06ab9121bb83f79d2cd15b",
+          "commit": "41deb7960427787b55d2b5cfce72c15a860090de",
+          "commit_url": "https://github.com/android-kxxt/external_tailscale/commit/41deb7960427",
+          "review_url": null
+        }
+      ]
+    },
+    "external/tailscale/prebuilt": {
+      "logs": [
+        {
+          "datetime": "2026-10-16T15:28:26Z",
+          "kind": "Normal",
+          "repo": "external/tailscale/prebuilt",
+          "title": "Refresh Android binaries with traversable LocalAPI socket and peer credentials",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "Ibfbf38ff8d92896f7d5c1b1514ee86cb347868d2",
+          "commit": "455345021db1c474709b0fc6e15a80fd131be592",
+          "commit_url": "https://github.com/android-kxxt/external_tailscale_prebuilt/commit/455345021db1",
+          "review_url": null
+        },
+        {
+          "datetime": "2026-10-15T16:33:18Z",
+          "kind": "Normal",
+          "repo": "external/tailscale/prebuilt",
+          "title": "Refresh Android binaries for platform UI LocalAPI access",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "If74b21fb19355c8284a51dbf7e7134d3d1c3b4ba",
+          "commit": "c2214221002e693d6e3e08ae310cae66a5ace3a6",
+          "commit_url": "https://github.com/android-kxxt/external_tailscale_prebuilt/commit/c2214221002e",
+          "review_url": null
+        }
+      ]
+    },
+    "state": {
+      "logs": [
+        {
+          "datetime": "2026-10-16T15:07:09Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Generate changelog for mondrian-2026-10-16-14-41-23-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I59abf8addef31b1f64ad00b8865e55fa1a5c73c8",
+          "commit": "77c3d80802a39569dff8b3fb2a54e3ac7a58861e",
+          "commit_url": "https://github.com/android-kxxt/state/commit/77c3d80802a3",
+          "review_url": null
+        },
+        {
+          "datetime": "2026-10-16T15:06:40Z",
+          "kind": "Normal",
+          "repo": "state",
+          "title": "Save state of mondrian-2026-10-16-14-41-23-release",
+          "description": "",
+          "author_name": "kxxt",
+          "author_email": "rsworktech@outlook.com",
+          "change_id": "I9ad50d65b73bd31961ac9bb4805d794df3cf43c9",
+          "commit": "02d112e614271ab9db47c226f442c834d660959c",
+          "commit_url": "https://github.com/android-kxxt/state/commit/02d112e61427",
+          "review_url": null
+        }
+      ]
+    }
+  }
+}
